@@ -1,3 +1,8 @@
+# Commands
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service?view=powershell-7.2#parameters
+```powershell
+Get-Service -Displayname "*ssh*"
+```
 
 ```powershell
 bcdedit /set hypervisorlaunchtype off

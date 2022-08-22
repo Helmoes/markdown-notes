@@ -50,6 +50,11 @@
       "id": "cmenu-plugin:editor:toggle-checklist-status",
       "name": "cMenu: Toggle checklist status",
       "icon": "checkbox-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:insert-embed",
+      "name": "cMenu: Add embed",
+      "icon": "note-glyph"
     }
   ],
   "appendMethod": "body",

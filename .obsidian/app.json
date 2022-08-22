@@ -7,5 +7,6 @@
   "fileSortOrder": "byModifiedTime",
   "spellcheck": true,
   "spellcheckLanguages": null,
-  "promptDelete": false
+  "promptDelete": true,
+  "attachmentFolderPath": "images"
 }

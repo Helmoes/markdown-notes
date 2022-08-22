@@ -77,3 +77,5 @@ ssh -i
 -   ssh-keyscan aids in collecting the public SSH host keys from hosts
 -   sftp is the service that provides the Secure File Transfer Protocol, and runs over SSH
 -   scp is a file copy utility that runs on SSH
+
+![[Difference-Between-Commit-and-Push.png]]
