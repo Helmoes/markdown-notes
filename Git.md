@@ -4,6 +4,7 @@ File states:
 -   Committed: the data is safely stored in your local database.
 
 Git init creates .git subdirectory with all repo files.
+![[Difference-Between-Commit-and-Push.png|775]]
 
 # General commands
 ```bash
