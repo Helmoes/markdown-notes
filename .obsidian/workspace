@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,7 +124,7 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "fbfbd0c1b584b14f",
+  "active": "d3b22c795535ebfd",
   "lastOpenFiles": [
     "WSL.md",
     "Git.md",
