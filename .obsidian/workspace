@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "fbfbd0c1b584b14f",
+        "id": "baa7ceb948015a3f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Git.md",
-            "mode": "source",
-            "source": false
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -35,8 +35,17 @@
                 "file": "Git.md"
               }
             }
+          },
+          {
+            "id": "e0a7c8fd0821aa46",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "25c4014833ea1c05",
@@ -124,10 +133,10 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "d3b22c795535ebfd",
+  "active": "0bae529f098d0874",
   "lastOpenFiles": [
-    "WSL.md",
     "Git.md",
+    "WSL.md",
     "Hotkeys.md",
     "Linux.md",
     "PowerShell.md",
