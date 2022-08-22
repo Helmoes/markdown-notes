@@ -15,3 +15,7 @@ wsl --export <distro> <filename.tar>wsl --import <distro> <install location=""> 
 ```powershell
 wsl --export Ubuntu_20_04 C:\WSL2-Distros\backups\Ubuntu_20_04_20220816.tar
 ```
+
+```bash
+wslpath 'C:\Program Files (x86)\Notepad++\notepad++.exe'
+```

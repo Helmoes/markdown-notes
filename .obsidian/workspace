@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "WSL.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "WSL.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "WSL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "WSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,15 +136,15 @@
   },
   "active": "eeb50894e2679b2b",
   "lastOpenFiles": [
-    "Git.md",
-    "images/Difference-Between-Commit-and-Push.png",
     "PowerShell.md",
     "Linux.md",
+    "C programming.md",
+    "Git.md",
+    "images/Difference-Between-Commit-and-Push.png",
     "Linux server stuff.md",
     "Linux VM.md",
     "WSL.md",
     "Hotkeys.md",
-    "To-Do.md",
-    "random notes.md"
+    "To-Do.md"
   ]
 }

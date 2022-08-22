@@ -14,6 +14,9 @@ Append the new history lines to the history file. These are history lines entere
 history -a
 ```
 
+```bash
+history -a
+```
 
 # Environment variables
 Two types: shell and environment.
