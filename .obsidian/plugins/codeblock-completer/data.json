@@ -1,0 +1,22 @@
+{
+  "addCBLabel": false,
+  "customTypes": [
+    "bash",
+    "python",
+    "git",
+    "clike",
+    "c",
+    "clike",
+    "cmake",
+    "diff",
+    "linker-script",
+    "gitignore",
+    "json",
+    "makefile",
+    "markdown",
+    "matlab",
+    "powershell"
+  ],
+  "codeblockTemplates": [],
+  "ignoreTypes": []
+}

@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "1e6dd2417c60765b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbfbd0c1b584b14f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Git.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42abd987ae8af6d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac338aec31158b23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3b22c795535ebfd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "25c4014833ea1c05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bae529f098d0874",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1b0c46d54db6d796",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ssh",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9735d2ce3469781a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c5bd22ca01ec837",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de27eb7e86c81cb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "facb87f9323687dd",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "2871a290fe782e3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.8333435058594,
+    "collapsed": true
+  },
+  "active": "fbfbd0c1b584b14f",
+  "lastOpenFiles": [
+    "WSL.md",
+    "Git.md",
+    "Hotkeys.md",
+    "Linux.md",
+    "PowerShell.md",
+    "To-Do.md",
+    "Linux server stuff.md",
+    "random notes.md",
+    "General notes.md",
+    "Linux VM.md"
+  ]
+}

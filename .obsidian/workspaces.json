@@ -1,0 +1,273 @@
+{
+  "workspaces": {
+    "default": {
+      "main": {
+        "id": "1e6dd2417c60765b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fbfbd0c1b584b14f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "42abd987ae8af6d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "ac338aec31158b23",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d3b22c795535ebfd",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "25c4014833ea1c05",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0bae529f098d0874",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1b0c46d54db6d796",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "9735d2ce3469781a",
+        "type": "split",
+        "children": [
+          {
+            "id": "8c5bd22ca01ec837",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "de27eb7e86c81cb4",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "facb87f9323687dd",
+                "type": "leaf",
+                "state": {
+                  "type": "side-panel-control-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2871a290fe782e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 318.8333435058594,
+        "collapsed": true
+      },
+      "active": "0bae529f098d0874"
+    },
+    "new": {
+      "main": {
+        "id": "1e6dd2417c60765b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fbfbd0c1b584b14f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79eb94673377e7da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hotkeys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "42abd987ae8af6d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "ac338aec31158b23",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d3b22c795535ebfd",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Hotkeys.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "25c4014833ea1c05",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0bae529f098d0874",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1b0c46d54db6d796",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 207.5
+      },
+      "right": {
+        "id": "9735d2ce3469781a",
+        "type": "split",
+        "children": [
+          {
+            "id": "8c5bd22ca01ec837",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "de27eb7e86c81cb4",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Hotkeys.md",
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2871a290fe782e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Hotkeys.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "b5b4e5c56094508c",
+                "type": "leaf",
+                "state": {
+                  "type": "side-panel-control-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "dc17f0d45abd2315",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 227.5,
+        "collapsed": true
+      },
+      "active": "79eb94673377e7da"
+    }
+  },
+  "active": "default"
+}

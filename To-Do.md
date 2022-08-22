@@ -1,0 +1,5 @@
+- How to cross link between notes
+- How to embed parts of note in other note
+- git sync
+- how to insert image and resize
+- add source to text from browser
