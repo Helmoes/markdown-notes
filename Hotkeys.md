@@ -1,9 +1,10 @@
 # Obsidian
-| Action           | Hotkey                              |
-| ---------------- | ----------------------------------- |
-| Paste plain text | ctrl + shift + V                    |
-| copy line        | cursor in middle of line + ctrl + V |
-|                  |                                     |
+| Action              | Hotkey                              |
+| ------------------- | ----------------------------------- |
+| Paste plain text    | ctrl + shift + V                    |
+| copy line           | cursor in middle of line + ctrl + C |
+| Smarter plugin code | Ctrl + <                            |
+|                     |                                     |
 
 # VS Code
 | Action              | Hotkey   |

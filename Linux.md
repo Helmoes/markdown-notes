@@ -20,12 +20,61 @@ shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 ```
 
+### https://superuser.com/questions/555310/bash-save-history-without-exit
+**Bash History**
+Any new commands that have been issued in the active terminal can be appended to the `.bash_history` file with the following command:
+```bash
+history -a
+```
+The only tricky concept to understand is that each terminal has its own bash history **list** (loaded from the `.bash_history` file when you open the terminal)
+If you want to pull any new history that's been written by other terminals during the lifetime of this active terminal, you can append the contents of the `.bash_history` **file** to the active bash history **list**
+```bash
+history -c;history -r
+```
+This will clear the current history list so we don't get a repeated list, and append the history file to the (now empty) list.
+
+**Solution**
+You can use the bash variable `PROMPT_COMMAND` to issue a command with each new prompt (every time you press enter in the terminal)
+```bash
+export PROMPT_COMMAND='history -a'
+```
+This will record each command to the history **file** as it is issued.
+
+**Result**
+Now any new terminal you open will have the history of other terminals without having to `exit` those other terminals. This is my preferred workflow.
+
+**More Precision**
+Let's say (for some reason) you have two terminals that you're using simultaneously and you want the history to reflect between both for each new command.
+```bash
+export PROMPT_COMMAND='history -a;history -c;history -r'
+```
+The main drawback here is that you may need to press enter to re-run the PROMPT_COMMAND in order to get the latest history from the opposite terminal.
+You can see why this more precise option is probably overkill, but it works for that use case.
+
 # Startup
 When Bash is invoked as an interactive login shell, or as a non-interactive shell with the --login option, it first reads and executes commands from the file /etc/profile, if that file exists. After reading that file, it looks for ~/.bash_profile, ~/.bash_login, and ~/.profile, in that order, and reads and executes commands from the first one that exists and is readable. The --noprofile option may be used when the shell is started to inhibit this behavior.
 
-When an interactive login shell exits, or a non-interactive login shell executes the exit builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists. 
+When an interactive login shell exits, or a non-interactive login shell executes the `exit` builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists. 
+
+So: /etc/profile → ~/.bash profile → ~/.bash login → ~/.profile
 >source https://devdocs.io/bash/bash-startup-files
 
+# File system
+- /bin, /usr/bin: contains basic programs (binaries) like cat, ls, awk, etc. These two directories contain most of the programs for the system. The /bin directory has the essential programs that the system requires to operate, while /usr/bin contains applications for the system's users.
+-   /boot: contains files necessary to boot the system and contains kernel.
+-   /etc: contains critical system configuration files.
+    - /etc/init.d: This directory contains the scripts that start various system services at boot time.
+-   /home: contains users' directories EXCEPT one special user.
+-   /lib: contains system libraries.
+-   /opt: contains optional installations.
+-   /root: is the home directory of the specialuser called root.
+-   /sbin, /usr/sbin: The sbin directories contain programs for system administration, mostly for use by the superuser.
+-   /tmp: contains temporary files.
+-   /usr: contains programs like Firefox, VLC, LibreOffice, games. contains a variety of things that support user applications.
+    - /usr/local: and its subdirectories are used for the installation of software and other files for use on the local machine. What this really means is that software that is not part of the official distribution (which usually goes in /usr/bin) goes here.When you find interesting programs to install on your system, they should be installed in one of the /usr/local directories. Most often, the directory of choice is /usr/local/bin.
+-   /var: contains system logs and runtime files.
+
+From <[https://www.dedoimedo.com/computers/ultimate-linux-guide-for-windows-users.html#mozTocId215946](https://www.dedoimedo.com/computers/ultimate-linux-guide-for-windows-users.html#mozTocId215946)>
 
 # Environment variables
 Two types: shell and environment.
