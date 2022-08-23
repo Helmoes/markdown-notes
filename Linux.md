@@ -14,8 +14,10 @@ Append the new history lines to the history file. These are history lines entere
 history -a
 ```
 
+Added to .bash_history on 23.08 02:09
 ```bash
-history -a
+shopt -s histappend
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 ```
 
 # Environment variables

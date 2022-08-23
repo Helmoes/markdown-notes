@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WSL.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WSL.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WSL.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WSL.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,8 +134,9 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "eeb50894e2679b2b",
+  "active": "e0a7c8fd0821aa46",
   "lastOpenFiles": [
+    "WSL.md",
     "PowerShell.md",
     "Linux.md",
     "C programming.md",
@@ -143,7 +144,6 @@
     "images/Difference-Between-Commit-and-Push.png",
     "Linux server stuff.md",
     "Linux VM.md",
-    "WSL.md",
     "Hotkeys.md",
     "To-Do.md"
   ]
