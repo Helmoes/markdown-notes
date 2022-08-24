@@ -16,5 +16,13 @@
       "key": "Z"
     }
   ],
-  "obsidian-focus-mode:toggle-focus-mode": []
+  "obsidian-focus-mode:toggle-focus-mode": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ]
 }

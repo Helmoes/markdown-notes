@@ -1,4 +1,9 @@
 # Commands
+## installed packages [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
+```bash
+sudo tail --lines 100 /var/log/dpkg.log | grep installed
+```
+
 ## find location of files
 ```bash
 whereis gcc
@@ -25,7 +30,7 @@ shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 ```
 
-### [ubuntu - bash save history without exit - Super User](https://superuser.com/questions/555310/bash-save-history-without-exit)
+### ubuntu - bash save history without exit - Super User [#](https://superuser.com/questions/555310/bash-save-history-without-exit)
 **Bash History**
 Any new commands that have been issued in the active terminal can be appended to the `.bash_history` file with the following command:
 ```bash
