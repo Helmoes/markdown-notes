@@ -8,5 +8,6 @@
   "spellcheck": true,
   "spellcheckLanguages": null,
   "promptDelete": true,
-  "attachmentFolderPath": "images"
+  "attachmentFolderPath": "images",
+  "showLineNumber": true
 }
