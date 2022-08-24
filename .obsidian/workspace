@@ -45,7 +45,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "25c4014833ea1c05",
@@ -134,7 +135,7 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "eeb50894e2679b2b",
+  "active": "e0a7c8fd0821aa46",
   "lastOpenFiles": [
     "Hotkeys.md",
     "Linux.md",
