@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "C programming.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -45,8 +45,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "25c4014833ea1c05",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +134,17 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "e0a7c8fd0821aa46",
+  "active": "eeb50894e2679b2b",
   "lastOpenFiles": [
-    "Hotkeys.md",
     "Linux.md",
+    "Cheat Sheet from internet.md",
+    "Hotkeys.md",
     "WSL.md",
-    "PowerShell.md",
     "C programming.md",
     "Git.md",
-    "images/Difference-Between-Commit-and-Push.png",
-    "Linux server stuff.md",
-    "Linux VM.md",
-    "To-Do.md"
+    "PowerShell.md",
+    "README.md",
+    "To-Do.md",
+    "Linux VM.md"
   ]
 }

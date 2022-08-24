@@ -1,4 +1,9 @@
 # Commands
+## find location of files
+```bash
+whereis gcc
+whereis gdb
+```
 ## ssh
 TODO: link to WSL key 
 
