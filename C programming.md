@@ -19,9 +19,25 @@ Debugging:
 -g 
 -ggdb
 ```
+
+## Headers, libraries and linking
+
+For functions in external .c file: header file can be thought of as interface between source code and the programmer.
+
+.h file contains function declarations or definitions to be used in main program. A .c file can contain the rest of the function definitions of only declarations are given in .h
+
+Never put anything other than function prototypes/declarations, variable declarations, includes and macros inside a header file.
+
+Use compiler option `-Idir` to link to directory not in current.
+
 # Head first C
 
 ```bash
 gcc main.c -o main
 ./main
 ```
+
+# Images
+
+![[C-variables.png]]
+![[C-operators.png]]

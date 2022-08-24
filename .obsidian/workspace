@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VS Code.md",
+            "file": "C course Udemy.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VS Code.md"
+                "file": "C course Udemy.md"
               }
             }
           },
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9735d2ce3469781a",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VS Code.md",
+                "file": "C course Udemy.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VS Code.md",
+                "file": "C course Udemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,6 +137,7 @@
   "active": "eeb50894e2679b2b",
   "lastOpenFiles": [
     "C programming.md",
+    "VS Code.md",
     "Hotkeys.md",
     "Linux.md",
     "Cheat Sheet from internet.md",
@@ -145,7 +145,6 @@
     "Git.md",
     "PowerShell.md",
     "README.md",
-    "To-Do.md",
-    "Linux VM.md"
+    "To-Do.md"
   ]
 }
