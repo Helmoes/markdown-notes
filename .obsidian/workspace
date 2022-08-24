@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "recommends",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +135,7 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "eeb50894e2679b2b",
+  "active": "1b0c46d54db6d796",
   "lastOpenFiles": [
     "VS Code.md",
     "Linux.md",

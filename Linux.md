@@ -1,7 +1,12 @@
 # Commands
-## installed packages [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
+## installed packages 
+[source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
 ```bash
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa
+sudo apt-get install gcc-11 --install-suggests
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 60
 ```
 
 ## find location of files
