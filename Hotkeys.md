@@ -5,11 +5,11 @@
 | copy line                  | cursor in middle of line + ctrl + C |
 | Smarter plugin code        | Ctrl + <                            |
 | Toggle focus mode          | Ctrl + Alt + Z                      |
-| Toggle live preview/source | Shift + v                           |
+| Toggle live preview/source | Alt + E                           |
 | Fold all                   | Ctrl + U                            |
 | Unfold all                 | Ctrl + shift + U                    |
 | Toggle bullet list         | Ctrl + ;                            |
-| Search all                 | Ctrl + shift + v                    |
+| Search all                 | Ctrl + shift + f                    |
 |                            |                                     |
 
 # VS Code

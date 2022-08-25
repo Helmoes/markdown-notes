@@ -20,9 +20,9 @@
   "editor:toggle-source": [
     {
       "modifiers": [
-        "Shift"
+        "Alt"
       ],
-      "key": "V"
+      "key": "E"
     }
   ],
   "editor:toggle-bullet-list": [
@@ -58,5 +58,14 @@
       ],
       "key": "I"
     }
-  ]
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-asterisk-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-bold": []
 }
