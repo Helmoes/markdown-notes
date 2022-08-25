@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Hotkeys.md",
+            "file": "C programming.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hotkeys.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -45,7 +45,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "25c4014833ea1c05",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hotkeys.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hotkeys.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,10 +143,10 @@
     "width": 208.92857360839844,
     "collapsed": true
   },
-  "active": "eeb50894e2679b2b",
+  "active": "e0a7c8fd0821aa46",
   "lastOpenFiles": [
-    "C programming.md",
     "Hotkeys.md",
+    "C programming.md",
     "Linux.md",
     "Git.md",
     "Commands from all notes.md",

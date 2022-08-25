@@ -2,9 +2,9 @@
   "addCBLabel": false,
   "customTypes": [
     "bash",
-    "python",
     "git",
     "c",
+    "python",
     "cmake",
     "diff",
     "linker-script",
@@ -13,7 +13,9 @@
     "makefile",
     "markdown",
     "matlab",
-    "powershell"
+    "powershell",
+    "regex",
+    "iecst"
   ],
   "codeblockTemplates": [],
   "ignoreTypes": []
