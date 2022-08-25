@@ -1,0 +1,118 @@
+{
+  "main": {
+    "id": "4e2583216aa5d7ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "b758ce1db5a93222",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linux.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6ba8f0f9fec853d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "729205f399eb5c5d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "da8acd4b93a3ae05",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "dfe799b94330be29",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "a2294ce7fa0b8b39",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9a5ced543456bd06",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c0526422a9bc4661",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Linux.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "46f9efb9a5ebd25d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Linux.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "06b781d66c0c1012",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Linux.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "729205f399eb5c5d",
+  "lastOpenFiles": []
+}

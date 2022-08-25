@@ -1,7 +1,7 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
-  "defaultViewMode": "source",
+  "livePreview": false,
+  "defaultViewMode": "preview",
   "useTab": false,
   "readableLineLength": false,
   "fileSortOrder": "byModifiedTime",
