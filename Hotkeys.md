@@ -13,8 +13,11 @@
 |                            |                                     |
 
 # VS Code
-| Action              | Hotkey   |
-| ------------------- | -------- |
-| Toggle bottom panel | Ctrl + J |
-|                     |          |
+| Action                    | Hotkey           |
+| ------------------------- | ---------------- |
+| Toggle bottom panel       | Ctrl + J         |
+| Toggle editor group sizes | Ctrl + shift + J |
+| Focus Left Editor Group   | Alt + LeftArrow  |
+| Focus Right Editor Group  | Alt + RightArrow |
+|                           |                  |
 
