@@ -1,3 +1,7 @@
+## Questions
+What is HEAD?
+
+## Information
 File states:
   - Modified: you have changed the file but have not committed it to your database yet.
   - Staged: you have marked a modified file in its current version to go into your next commit snapshot.

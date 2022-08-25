@@ -126,21 +126,13 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "ece5296691544191",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 208.92857360839844,
+    "width": 318.8333435058594,
     "collapsed": true
   },
   "active": "e0a7c8fd0821aa46",
