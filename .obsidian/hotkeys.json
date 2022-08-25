@@ -49,5 +49,14 @@
       ],
       "key": "U"
     }
+  ],
+  "editor:toggle-italics": [],
+  "obsidian-smarter-md-hotkeys:smarter-asterisk-italics": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
   ]
 }

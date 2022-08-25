@@ -1,9 +1,14 @@
 ## Head first C
-
+[book](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Programming%20Embedded%20Systems%20With%20C%20and%20GNU%20Development%20Tools,%202nd%20Edition%20-%20Michael%20Barr,%20Anthony%20Massa.pdf)
 ```bash
 gcc hello_world.c -o hello_world
 ./hello_world
 ```
+`-o file` Place the primary output in file *file*.
+
+The *stdio* library contains code that allows you to read and write data from and to the terminal.
+
+Return type of main() is `int` → 0 means success.
 
 ## Declaration & initialization
 ```c
