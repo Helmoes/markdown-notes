@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "Git.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "Git.md"
               }
             }
           },
@@ -45,7 +45,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "25c4014833ea1c05",
@@ -75,12 +76,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 255.49999809265137
   },
   "right": {
     "id": "9735d2ce3469781a",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "Git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +135,17 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "1b0c46d54db6d796",
+  "active": "e0a7c8fd0821aa46",
   "lastOpenFiles": [
-    "VS Code.md",
     "Linux.md",
+    "Git.md",
+    "Commands from all notes.md",
+    "WSL.md",
+    "Linux VM.md",
+    "Hotkeys.md",
+    "VS Code.md",
     "C course Udemy.md",
     "C programming.md",
-    "Hotkeys.md",
-    "Cheat Sheet from internet.md",
-    "WSL.md",
-    "Git.md",
-    "PowerShell.md",
-    "README.md"
+    "Cheat Sheet from internet.md"
   ]
 }

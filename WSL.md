@@ -12,8 +12,9 @@ Backing up is a pretty straightforward process that involves exporting to a .tar
 wsl --export <distro> <filename.tar>wsl --import <distro> <install location=""> <filename> </filename></install></distro></filename.tar></distro>
 ```
 
+
 ```powershell
-wsl --export Ubuntu_20_04 C:\WSL2-Distros\backups\Ubuntu_20_04_20220816.tar
+wsl --export Ubuntu_20_04 C:\WSL2-Distros\backups\Ubuntu_20_04_2022(INSERT DATE!!!).tar
 ```
 
 ```bash
