@@ -7,7 +7,6 @@ which program # Executed against a program name, it will show the full path for 
 ```
 
 ## Packages 
-
 ```bash
 sudo apt update && sudo apt upgrade
 
@@ -19,6 +18,7 @@ sudo tail --lines 100 /var/log/dpkg.log | grep installed
 whereis gcc
 whereis gdb
 ```
+
 ## ssh
 TODO: link to WSL key 
 

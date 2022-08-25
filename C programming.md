@@ -1,3 +1,10 @@
+## Head first C
+
+```bash
+gcc hello_world.c -o hello_world
+./hello_world
+```
+
 ## Declaration & initialization
 ```c
 int var=value;
@@ -30,14 +37,7 @@ Never put anything other than function prototypes/declarations, variable declara
 
 Use compiler option `-Idir` to link to directory not in current.
 
-# Head first C
-
-```bash
-gcc main.c -o main
-./main
-```
-
 # Images
 
-![[C-variables.png]]
-![[C-operators.png]]
+![[C-variables.png|600]]
+![[C-operators.png|600]]

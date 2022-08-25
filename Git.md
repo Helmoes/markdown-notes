@@ -3,7 +3,7 @@ File states:
   - Staged: you have marked a modified file in its current version to go into your next commit snapshot.
   - Committed: the data is safely stored in your local database.
 
-Git init creates .git subdirectory with all repo files.
+`git init` creates .git subdirectory with all repo files.
 
 ![[Difference-Between-Commit-and-Push.png|800]]
 ![[Difference-Between-Commit-and-Push-.png|800]]
