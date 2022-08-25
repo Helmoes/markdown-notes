@@ -1,10 +1,12 @@
 File states:
--   Modified: you have changed the file but have not committed it to your database yet.
--   Staged: you have marked a modified file in its current version to go into your next commit snapshot.
--   Committed: the data is safely stored in your local database.
+  - Modified: you have changed the file but have not committed it to your database yet.
+  - Staged: you have marked a modified file in its current version to go into your next commit snapshot.
+  - Committed: the data is safely stored in your local database.
 
-Git init creates .git subdirectory with all repo files.
-![[Difference-Between-Commit-and-Push.png|775]]
+`git init` creates .git subdirectory with all repo files.
+
+![[Difference-Between-Commit-and-Push.png|800]]
+![[Difference-Between-Commit-and-Push-.png|800]]
 
 # General commands
 ```bash
@@ -37,7 +39,8 @@ ssh-keygen
 git remote -v # show remote url after name
 ```
 
-## Git limitations[#](https://code.visualstudio.com/docs/remote/wsl#_git-limitations)
+## Git limitations
+[source](https://code.visualstudio.com/docs/remote/wsl#_git-limitations)
 If you clone a Git repository using SSH and your SSH key has a passphrase, VS Code's pull and sync features may hang when running remotely. Either use an SSH key without a passphrase, clone using HTTPS, or run `git push` from the command line to work around the issue.
 
 # Windows key
@@ -79,4 +82,3 @@ ssh -i
 -   sftp is the service that provides the Secure File Transfer Protocol, and runs over SSH
 -   scp is a file copy utility that runs on SSH
 
-![[Difference-Between-Commit-and-Push.png]]

@@ -7,8 +7,12 @@
         "id": "b0822ca2bb36f414",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Hotkeys.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -19,25 +23,27 @@
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "4ee8fbc475ba3371",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "3f44eea3b185f8ff",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "ac338aec31158b23",
+        "type": "tabs",
+        "dimension": 52.74949083503056,
+        "children": [
+          {
+            "id": "d3b22c795535ebfd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hotkeys.md"
+              }
+            }
+          },
+          {
+            "id": "e0a7c8fd0821aa46",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         }
       },
@@ -50,61 +56,84 @@
             "sortOrder": "frequency",
             "useHierarchy": true
           }
-        }
-      },
-      {
-        "id": "843e34635ce30fc7",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 255.49999809265137
   },
   "right": {
     "id": "f444a8f5fa275885",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "f10cff1d516adf51",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "8c5bd22ca01ec837",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de27eb7e86c81cb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hotkeys.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "facb87f9323687dd",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "2871a290fe782e3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hotkeys.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ece5296691544191",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "09947e10829f92fc",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "22c723da41a97396",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {}
-        }
+        ],
+        "currentTab": 3
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 208.92857360839844,
+    "collapsed": true
   },
-  "active": "b0822ca2bb36f414",
-  "lastOpenFiles": []
+  "active": "eeb50894e2679b2b",
+  "lastOpenFiles": [
+    "C programming.md",
+    "Hotkeys.md",
+    "Linux.md",
+    "Git.md",
+    "Commands from all notes.md",
+    "WSL.md",
+    "Linux VM.md",
+    "VS Code.md",
+    "C course Udemy.md",
+    "Cheat Sheet from internet.md"
+  ]
 }

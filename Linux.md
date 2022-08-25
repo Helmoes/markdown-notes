@@ -1,12 +1,16 @@
 # Commands
-## installed packages 
-[source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
+## getting help
 ```bash
-sudo tail --lines 100 /var/log/dpkg.log | grep installed
+man command
+command -h
+which program # Executed against a program name, it will show the full path for the program.
+```
 
-sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa
-sudo apt-get install gcc-11 --install-suggests
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 60
+## Packages 
+```bash
+sudo apt update && sudo apt upgrade
+
+sudo tail --lines 100 /var/log/dpkg.log | grep installed
 ```
 
 ## find location of files
@@ -14,6 +18,7 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 60
 whereis gcc
 whereis gdb
 ```
+
 ## ssh
 TODO: link to WSL key 
 
@@ -35,7 +40,8 @@ shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 ```
 
-### ubuntu - bash save history without exit - Super User [#](https://superuser.com/questions/555310/bash-save-history-without-exit)
+### ubuntu - bash save history without exit - Super User 
+[source](https://superuser.com/questions/555310/bash-save-history-without-exit)
 **Bash History**
 Any new commands that have been issued in the active terminal can be appended to the `.bash_history` file with the following command:
 ```bash
@@ -107,7 +113,7 @@ pstree -p
 ```
 
 # Sessions
-`Session` usually refers to shell sessions. A [shell](http://en.wikipedia.org/wiki/Shell_%28computing%29) is what allows you to interact with the computer. It acts as a bridge qbetween the user and the [kernel](http://en.wikipedia.org/wiki/Kernel_%28computing%29). Whenever you run a command, it is the shell that captures your intent and tells the kernel to do its thing.
+`Session` usually refers to shell sessions. A [shell](http://en.wikipedia.org/wiki/Shell_%28computing%29) is what allows you to interact with the computer. It acts as a bridge between the user and the [kernel](http://en.wikipedia.org/wiki/Kernel_%28computing%29). Whenever you run a command, it is the shell that captures your intent and tells the kernel to do its thing.
 
 In most Linux flavors, the default shell is `bash` and a new `bash` session will be launched every time you open a new terminal.
 
@@ -115,33 +121,24 @@ In most Linux flavors, the default shell is `bash` and a new `bash` session will
 pstree -aps
 ```
 
-# Notepad++ Kubuntu
-getting help
+# WSL setup
+Installing gcc-11 [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
 ```bash
-man command
-command -h
-which program # Executed against a program name, it will show the full path for the program.
+sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa
+sudo apt-get install gcc-11 --install-suggests
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 60
 ```
+
+# Kubuntu
 
 if there are spaces in path: use "" or escape with \
 
 ```bash
-systemctl status open-vm-tools.service
-sudo apt install open-vm-tools-desktop open-vm-tools
-
-sudo apt-get remove open-vm-tools
-sudo apt-get purge open-vm-tools
-
-sudo apt update && sudo apt upgrade
-
 sudo service ssh restart
 sudo service ssh start
 sudo service ssh status
 
 sudo apt install ubuntu-restricted-extras
-
-/usr/bin/vmhgfs-fuse .host:/SharedFolder /home/willem-kubuntu/SharedFolder -o subtype=vmhgfs-fuse,allow_other
-umount /home/willem-kubuntu/SharedFolder -v
 
 ifconfig
 
@@ -170,32 +167,8 @@ glxinfo | grep NVIDIA
 xrandr --output DP-4 --brightness
 ```
 
-# Terminal commands
-
+# Gazebo
 ```bash
-sudo vmware-config-tools.pl
-
-systemctl status open-vm-tools.service
-apt install open-vm-tools-desktop open-vm-tools
-
-sudo apt-get remove open-vm-tools
-sudo apt-get purge open-vm-tools
-
-sudo apt-get install open-vm-tools
-sudo apt-get install open-vm-tools-desktop
-
-sudo service ssh restart
-sudo service ssh start
-sudo service ssh status
-
-apt list --installed | wc -l
-
-sudo apt install ubuntu-restricted-extras
-
-ifconfig
-
-lsusb
-
 glxinfo -B
 echo $XDG_SESSION_TYPE
 export MESA_GL_VERSION_OVERRIDE=4.1

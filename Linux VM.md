@@ -1,7 +1,8 @@
-# Ubuntu commands
+# Commands
 ```bash
 systemctl status open-vm-tools.service
 apt install open-vm-tools-desktop open-vm-tools
+sudo apt-get install open-vm-tools-desktop
 
 sudo apt-get remove open-vm-tools
 sudo apt-get purge open-vm-tools
