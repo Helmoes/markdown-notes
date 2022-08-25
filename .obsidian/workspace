@@ -45,8 +45,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "25c4014833ea1c05",
@@ -135,7 +134,7 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "e0a7c8fd0821aa46",
+  "active": "d3b22c795535ebfd",
   "lastOpenFiles": [
     "Hotkeys.md",
     "C programming.md",
