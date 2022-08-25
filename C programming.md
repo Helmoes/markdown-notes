@@ -8,6 +8,8 @@
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
 ./hello_world
+
+gcc hello_world.c -o hello_world -std=gnu11 && ./hello_world
 ```
 `-o file` Place the primary output in file *file*.
 
