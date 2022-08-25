@@ -1,25 +1,29 @@
 {
   "main": {
-    "id": "f15467b5415bce0f",
+    "id": "4e2583216aa5d7ab",
     "type": "split",
     "children": [
       {
-        "id": "b0822ca2bb36f414",
+        "id": "b758ce1db5a93222",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Linux.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c8af8678456e20ea",
+    "id": "e6ba8f0f9fec853d",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "4ee8fbc475ba3371",
+        "id": "729205f399eb5c5d",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -27,7 +31,7 @@
         }
       },
       {
-        "id": "3f44eea3b185f8ff",
+        "id": "da8acd4b93a3ae05",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -42,7 +46,7 @@
         }
       },
       {
-        "id": "0740e718becccedd",
+        "id": "dfe799b94330be29",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -53,7 +57,7 @@
         }
       },
       {
-        "id": "843e34635ce30fc7",
+        "id": "a2294ce7fa0b8b39",
         "type": "leaf",
         "state": {
           "type": "starred",
@@ -64,15 +68,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "f444a8f5fa275885",
+    "id": "9a5ced543456bd06",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "f10cff1d516adf51",
+        "id": "c0526422a9bc4661",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Linux.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -84,27 +89,30 @@
         }
       },
       {
-        "id": "09947e10829f92fc",
+        "id": "46f9efb9a5ebd25d",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Linux.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "22c723da41a97396",
+        "id": "06b781d66c0c1012",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Linux.md"
+          }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "b0822ca2bb36f414",
+  "active": "729205f399eb5c5d",
   "lastOpenFiles": []
 }

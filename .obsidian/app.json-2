@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "useTab": false,
+  "readableLineLength": false,
+  "fileSortOrder": "byModifiedTime",
+  "spellcheck": true,
+  "spellcheckLanguages": null,
+  "promptDelete": true,
+  "attachmentFolderPath": "images",
+  "showLineNumber": true
+}
