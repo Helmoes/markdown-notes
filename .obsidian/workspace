@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "WSL.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "WSL.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "WSL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "WSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,11 +134,11 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "d3b22c795535ebfd",
+  "active": "eeb50894e2679b2b",
   "lastOpenFiles": [
-    "Hotkeys.md",
-    "C programming.md",
     "Linux.md",
+    "C programming.md",
+    "Hotkeys.md",
     "Git.md",
     "Commands from all notes.md",
     "WSL.md",

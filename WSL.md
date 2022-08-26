@@ -1,7 +1,15 @@
+## To install
+- [ ] neofetch
+- [ ] starship
+- [ ] powerline for bash
+- [ ] upgrade ubuntu to 22.04 **after backup**!!! `sudo do-release-upgrade -d`
+
 In PowerShell:
 ```powershell
 wsl -l -v
 wsl --shutdown
+
+wsl --update
 ```
 
 While WSL can be disposable, it's also a good idea to back up your installations so if you do get rid of one you can get back to where you were a little easier.
