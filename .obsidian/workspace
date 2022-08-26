@@ -136,15 +136,15 @@
   },
   "active": "eeb50894e2679b2b",
   "lastOpenFiles": [
+    "Hotkeys.md",
+    "PowerShell.md",
+    "WSL.md",
     "Linux.md",
     "C programming.md",
-    "Hotkeys.md",
     "Git.md",
     "Commands from all notes.md",
-    "WSL.md",
     "Linux VM.md",
     "VS Code.md",
-    "C course Udemy.md",
-    "Cheat Sheet from internet.md"
+    "C course Udemy.md"
   ]
 }
