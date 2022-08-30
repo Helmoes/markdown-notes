@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "eeb50894e2679b2b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
-            "mode": "source",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "34446833fd20c80a",
+        "id": "b6e6a0f53c832637",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -45,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -107,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,17 +134,17 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "eeb50894e2679b2b",
+  "active": "b6e6a0f53c832637",
   "lastOpenFiles": [
     "C programming.md",
-    "Untitled.md",
+    "Git.md",
+    "C Code Style Guidelines.md",
     "WSL.md",
     "Hotkeys.md",
     "Fonts.md",
     "random notes.md",
     "Linux server stuff.md",
     "General notes.md",
-    "To-Do.md",
-    "README.md"
+    "To-Do.md"
   ]
 }

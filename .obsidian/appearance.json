@@ -1,4 +1,6 @@
 {
   "baseFontSize": 20,
-  "translucency": false
+  "translucency": false,
+  "monospaceFontFamily": "Fira Code",
+  "enabledCssSnippets": []
 }

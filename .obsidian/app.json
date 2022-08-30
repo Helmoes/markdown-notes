@@ -9,5 +9,6 @@
   "spellcheckLanguages": null,
   "promptDelete": true,
   "attachmentFolderPath": "images",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showFrontmatter": true
 }
