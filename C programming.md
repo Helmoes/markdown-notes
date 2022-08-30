@@ -5,6 +5,8 @@
 [Programming Embedded Systems With C and GNU Development Tools](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Programming%20Embedded%20Systems%20With%20C%20and%20GNU%20Development%20Tools,%202nd%20Edition%20-%20Michael%20Barr,%20Anthony%20Massa.pdf)
 
 ## Head first C
+Current page: 8
+
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
 ./hello_world
@@ -22,7 +24,16 @@ Compilation can involve up to four stages: **preprocessing**, **compilation prop
 ### main()
 - Start of program.
 - Return type: `int` → 0 means success.
-- 
+
+### scanf()
+`%[width]s`      matches a sequence of non-whitespace characters (a string).
+If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
+
+### atoi()
+Interprets an integer value in a byte string pointed to by `str`.
+Integer value corresponding to the contents of `str` on success.
+If no conversion can be performed, `0` is returned.
+The name stands for "ASCII to integer".
 
 ## Declaration & initialization
 ```c
