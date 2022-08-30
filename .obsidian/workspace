@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WSL.md",
+            "file": "Untitled.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Hotkeys.md",
+            "file": "C programming.md",
             "mode": "source",
             "source": false
           }
@@ -45,7 +45,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hotkeys.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hotkeys.md",
+                "file": "Untitled.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hotkeys.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,17 +146,17 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "34446833fd20c80a",
+  "active": "eeb50894e2679b2b",
   "lastOpenFiles": [
-    "Fonts.md",
-    "WSL.md",
     "C programming.md",
+    "Untitled.md",
+    "WSL.md",
+    "Hotkeys.md",
+    "Fonts.md",
     "random notes.md",
     "Linux server stuff.md",
     "General notes.md",
     "To-Do.md",
-    "README.md",
-    "PowerShell.md",
-    "VS Code.md"
+    "README.md"
   ]
 }
