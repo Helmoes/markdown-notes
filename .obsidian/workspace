@@ -45,7 +45,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "25c4014833ea1c05",
@@ -136,10 +137,10 @@
   },
   "active": "b6e6a0f53c832637",
   "lastOpenFiles": [
-    "Hotkeys.md",
-    "C programming.md",
-    "Git.md",
     "C Code Style Guidelines.md",
+    "C programming.md",
+    "Hotkeys.md",
+    "Git.md",
     "WSL.md",
     "Fonts.md",
     "random notes.md",

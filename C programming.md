@@ -64,15 +64,25 @@ Regions: static data, stack (automatic), heap (programmer controlled).
 - Size: fixed, known at compile time
 - ex: global variables
 
-### Stack (automatic)
-- Lifetime: temporary, stores local variables during function calls
-- Size: grows when calling nested functions
-- ex: 
+#### Global or `static` variables
+- Global are always `static`
+- Have one copy
+- Declaring variable in function as `static` → won't be destroyed after function returns
 
 ### Stack (automatic)
 - Lifetime: temporary, stores local variables during function calls
 - Size: grows when calling nested functions
 - Grows high to low address
+- 'normal' variables → get destroyed after function returns
+- variables get allocated and destroyed automatically
+- Faster than heap
+- Less control
+- LIFO
+
+### Heap (dynamic)
+- Lifetime: discretion of programmer
+- Size: discretion of programmer
+- `malloc()` and `free()`
 
 ## Headers, libraries and linking
 

@@ -2,5 +2,7 @@
   "baseFontSize": 20,
   "translucency": false,
   "monospaceFontFamily": "Fira Code",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "nested-list"
+  ]
 }
