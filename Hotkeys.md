@@ -21,3 +21,10 @@
 | Focus Right Editor Group  | Alt + RightArrow |
 |                           |                  |
 
+## Windows Terminal
+
+| Action            | Hotkey                 |
+| ----------------- | ---------------------- |
+| Toggle Quake mode | Ctrl + win + alt + µ/$ |
+|                   |                        |
+
