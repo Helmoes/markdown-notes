@@ -9,7 +9,7 @@
 gcc hello_world.c -o hello_world -std=gnu11
 ./hello_world
 
-gcc hello_world.c -o hello_world -std=gnu11 && ./hello_world
+gcc cards.c -o cards -std=gnu11 && ./cards
 ```
 `-o file` Place the primary output in file *file*.
 
@@ -18,6 +18,11 @@ The *stdio* library contains code that allows you to read and write data from an
 Return type of main() is `int` → 0 means success. 
 
 Compilation can involve up to four stages: **preprocessing**, **compilation proper**, **assembly** and **linking**, always in that order. GCC is capable of preprocessing and compiling several files either into several assembler input files, or into one assembler input file; then each assembler input file produces an object file, and linking combines all the object files (those newly compiled, and those specified as input) into an executable file. [source](https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options)
+
+### main()
+- Start of program.
+- Return type: `int` → 0 means success.
+- 
 
 ## Declaration & initialization
 ```c
