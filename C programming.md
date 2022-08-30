@@ -57,6 +57,23 @@ Debugging:
 -ggdb
 ```
 
+## Memory
+Regions: static data, stack (automatic), heap (programmer controlled).
+### Static data
+- Lifetime: entire program duration
+- Size: fixed, known at compile time
+- ex: global variables
+
+### Stack (automatic)
+- Lifetime: temporary, stores local variables during function calls
+- Size: grows when calling nested functions
+- ex: 
+
+### Stack (automatic)
+- Lifetime: temporary, stores local variables during function calls
+- Size: grows when calling nested functions
+- Grows high to low address
+
 ## Headers, libraries and linking
 
 For functions in external .c file: header file can be thought of as interface between source code and the programmer.
