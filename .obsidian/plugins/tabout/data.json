@@ -38,7 +38,8 @@
     },
     {
       "lookups": [
-        ")"
+        ")",
+        "]"
       ],
       "tokenMatcher": "Document",
       "jumpAfter": true
