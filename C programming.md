@@ -4,8 +4,11 @@
 [Programming for engineers](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Programming%20for%20Engineers.pdf): stack, heap, memory
 [Programming Embedded Systems With C and GNU Development Tools](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Programming%20Embedded%20Systems%20With%20C%20and%20GNU%20Development%20Tools,%202nd%20Edition%20-%20Michael%20Barr,%20Anthony%20Massa.pdf)
 
+## To learn
+- [ ] VS Code tasks to debug and build → launch.json?
+
 ## Head first C
-Current page: 8
+Current page: 12
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11

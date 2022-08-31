@@ -45,8 +45,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "25c4014833ea1c05",
@@ -138,14 +137,14 @@
   "active": "b6e6a0f53c832637",
   "lastOpenFiles": [
     "C Code Style Guidelines.md",
-    "C programming.md",
-    "Hotkeys.md",
-    "Git.md",
     "WSL.md",
+    "Hotkeys.md",
     "Fonts.md",
-    "random notes.md",
-    "Linux server stuff.md",
-    "General notes.md",
-    "To-Do.md"
+    "Git.md",
+    "Linux.md",
+    "Commands from all notes.md",
+    "Linux VM.md",
+    "C course Udemy.md",
+    "VS Code.md"
   ]
 }
