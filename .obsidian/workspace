@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "VS Code.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "VS Code.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "VS Code.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "VS Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,15 +136,15 @@
   },
   "active": "b6e6a0f53c832637",
   "lastOpenFiles": [
+    "C programming.md",
+    "VS Code.md",
+    "Linux.md",
+    "Hotkeys.md",
     "C Code Style Guidelines.md",
     "WSL.md",
-    "Hotkeys.md",
     "Fonts.md",
     "Git.md",
-    "Linux.md",
     "Commands from all notes.md",
-    "Linux VM.md",
-    "C course Udemy.md",
-    "VS Code.md"
+    "Linux VM.md"
   ]
 }
