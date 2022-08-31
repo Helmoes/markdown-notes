@@ -5,7 +5,7 @@
 [Programming Embedded Systems With C and GNU Development Tools](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Programming%20Embedded%20Systems%20With%20C%20and%20GNU%20Development%20Tools,%202nd%20Edition%20-%20Michael%20Barr,%20Anthony%20Massa.pdf)
 
 ## To learn
-- [ ] VS Code tasks to debug and build → launch.json, tasks.json?
+- [x] VS Code tasks to debug and build → launch.json, tasks.json?
 - [ ] 
 
 ## Head first C
@@ -15,7 +15,7 @@ Current page: 12
 gcc hello_world.c -o hello_world -std=gnu11
 ./hello_world
 
-gcc cards.c -o cards -std=gnu11 && ./cards
+gcc cards.c -o cards -std=gnu11 -Wall -Wextra -ggdb && ./cards
 ```
 `-o file` Place the primary output in file *file*.
 
@@ -49,12 +49,12 @@ Use 'unsigned'. Default is signed.
 ## Functions
 A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
 
+## GCC options
 Put GCC compile command as comment in first line
 ```c
 // gcc -std=c99 -o go go.c neuron.c -lm -Wall -Werror
 // gcc -g -Wall -o add add.c -lm
 ```
-
 Debugging: 
 ```c
 -g 
