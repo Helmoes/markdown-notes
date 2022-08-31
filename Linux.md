@@ -4,6 +4,9 @@
 man command
 command -h
 which program # Executed against a program name, it will show the full path for the program.
+
+whereis gcc
+whereis gdb
 ```
 
 ## 
@@ -11,14 +14,9 @@ which program # Executed against a program name, it will show the full path for 
 ## Packages 
 ```bash
 sudo apt update && sudo apt upgrade
+sudo apt install package --install-suggests
 
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
-```
-
-## find location of files
-```bash
-whereis gcc
-whereis gdb
 ```
 
 ## ssh
