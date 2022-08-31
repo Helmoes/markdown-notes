@@ -6,6 +6,8 @@ command -h
 which program # Executed against a program name, it will show the full path for the program.
 ```
 
+## 
+
 ## Packages 
 ```bash
 sudo apt update && sudo apt upgrade
