@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "Hotkeys.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Hotkeys.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Hotkeys.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Hotkeys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,13 +144,13 @@
   },
   "active": "b6e6a0f53c832637",
   "lastOpenFiles": [
-    "Linux.md",
+    "VS Code.md",
     "C programming.md",
+    "Linux.md",
     "Hotkeys.md",
     "Linux VM.md",
     "random notes.md",
     "To-Do.md",
-    "VS Code.md",
     "C Code Style Guidelines.md",
     "WSL.md",
     "Fonts.md"

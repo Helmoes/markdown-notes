@@ -19,6 +19,7 @@
 | Toggle editor group sizes | Ctrl + shift + J |
 | Focus Left Editor Group   | Alt + LeftArrow  |
 | Focus Right Editor Group  | Alt + RightArrow |
+| Delete line               | Ctrl + shift + K |
 |                           |                  |
 
 ## Windows Terminal
