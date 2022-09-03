@@ -1,0 +1,20 @@
+{
+  "AutoFormatting": true,
+  "FormattingWhenLineEnd": false,
+  "ChineseEnglishSpace": false,
+  "ChineseNoSpace": false,
+  "Capitalization": true,
+  "PunctuationSpace": false,
+  "EnglishSpace": true,
+  "BraceSpace": true,
+  "NumberSpace": true,
+  "InlineCodeSpace": true,
+  "InlineFormulaSpace": false,
+  "LinkSpace": false,
+  "LinkSmartSpace": false,
+  "FullWidthCharacterEnhance": false,
+  "UserDefinedRegExp": ":\\w*:\n{{.*?}}\n<.*?>\n\\[\\!.*?\\][+-]{0,1}",
+  "UserDefinedRegSwitch": false,
+  "UserPartSpace": false,
+  "Debug": false
+}

@@ -12,7 +12,7 @@
 - [ ] 
 
 ## Head first C
-Current page: 17
+Current page: 28
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -32,11 +32,17 @@ Compilation can involve up to four stages: **preprocessing**, **compilation prop
 - Start of program.
 - Return type: `int` → 0 means success.
 
+### switch()
+- Can replace a sequence of `if` statements.
+- Will continue to run until `break` or end of switch statement.
+- Check for correct breaks.
+
 ### scanf()
 `%[width]s` matches a sequence of non-whitespace characters (a string).
 If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
 
 ### atoi()
+Part of stdlib.h
 Interprets an integer value in a byte string pointed to by `str`.
 Integer value corresponding to the contents of `str` on success.
 If no conversion can be performed, `0` is returned.
