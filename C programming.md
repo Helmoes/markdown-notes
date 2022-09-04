@@ -22,7 +22,7 @@ gcc cards.c -o cards -std=gnu11 -Wall -Wextra -ggdb && ./cards
 ```
 `-o file` Place the primary output in file *file*.
 
-The *stdio* library contains code that allows you to read and write data from and to the terminal.
+The `stdio.h` library contains code that allows you to read and write data from and to the terminal.
 
 Return type of main() is `int` → 0 means success. 
 

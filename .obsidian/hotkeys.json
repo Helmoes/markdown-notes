@@ -67,5 +67,13 @@
       "key": "B"
     }
   ],
-  "editor:toggle-bold": []
+  "editor:toggle-bold": [],
+  "obsidian-sentence-navigator:select-sentence": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
 }
