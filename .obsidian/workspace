@@ -4,27 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b6e6a0f53c832637",
+        "id": "82279080f62c18b0",
         "type": "leaf",
-        "dimension": 64.87068965517241,
         "state": {
           "type": "markdown",
           "state": {
             "file": "C programming.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "82279080f62c18b0",
-        "type": "leaf",
-        "dimension": 35.12931034482759,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Hotkeys.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -93,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.49999809265137
+    "width": 255.49999809265137,
+    "collapsed": true
   },
   "right": {
     "id": "9735d2ce3469781a",
@@ -156,14 +143,14 @@
     "width": 318.8333435058594,
     "collapsed": true
   },
-  "active": "9d5f605769b66cd9",
+  "active": "82279080f62c18b0",
   "lastOpenFiles": [
-    "C course Udemy.md",
     "Hotkeys.md",
+    "C programming.md",
+    "C course Udemy.md",
     "Linux VM.md",
     "Fonts.md",
     "WSL.md",
-    "C programming.md",
     "Cheat Sheet from internet.md",
     "C Code Style Guidelines.md",
     "VS Code.md",
