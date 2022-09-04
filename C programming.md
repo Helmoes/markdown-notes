@@ -12,7 +12,7 @@
 - [ ] 
 
 ## Head first C
-Current page: 45
+Current page: 48
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
