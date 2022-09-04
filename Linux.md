@@ -127,6 +127,8 @@ Installing gcc-11 [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-fin
 sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa
 sudo apt-get install gcc-11 --install-suggests
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 60
+sudo apt purge snapd && sudo apt-mark hold snapd
+sudo apt autoremove
 ```
 
 # Kubuntu

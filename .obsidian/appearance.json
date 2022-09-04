@@ -4,5 +4,6 @@
   "monospaceFontFamily": "Fira Code",
   "enabledCssSnippets": [
     "nested-list"
-  ]
+  ],
+  "textFontFamily": "Inter"
 }
