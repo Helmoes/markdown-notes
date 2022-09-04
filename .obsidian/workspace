@@ -133,20 +133,28 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "8ed72abab66f5a51",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 318.8333435058594,
+    "width": 259.8333435058594,
     "collapsed": true
   },
   "active": "82279080f62c18b0",
   "lastOpenFiles": [
     "WSL.md",
-    "Linux.md",
     "C programming.md",
+    "Linux.md",
     "Hotkeys.md",
     "C course Udemy.md",
     "Linux VM.md",
