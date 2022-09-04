@@ -12,7 +12,7 @@
 - [ ] 
 
 ## Head first C
-Current page: 28
+Current page: 45
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -58,6 +58,9 @@ Use 'unsigned'. Default is signed.
 
 ## Functions
 A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
+
+## Pointers
+
 
 ## GCC options
 Put GCC compile command as comment in first line
