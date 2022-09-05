@@ -38,12 +38,16 @@ ssh-keygen
     -l
     -f <filename> # Specifies the filename of the key file.
 ```
+Ignoring EOL
+```bash
+git config --global core.autocrlf false
+```
 
 ```bash
 git remote -v # show remote url after name
 ```
 
-## Git limitations
+## Git limitations VS Code
 [source](https://code.visualstudio.com/docs/remote/wsl#_git-limitations)
 If you clone a Git repository using SSH and your SSH key has a passphrase, VS Code's pull and sync features may hang when running remotely. Either use an SSH key without a passphrase, clone using HTTPS, or run `git push` from the command line to work around the issue.
 
