@@ -3,3 +3,7 @@
 - [ ] How to use `%variables%`
 - [ ] Difference `roaming` and `local`
 
+# Tools
+Installed on 5/9/22:
+- usbview
+- devcon
