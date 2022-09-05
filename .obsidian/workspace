@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Useful programs.md",
+            "file": "Windows stuff.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Useful programs.md"
+                "file": "Windows stuff.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Useful programs.md",
+                "file": "Windows stuff.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Useful programs.md",
+                "file": "Windows stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,6 +152,7 @@
   },
   "active": "82279080f62c18b0",
   "lastOpenFiles": [
+    "Useful programs.md",
     "Linux.md",
     "WSL.md",
     "C programming.md",
@@ -160,7 +161,6 @@
     "Linux VM.md",
     "Fonts.md",
     "Cheat Sheet from internet.md",
-    "C Code Style Guidelines.md",
-    "VS Code.md"
+    "C Code Style Guidelines.md"
   ]
 }
