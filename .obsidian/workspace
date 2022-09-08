@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows stuff.md",
+            "file": "C programming.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows stuff.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.49999809265137
+    "width": 355.5
   },
   "right": {
     "id": "9735d2ce3469781a",
@@ -98,12 +98,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "98b53fc235dbd06a",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
             "id": "de27eb7e86c81cb4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,14 +151,6 @@
             }
           },
           {
-            "id": "8ed72abab66f5a51",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
-            }
-          },
-          {
             "id": "53f2293163e7663d",
             "type": "leaf",
             "state": {
@@ -161,25 +161,24 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 259.8333435058594,
+    "width": 376.8333435058594,
     "collapsed": true
   },
   "active": "82279080f62c18b0",
   "lastOpenFiles": [
+    "VS Code.md",
+    "Hotkeys.md",
+    "WSL.md",
+    "Linux.md",
+    "Useful programs.md",
+    "Git.md",
     "VMware.md",
     "Windows stuff.md",
-    "Useful programs.md",
-    "Linux VM.md",
-    "Git.md",
-    "Linux.md",
-    "WSL.md",
     "C programming.md",
-    "Hotkeys.md",
-    "C course Udemy.md"
+    "Linux VM.md"
   ]
 }
