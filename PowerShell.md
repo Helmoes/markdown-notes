@@ -1,4 +1,11 @@
 # Commands
+
+## Drivers
+```powershell
+echo $Env:Path
+```
+
+## SSH & hypervisor
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service?view=powershell-7.2#parameters
 ```powershell
 Get-Service -Displayname "*ssh*"

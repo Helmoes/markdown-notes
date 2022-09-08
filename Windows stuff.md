@@ -1,3 +1,5 @@
+[[PowerShell]]
+
 # To learn
 #todo
 - [ ] `%APPDATA%\Mozilla\Firefox\Profiles\` links to `roaming` ?
@@ -8,3 +10,4 @@
 Installed on 5/9/22:
 - usbview
 - devcon
+
