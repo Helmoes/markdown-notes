@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,15 +170,15 @@
   },
   "active": "82279080f62c18b0",
   "lastOpenFiles": [
-    "VS Code.md",
-    "Hotkeys.md",
     "WSL.md",
+    "VS Code.md",
+    "Linux VM.md",
+    "PowerShell.md",
+    "VMware.md",
+    "C programming.md",
+    "Hotkeys.md",
     "Linux.md",
     "Useful programs.md",
-    "Git.md",
-    "VMware.md",
-    "Windows stuff.md",
-    "C programming.md",
-    "Linux VM.md"
+    "Git.md"
   ]
 }
