@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows stuff.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows stuff.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -53,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "25c4014833ea1c05",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,17 +168,17 @@
     "width": 376.8333435058594,
     "collapsed": true
   },
-  "active": "e0a7c8fd0821aa46",
+  "active": "82279080f62c18b0",
   "lastOpenFiles": [
+    "WSL.md",
+    "PowerShell.md",
+    "Windows stuff.md",
     "Linux.md",
     "General notes.md",
     "To-Do.md",
     "README.md",
     "Useful programs.md",
-    "Windows stuff.md",
-    "PowerShell.md",
     "C programming.md",
-    "WSL.md",
     "VS Code.md"
   ]
 }

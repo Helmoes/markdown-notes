@@ -16,7 +16,27 @@ bcdedit /set hypervisorlaunchtype off
 bcdedit /set hypervisorlaunchtype auto
 ```
 
-## version
+## elevate .ps1 script for admin rights
+```powershell
+# Self-elevate the script if required
+
+if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
+
+    if ([int](Get-CimInstance -Class Win32_OperatingSystem | Select-Object -ExpandProperty BuildNumber) -ge 6000) {
+
+        $CommandLine = "-File `"" + $MyInvocation.MyCommand.Path + "`" " + $MyInvocation.UnboundArguments
+
+        Start-Process -FilePath pwsh.exe -Verb Runas -ArgumentList $CommandLine
+
+        Exit
+
+    }
+
+}
+
+# rest of the script
+```
+    ## version
 ```powershell
 $PSVersionTable
 $env:PSModulePath
