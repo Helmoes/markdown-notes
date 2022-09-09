@@ -7,7 +7,7 @@
   "fileSortOrder": "byModifiedTime",
   "spellcheck": true,
   "spellcheckLanguages": null,
-  "promptDelete": true,
+  "promptDelete": false,
   "attachmentFolderPath": "images",
   "showLineNumber": true,
   "showFrontmatter": true

@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows stuff.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "401652e816007f39",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "PowerShell.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -45,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PowerShell.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PowerShell.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -148,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PowerShell.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,17 +168,17 @@
     "width": 376.8333435058594,
     "collapsed": true
   },
-  "active": "401652e816007f39",
+  "active": "82279080f62c18b0",
   "lastOpenFiles": [
+    "Linux.md",
+    "General notes.md",
+    "To-Do.md",
+    "README.md",
+    "Useful programs.md",
     "Windows stuff.md",
     "PowerShell.md",
     "C programming.md",
-    "Linux.md",
     "WSL.md",
-    "VS Code.md",
-    "Linux VM.md",
-    "VMware.md",
-    "Hotkeys.md",
-    "Useful programs.md"
+    "VS Code.md"
   ]
 }
