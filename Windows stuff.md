@@ -1,7 +1,6 @@
 [[PowerShell]]
 
 # To learn
-#todo
 - [ ] `%APPDATA%\Mozilla\Firefox\Profiles\` links to `roaming` ?
 - [ ] How to use `%variables%`
 - [ ] Difference `roaming` and `local`

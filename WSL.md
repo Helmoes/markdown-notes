@@ -1,4 +1,5 @@
 ## To install
+- [ ] check advanced setting (swap, gpu, ...)
 - [ ] neofetch
 - [ ] starship
 - [ ] powerline for bash
