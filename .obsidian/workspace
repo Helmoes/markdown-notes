@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "82279080f62c18b0",
+        "id": "9c34bfaf1f83de4e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "C programming.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -32,9 +28,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C programming.md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -145,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,17 +170,17 @@
     "width": 263.8333435058594,
     "collapsed": true
   },
-  "active": "e77ebbba616566de",
+  "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
+    "2022-09-09.md",
+    "C programming.md",
     "C course Udemy.md",
     "C Code Style Guidelines.md",
     "VS Code.md",
     "Git.md",
     "VMware.md",
-    "C programming.md",
     "Windows stuff.md",
     "WSL.md",
-    "Linux VM.md",
-    "README.md"
+    "Linux VM.md"
   ]
 }
