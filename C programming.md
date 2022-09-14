@@ -9,10 +9,10 @@
 
 ## To learn
 - [x] VS Code tasks to debug and build → launch.json, tasks.json?
-- [ ] 
+- [ ] -> operator pointer to struct member how to use?
 
 ## Head first C
-Current page: 48
+Current page: finished chapter 2. Skip 2.5 -> go to chapter 3.
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -37,7 +37,7 @@ Compilation can involve up to four stages: **preprocessing**, **compilation prop
 - Will continue to run until `break` or end of switch statement.
 - Check for correct breaks.
 
-### scanf()
+### scanf() p.65
 `%[width]s` matches a sequence of non-whitespace characters (a string).
 If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
 
@@ -117,6 +117,7 @@ Debugging:
 
 ## Strings
 Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
+`char *s = "some string";` this is not modifiable (string literal).
 
 
 ## Memory
