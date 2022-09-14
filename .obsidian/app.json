@@ -10,5 +10,6 @@
   "promptDelete": false,
   "attachmentFolderPath": "images",
   "showLineNumber": true,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "autoPairMarkdown": false
 }
