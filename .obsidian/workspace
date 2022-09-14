@@ -7,8 +7,12 @@
         "id": "9c34bfaf1f83de4e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "C programming.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -28,7 +32,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C programming.md"
+              }
             }
           },
           {
@@ -114,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
