@@ -94,6 +94,13 @@ int main()
 }
 ```
 
+### Arrays
+
+
+### Little endian
+![[Pasted image 20220914202910.png|325]]
+![[Pasted image 20220914202853.png|325]]
+
 ## GCC options
 Put GCC compile command as comment in first line
 ```c
@@ -107,7 +114,8 @@ Debugging:
 ```
 
 ## Strings
-Strings are arrays of chars.
+Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
+
 
 ## Memory
 Regions: static data, stack (automatic), heap (programmer controlled).
