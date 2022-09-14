@@ -60,7 +60,20 @@ Use 'unsigned'. Default is signed.
 A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
 
 ## Pointers
-
+To get address of variable use `&`.
+Create a pointer variable:
+```c
+int *p_address_of_x = &x;
+```
+Read address contents:
+```c
+int value_stored = *p_address_of_x;
+```
+`*` operator is said to dereference a pointer. **It reads and be used to set the contents of a memory address**.
+Change contents of address:
+```c
+*p_address_of_x = 99;
+```
 
 ## GCC options
 Put GCC compile command as comment in first line

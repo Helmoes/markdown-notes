@@ -1,7 +1,7 @@
 {
   "baseFontSize": 20,
   "translucency": false,
-  "monospaceFontFamily": "Fira Code",
+  "monospaceFontFamily": "JetBrains Mono",
   "enabledCssSnippets": [
     "nested-list"
   ],
