@@ -1,8 +1,8 @@
 {
   "search_support": false,
-  "level_switch": false,
+  "level_switch": true,
   "markdown": true,
-  "expand_level": "0",
+  "expand_level": "3",
   "hide_unsearched": true,
   "auto_expand": true,
   "regex_search": false

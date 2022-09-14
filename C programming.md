@@ -95,6 +95,8 @@ int main()
 ```
 
 ### Arrays
+Array variable is pointer to lowest memory address of array.
+Using & on the array var will result in the array itself.
 
 
 ### Little endian
