@@ -10,6 +10,7 @@
 ## To learn
 - [x] VS Code tasks to debug and build → launch.json, tasks.json?
 - [ ] -> operator pointer to struct member how to use?
+- [ ] Pre-processor #define macros
 
 ## Head first C
 Current page: finished chapter 2. Skip 2.5 -> go to chapter 3.
@@ -98,6 +99,17 @@ int main()
 Array variable is pointer to lowest memory address of array.
 Using & on the array var will result in the array itself.
 
+Member access through pointer to a struct or union:
+```c
+#include <stdio.h>
+struct s {int x;};
+int main(void)
+{
+    struct s s={1}, *p = &s;
+    p->x = 7; // changes the value of s.x through the pointer
+    printf("%d\n", p->x); // prints 7
+}
+```
 
 ### Little endian
 ![[Pasted image 20220914202910.png|325]]
