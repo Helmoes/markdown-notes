@@ -4,6 +4,11 @@
 wsllv -> wsl -l -v
 ```
 
+New alias template:
+```powershell
+function cmd { cmd.exe /c $args there }
+```
+
 ## Drivers
 ```powershell
 echo $Env:Path

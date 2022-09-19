@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VMware.md",
+            "file": "Commands often used.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VMware.md"
+                "file": "Commands often used.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VMware.md",
+                "file": "Commands often used.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VMware.md",
+                "file": "Commands often used.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,15 +180,15 @@
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
+    "PowerShell.md",
+    "Linux.md",
+    "WSL.md",
+    "Useful programs.md",
+    "random notes.md",
+    "Windows stuff.md",
+    "VMware.md",
     "C programming.md",
     "2022-09-09.md",
-    "C course Udemy.md",
-    "C Code Style Guidelines.md",
-    "VS Code.md",
-    "Git.md",
-    "VMware.md",
-    "Windows stuff.md",
-    "WSL.md",
-    "Linux VM.md"
+    "C course Udemy.md"
   ]
 }
