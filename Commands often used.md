@@ -1,7 +1,10 @@
 # in powershell:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-python --version
+
+```powershell
+py --version
+```
 
 In VSC terminal:
 replace .venv with name of new virtual environment
@@ -32,9 +35,10 @@ py -m pip_autoremove jupyter
 py -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat jupyterlab-widgets nbclient
 ```
 
-```python
-pip freeze > requirements.txt
-pip uninstall -r requirements.txt
+```powershell
+py -m pip list
+py -m pip freeze > requirements.txt
+py -m pip uninstall -r requirements.txt
 ```
 
 ```powershell
@@ -187,6 +191,7 @@ from module_name import function_name as fn
 
 # OOP
 
+```python
 class ClassName:
     pass # body placeholder
 
@@ -211,15 +216,19 @@ class ClassName:
     @staticmethod
     def static_method1(..., ...):
         ...
+```
 
 
+```python
 object1 = ClassName(arg1, arg2, ...)
 object1.__dict__ # returns all variable of object1
 help(object1)
 dir(func)
 FullArgSpec(args, varargs, varkw, defaults, kwonlyargs, kwonlydefaults, annotations) = inspect.getfullargspec(func)
+```
 
-# subclasses
+## subclasses
+```python
 class SubClassName(ClassName):
 
     # subclass variables
@@ -232,3 +241,4 @@ with open('text_file.txt') as f:
 
 with open(output_file, 'w') as of:
     of.write("string")
+```
