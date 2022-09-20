@@ -43,6 +43,7 @@ py -m pip uninstall -r requirements.txt
 
 ```powershell
 py -m pip install --upgrade pip
+py -m pip install --upgrade pip setuptools wheel
 ```
 
 
