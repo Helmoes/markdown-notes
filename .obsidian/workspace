@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Commands often used.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commands often used.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commands often used.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commands often used.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,15 +180,15 @@
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
-    "PowerShell.md",
+    "Hotkeys.md",
     "Linux.md",
+    "Commands often used.md",
+    "PowerShell.md",
     "WSL.md",
     "Useful programs.md",
     "random notes.md",
     "Windows stuff.md",
     "VMware.md",
-    "C programming.md",
-    "2022-09-09.md",
-    "C course Udemy.md"
+    "C programming.md"
   ]
 }

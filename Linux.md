@@ -135,6 +135,21 @@ sudo apt autoremove
 ```
 
 # Kubuntu
+## Backing up
+- Timeshift for root
+- Backup for home
+
+Live USB:
+- Ventoy
+- Rescuezilla
+- 
+
+**24/9/22**
+update grub:
+```bash
+sudo update-grub
+```
+
 
 if there are spaces in path: use "" or escape with \
 

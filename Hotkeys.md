@@ -30,7 +30,7 @@
 | Toggle Quake mode | Ctrl + win + alt + µ/$ |
 |                   |                        |
 
-# Linux terminal
+# Linux (terminal)
 | Action                           | Hotkey               |
 | -------------------------------- | -------------------- |
 | Scroll faster                    | Shift + mouse scroll |
@@ -38,4 +38,5 @@
 | Bash go to start of line         | Ctrl + A             |
 | Bash go to end of line           | Ctrl + E             |
 | Bash delete from start to cursor | Ctrl + U             |
+| Drop down terminal               | F12                  |
 |                                  |                      |
