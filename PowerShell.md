@@ -1,4 +1,3 @@
-# Commands
 ## Aliases
 ```powershell
 wsllv -> wsl -l -v
