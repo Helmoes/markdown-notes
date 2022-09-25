@@ -131,6 +131,7 @@ Debugging:
 Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
 `char *s = "some string";` this is not modifiable (string literal).
 
+**Return value:** Number of receiving arguments successfully assigned (which may be zero in case a matching failure occurred before the first receiving argument was assigned), or [EOF](https://en.cppreference.com/w/c/io "c/io") if input failure occurs before the first receiving argument was assigned.
 
 ## Memory
 Regions: static data, stack (automatic), heap (programmer controlled).
