@@ -1,0 +1,21 @@
+
+
+.markdown-source-view .HyperMD-header-1 span {
+    color: #b2d0eb;
+}
+
+.markdown-source-view .HyperMD-header-2 span {
+    color: #69a4d8;
+}
+
+.markdown-source-view .HyperMD-header-3 span {
+    color: #327dc3;
+}
+
+/* .cm-s-obsidian span.cm-formatting-header.cm-header-1 {
+    color: blue;
+}
+
+.cm-s-obsidian span.cm-formatting-header.cm-header-2 {
+    color: red;
+} */

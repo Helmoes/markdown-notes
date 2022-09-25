@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "Git.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Git.md"
               }
             }
           },
@@ -42,14 +42,6 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "e0a7c8fd0821aa46",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
               "state": {}
             }
           },
@@ -120,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -145,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,26 +161,33 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "85744c232782c83c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 263.8333435058594,
-    "collapsed": true
+    "width": 352.8333435058594
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
     "Linux.md",
+    "C programming.md",
+    "Git.md",
     "Linux VM.md",
     "WSL.md",
     "Windows stuff.md",
-    "C programming.md",
     "PowerShell.md",
     "Hotkeys.md",
     "Commands often used.md",
-    "Useful programs.md",
-    "random notes.md"
+    "Useful programs.md"
   ]
 }

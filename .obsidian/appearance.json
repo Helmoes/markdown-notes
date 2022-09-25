@@ -3,7 +3,8 @@
   "translucency": false,
   "monospaceFontFamily": "JetBrains Mono",
   "enabledCssSnippets": [
-    "nested-list"
+    "nested-list",
+    "heading-colors"
   ],
   "textFontFamily": "Inter"
 }

@@ -2,8 +2,22 @@ var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
 var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
 var __export = (target, all) => {
   __markAsModule(target);
@@ -21,17 +35,49 @@ var __reExport = (target, module2, desc) => {
 var __toModule = (module2) => {
   return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
 };
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
 
-// main.ts
+// src/main.ts
 __export(exports, {
   default: () => SentenceNavigator
 });
-var import_obsidian = __toModule(require("obsidian"));
+var import_obsidian2 = __toModule(require("obsidian"));
 
-// constants.ts
-var WHOLE_SENTENCE = /[^.!?\s][^.!?]*(?:[.!?](?!['"]?\s|$)[^.!?]*)*[.!?]?['"]?(?=\s|$)/gm;
+// src/state.ts
+var State = {
+  sentenceRegex: null
+};
 
-// utils.ts
+// src/utils.ts
+var getLineBoundaries = (editor, line) => ({
+  start: {
+    line,
+    ch: 0
+  },
+  end: {
+    line,
+    ch: editor.getLine(line).length
+  }
+});
 var getCursorAndParagraphText = (editor) => {
   const cursorPosition = editor.getCursor();
   return {
@@ -40,7 +86,7 @@ var getCursorAndParagraphText = (editor) => {
   };
 };
 var forEachSentence = (paragraphText, callback) => {
-  const sentences = paragraphText.matchAll(WHOLE_SENTENCE);
+  const sentences = paragraphText.matchAll(State.sentenceRegex);
   for (const sentence of sentences) {
     callback(sentence);
   }
@@ -93,7 +139,7 @@ var getNextNonEmptyLine = (editor, currentLine) => {
   return nextLine;
 };
 
-// actions.ts
+// src/actions.ts
 var deleteToBoundary = (editor, boundary) => {
   let { cursorPosition, paragraphText } = getCursorAndParagraphText(editor);
   const originalCursorPosition = cursorPosition;
@@ -112,7 +158,8 @@ var deleteToBoundary = (editor, boundary) => {
       if (boundary === "start") {
         const newParagraph = paragraphText.substring(0, sentence.index) + paragraphText.substring(originalCursorPosition.ch);
         const cutPortionLength = paragraphText.length - newParagraph.length;
-        editor.setLine(cursorPosition.line, newParagraph);
+        const { start, end } = getLineBoundaries(editor, cursorPosition.line);
+        editor.replaceRange(newParagraph, start, end);
         editor.setCursor({
           line: cursorPosition.line,
           ch: originalCursorPosition.ch - cutPortionLength
@@ -120,7 +167,8 @@ var deleteToBoundary = (editor, boundary) => {
       } else {
         const remainingSentenceLength = sentence.index + sentence[0].length - cursorPosition.ch;
         const newParagraph = paragraphText.substring(0, originalCursorPosition.ch) + paragraphText.substring(cursorPosition.ch + remainingSentenceLength);
-        editor.setLine(cursorPosition.line, newParagraph);
+        const { start, end } = getLineBoundaries(editor, cursorPosition.line);
+        editor.replaceRange(newParagraph, start, end);
         editor.setCursor(originalCursorPosition);
       }
       done = true;
@@ -201,35 +249,85 @@ var selectSentence = (editor) => {
   });
 };
 
-// main.ts
-var SentenceNavigator = class extends import_obsidian.Plugin {
+// src/settings.ts
+var import_obsidian = __toModule(require("obsidian"));
+
+// src/constants.ts
+var WHOLE_SENTENCE = /[^.!?\s][^.!?]*(?:[.!?](?!['"]?\s|$)[^.!?]*)*[.!?]?['"]?(?=\s|$)/gm;
+
+// src/settings.ts
+var DEFAULT_SETTINGS = {
+  sentenceRegexSource: WHOLE_SENTENCE.source
+};
+var SettingTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Sentence Navigator" });
+    const regexSetting = new import_obsidian.Setting(containerEl).setName("Sentence regex").setDesc("The regular expression used to match a sentence").addTextArea((textArea) => textArea.setPlaceholder("Enter regex").setValue(this.plugin.settings.sentenceRegexSource).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.sentenceRegexSource = value;
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian.Setting(containerEl).setName("Reset default regex").addButton((btn) => {
+      btn.setButtonText("Reset").onClick(() => __async(this, null, function* () {
+        this.plugin.settings = __spreadValues({}, DEFAULT_SETTINGS);
+        regexSetting.components[0].setValue(DEFAULT_SETTINGS.sentenceRegexSource);
+        yield this.plugin.saveSettings();
+      }));
+    });
+  }
+};
+
+// src/main.ts
+var SentenceNavigator = class extends import_obsidian2.Plugin {
   onload() {
-    this.addCommand({
-      id: "backward-delete-sentence",
-      name: "Delete to beginning of sentence",
-      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
-      editorCallback: (editor) => deleteToBoundary(editor, "start")
+    return __async(this, null, function* () {
+      yield this.loadSettings();
+      this.addCommand({
+        id: "backward-delete-sentence",
+        name: "Delete to beginning of sentence",
+        hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
+        editorCallback: (editor) => deleteToBoundary(editor, "start")
+      });
+      this.addCommand({
+        id: "forward-delete-sentence",
+        name: "Delete to end of sentence",
+        hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Delete" }],
+        editorCallback: (editor) => deleteToBoundary(editor, "end")
+      });
+      this.addCommand({
+        id: "move-start-current-sentence",
+        name: "Move to start of current sentence",
+        editorCallback: (editor) => moveToStartOfCurrentSentence(editor)
+      });
+      this.addCommand({
+        id: "move-start-next-sentence",
+        name: "Move to start of next sentence",
+        editorCallback: (editor) => moveToStartOfNextSentence(editor)
+      });
+      this.addCommand({
+        id: "select-sentence",
+        name: "Select current sentence",
+        editorCallback: (editor) => selectSentence(editor)
+      });
+      this.addSettingTab(new SettingTab(this.app, this));
     });
-    this.addCommand({
-      id: "forward-delete-sentence",
-      name: "Delete to end of sentence",
-      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Delete" }],
-      editorCallback: (editor) => deleteToBoundary(editor, "end")
+  }
+  loadSettings() {
+    return __async(this, null, function* () {
+      const savedSettings = yield this.loadData();
+      this.settings = __spreadValues(__spreadValues({}, DEFAULT_SETTINGS), savedSettings);
+      State.sentenceRegex = new RegExp(this.settings.sentenceRegexSource, "gm");
     });
-    this.addCommand({
-      id: "move-start-current-sentence",
-      name: "Move to start of current sentence",
-      editorCallback: (editor) => moveToStartOfCurrentSentence(editor)
-    });
-    this.addCommand({
-      id: "move-start-next-sentence",
-      name: "Move to start of next sentence",
-      editorCallback: (editor) => moveToStartOfNextSentence(editor)
-    });
-    this.addCommand({
-      id: "select-sentence",
-      name: "Select current sentence",
-      editorCallback: (editor) => selectSentence(editor)
+  }
+  saveSettings() {
+    return __async(this, null, function* () {
+      yield this.saveData(this.settings);
+      State.sentenceRegex = new RegExp(this.settings.sentenceRegexSource, "gm");
     });
   }
 };
