@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git.md",
+            "file": "Linux VM.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git.md"
+                "file": "Linux VM.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "Linux VM.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git.md",
+                "file": "Linux VM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,13 +175,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.8333435058594
+    "width": 294.8333435058594,
+    "collapsed": true
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
     "Linux.md",
-    "C programming.md",
     "Git.md",
+    "C programming.md",
     "Linux VM.md",
     "WSL.md",
     "Windows stuff.md",
