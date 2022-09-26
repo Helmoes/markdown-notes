@@ -18,7 +18,7 @@ whereis gdb
 Use Muon not Synaptic.
 ```bash
 sudo apt update && sudo apt upgrade
-sudo apt install package --install-suggests
+sudo apt install firefox --install-suggests
 
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
 ```

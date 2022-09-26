@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux VM.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux VM.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux VM.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux VM.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,15 +180,15 @@
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
+    "Linux VM.md",
+    "VMware.md",
     "Linux.md",
     "Git.md",
     "C programming.md",
-    "Linux VM.md",
     "WSL.md",
     "Windows stuff.md",
     "PowerShell.md",
     "Hotkeys.md",
-    "Commands often used.md",
-    "Useful programs.md"
+    "Commands often used.md"
   ]
 }
