@@ -13,7 +13,7 @@
 - [ ] Pre-processor #define macros
 
 ## Head first C
-Current page: finished chapter 2. Skip 2.5 -> go to chapter 3.
+Current page: 118
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -152,6 +152,11 @@ The scanf() and printf() functions don’t know, or care, where the data comes f
 
 ```bash
 ./ex_p105 < gpsdata.csv > output.json
+```
+
+See exit status of last command:
+```bash
+echo $?
 ```
 
 ## Memory
