@@ -42,6 +42,12 @@ Compilation can involve up to four stages: **preprocessing**, **compilation prop
 `%[width]s` matches a sequence of non-whitespace characters (a string).
 If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
 
+scanf needs pointers to char array or variables.
+```c
+int age;
+scanf("%i", &age);
+```
+
 ### atoi()
 Part of stdlib.h
 Interprets an integer value in a byte string pointed to by `str`.

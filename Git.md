@@ -85,7 +85,6 @@ ssh -i
 -   sshd is the SSH server component that must be running on the system being managed remotely
 -   ssh-keygen generates, manages and converts authentication keys for SSH
 -   ssh-agent stores private keys used for public key authentication
--   ssh-add adds private keys to the list allowed by the server
 -   ssh-keyscan aids in collecting the public SSH host keys from hosts
 -   sftp is the service that provides the Secure File Transfer Protocol, and runs over SSH
 -   scp is a file copy utility that runs on SSH
