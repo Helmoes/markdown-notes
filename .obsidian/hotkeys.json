@@ -75,5 +75,14 @@
       ],
       "key": "L"
     }
+  ],
+  "obsidian-text-format:text-format-merge-line": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
   ]
 }

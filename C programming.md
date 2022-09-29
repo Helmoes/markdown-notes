@@ -48,6 +48,7 @@ int age;
 scanf("%i", &age);
 ```
 
+scanf returns number of values it was able to read.
 ### atoi()
 Part of stdlib.h
 Interprets an integer value in a byte string pointed to by `str`.
@@ -138,6 +139,20 @@ Strings are arrays of chars. The array variable is a pointer to the first elemen
 `char *s = "some string";` this is not modifiable (string literal).
 
 **Return value:** Number of receiving arguments successfully assigned (which may be zero in case a matching failure occurred before the first receiving argument was assigned), or [EOF](https://en.cppreference.com/w/c/io "c/io") if input failure occurs before the first receiving argument was assigned.
+
+## Standard input/output
+Scanf() and printf() use std in and out. The Standard Input and Standard Output are created by the operating system when the program runs.
+The program receives data through the Standard Input, The program outputs data through the Standard Output.
+
+The operating system controls how data gets into and out of the Standard Input and Output. If you run a program from the command prompt or terminal, the operating system will send all of the keystrokes from the keyboard into the Standard Input. If the operating system reads any data from the Standard Output, by default it will send that data to the display. 
+
+The scanf() and printf() functions don’t know, or care, where the data comes from or goes to. They just read and write Standard Input and the Standard Output.
+
+**You can redirect the Standard Input and Standard Output so that they read (<) and write (>) data somewhere else, such as to and from files**.
+
+```bash
+./ex_p105 < gpsdata.csv > output.json
+```
 
 ## Memory
 Regions: static data, stack (automatic), heap (programmer controlled).

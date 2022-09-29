@@ -11,6 +11,7 @@
 | Toggle bullet list         | Ctrl + ;                            |
 | Search all                 | Ctrl + shift + f                    |
 | Select line                | Ctrl + L                            |
+| Format broken paragraph    | Alt + shift + F                     |
 |                            |                                     |
 
 # VS Code

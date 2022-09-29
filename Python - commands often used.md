@@ -189,7 +189,6 @@ def function_name(
 from module_name import function_name as fn
 ```
 
-
 # OOP
 
 ```python
@@ -218,7 +217,6 @@ class ClassName:
     def static_method1(..., ...):
         ...
 ```
-
 
 ```python
 object1 = ClassName(arg1, arg2, ...)

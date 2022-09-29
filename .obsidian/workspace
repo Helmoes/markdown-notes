@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "Python - commands often used.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Python - commands often used.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Python - commands often used.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Python - commands often used.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,20 +175,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.8333435058594,
-    "collapsed": true
+    "width": 294.8333435058594
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
+    "Hotkeys.md",
+    "Cheat Sheet from internet.md",
+    "C programming.md",
+    "C Code Style Guidelines.md",
+    "Linux.md",
     "Git.md",
     "VMware.md",
     "Linux VM.md",
-    "Linux.md",
     "Useful programs.md",
-    "C programming.md",
-    "WSL.md",
-    "Windows stuff.md",
-    "PowerShell.md",
-    "Hotkeys.md"
+    "WSL.md"
   ]
 }
