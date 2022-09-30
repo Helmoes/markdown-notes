@@ -24,10 +24,12 @@ apt list --installed | wc -l
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
 ```
 
-## ssh
+## SSH server
 TODO: link to WSL key 
 
 ```bash
+ssh-keygen -t ed25519
+
 sudo service ssh restart
 sudo service ssh start
 sudo service ssh status
