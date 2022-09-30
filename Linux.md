@@ -28,11 +28,15 @@ sudo tail --lines 100 /var/log/dpkg.log | grep installed
 TODO: link to WSL key 
 
 ```bash
+sudo apt update && sudo apt install openssh-server
+
+sudo systemctl status sshd
+sudo systemctl start sshd
+sudo systemctl enable sshd
+sudo systemctl list-units -t service
+
 ssh-keygen -t ed25519
 
-sudo service ssh restart
-sudo service ssh start
-sudo service ssh status
 ```
 
 ## Save shell history
