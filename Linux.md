@@ -37,6 +37,8 @@ sudo systemctl list-units -t service
 
 ping -v -c 5 192.168.0.14
 
+/etc/ssh/sshd_config
+
 ssh-keygen -t ed25519
 
 ```
