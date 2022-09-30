@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheat Sheet from internet.md",
-            "mode": "source",
+            "file": "Book list.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet from internet.md"
+                "file": "Book list.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet from internet.md",
+                "file": "Book list.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet from internet.md",
+                "file": "Book list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -179,15 +180,15 @@
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
+    "C programming.md",
+    "Book list.md",
+    "Cheat Sheet from internet.md",
     "Linux.md",
     "Git.md",
     "WSL.md",
     "Commands from all notes.md",
-    "C programming.md",
     "C Code Style Guidelines.md",
     "Linux VM.md",
-    "Cheat Sheet from internet.md",
-    "VMware.md",
-    "VS Code.md"
+    "VMware.md"
   ]
 }
