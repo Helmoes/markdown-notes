@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WSL.md",
+            "file": "Git.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WSL.md"
+                "file": "Git.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WSL.md",
+                "file": "Git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WSL.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,10 +174,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.8333435058594
+    "width": 294.8333435058594,
+    "collapsed": true
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
+    "WSL.md",
     "Linux.md",
     "Commands from all notes.md",
     "C programming.md",
@@ -186,7 +188,6 @@
     "Linux VM.md",
     "Cheat Sheet from internet.md",
     "VMware.md",
-    "VS Code.md",
-    "Linux server stuff.md"
+    "VS Code.md"
   ]
 }
