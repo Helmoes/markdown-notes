@@ -86,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
     "width": 294.8333435058594,
     "collapsed": true
   },
-  "active": "9c34bfaf1f83de4e",
+  "active": "cf1a35b7a5a3c01c",
   "lastOpenFiles": [
     "Linux VM.md",
     "Linux.md",
