@@ -35,6 +35,8 @@ sudo systemctl start sshd
 sudo systemctl enable sshd
 sudo systemctl list-units -t service
 
+ping -v -c 5 192.168.0.14
+
 ssh-keygen -t ed25519
 
 ```
@@ -93,20 +95,30 @@ So: /etc/profile → ~/.bash profile → ~/.bash login → ~/.profile
 
 # File system
 - /bin, /usr/bin: contains basic programs (binaries) like cat, ls, awk, etc. These two directories contain most of the programs for the system. The /bin directory has the essential programs that the system requires to operate, while /usr/bin contains applications for the system's users.
--   /boot: contains files necessary to boot the system and contains kernel.
--   /etc: contains critical system configuration files.
+- /boot: contains files necessary to boot the system and contains kernel.
+- /etc: contains critical system configuration files.
     - /etc/init.d: This directory contains the scripts that start various system services at boot time.
--   /home: contains users' directories EXCEPT one special user.
--   /lib: contains system libraries.
--   /opt: contains optional installations.
--   /root: is the home directory of the specialuser called root.
--   /sbin, /usr/sbin: The sbin directories contain programs for system administration, mostly for use by the superuser.
--   /tmp: contains temporary files.
--   /usr: contains programs like Firefox, VLC, LibreOffice, games. contains a variety of things that support user applications.
+- /home: contains users' directories EXCEPT one special user.
+- /lib: contains system libraries.
+- /opt: contains optional installations.
+- /root: is the home directory of the specialuser called root.
+- /sbin, /usr/sbin: The sbin directories contain programs for system administration, mostly for use by the superuser.
+- /tmp: contains temporary files.
+- /usr: contains programs like Firefox, VLC, LibreOffice, games. contains a variety of things that support user applications.
     - /usr/local: and its subdirectories are used for the installation of software and other files for use on the local machine. What this really means is that software that is not part of the official distribution (which usually goes in /usr/bin) goes here.When you find interesting programs to install on your system, they should be installed in one of the /usr/local directories. Most often, the directory of choice is /usr/local/bin.
--   /var: contains system logs and runtime files.
+- /var: contains system logs and runtime files.
 
 From <[https://www.dedoimedo.com/computers/ultimate-linux-guide-for-windows-users.html#mozTocId215946](https://www.dedoimedo.com/computers/ultimate-linux-guide-for-windows-users.html#mozTocId215946)>
+
+1: User commands; man-pages includes a small number of Section 1 pages that document programs supplied by the GNU C library. 
+2: System calls documents the system calls provided by the Linux kernel. 
+3: Library functions documents the functions provided by the standard C library. 
+4: Devices documents details of various devices, most of which reside in /dev. 
+5: Files describes various file formats and filesystems, and includes proc(5), which documents the /procfile system. 
+7: Overviews, conventions, and miscellaneous. 
+8: Superuser and system administration commands; man-pages includes a small number of Section 8 pages that document programs supplied by the GNU C library. 
+
+From <https://www.kernel.org/doc/man-pages/> 
 
 # Environment variables
 Two types: shell and environment.
@@ -184,6 +196,9 @@ glxinfo | grep NVIDIA
 
 xrandr --output DP-4 --brightness
 ```
+
+## Keyboard mapping
+Change file at `/usr/share/X11/xkb/symbols/pc` for shift lock to enter key.
 
 # Gazebo
 ```bash

@@ -1,0 +1,11 @@
+.mod-cm6 span.cm-list-1 span.list-bullet::after {
+    content: "•"; 
+}
+
+.mod-cm6 span.cm-list-2 span.list-bullet::after {
+    content: "◦";
+}
+
+.mod-cm6 span.cm-list-3 span.list-bullet::after {
+    content: "▪"; 
+}
