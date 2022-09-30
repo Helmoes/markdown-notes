@@ -264,21 +264,27 @@ tar -c|--create -z|--gzip -f|--file=foo.tgz /bar # Compress directory bar into f
 ## Decompressing Files
 
 ### unzip
-
+```bash
 unzip foo.zip # Unzip foo.zip into current directory
+```
 
 ### gunzip
 
+```bash
 gunzip foo.gz # Unzip foo.gz into current directory and delete foo.gz
 gunzip -k|--keep foo.gz # Unzip foo.gz into current directory
+```
 
 ### tar -x
 
+```bash
 tar -x|--extract -z|--gzip -f|--file=foo.tar.gz # Un-compress foo.tar.gz into current directory
 tar -x|--extract -f|--file=foo.tar # Un-combine foo.tar into current directory
+```
 
 ## Disk Usage
 
+```bash
 df # List disks, size, used and available space
 df -h|--human-readable # List disks, size, used and available space in a human readable format
 
@@ -287,25 +293,31 @@ du /foo/bar # List specified directory, subdirectories and file sizes
 du -h|--human-readable # List current directory, subdirectories and file sizes in a human readable format
 du -d|--max-depth # List current directory, subdirectories and file sizes within the max depth
 du -d 0 # List current directory size
+```
 
 ## Memory Usage
 
+```bash
 free # Show memory usage
 free -h|--human # Show human readable memory usage
 free -h|--human --si # Show human readable memory usage in power of 1000 instead of 1024
 free -s|--seconds 5 # Show memory usage and update continuously every five seconds
+```
 
 ## Packages
 
+```bash
 apt update # Refreshes repository index
 apt search wget # Search for a package
 apt show wget # List information about the wget package
 apt install wget # Install the wget package
 apt remove wget # Removes the wget package
 apt upgrade # Upgrades all upgradable packages
+```
 
 ## Shutdown and Reboot
 
+```bash
 shutdown # Shutdown in 1 minute
 shutdown now "Cya later" # Immediately shut down
 shutdown +5 "Cya later" # Shutdown in 5 minutes
@@ -318,9 +330,11 @@ shutdown -c # Cancel a shutdown or reboot
 
 reboot # Reboot now
 reboot -f # Force a reboot
+```
 
 ## Identifying Processes
 
+```bash
 top # List all processes interactively
 htop # List all processes interactively
 ps all # List all processes
@@ -337,31 +351,38 @@ jobs -p # List all background jobs with their PID
 
 lsof # List all open files and the process using them
 lsof -itcp:4000 # Return the process listening on port 4000
+```
 
 ## Process Priority
 
 Process priorities go from -20 (highest) to 19 (lowest).
 
+```bash
 nice -n -20 foo # Change process priority by name
 renice 20 PID # Change process priority by PID
 ps -o ni PID # Return the process priority of PID
+```
 
 ## Killing Processes
 
+```bash
 CTRL+C # Kill a process running in the foreground
 kill PID # Shut down process by PID gracefully. Sends TERM signal.
 kill -9 PID # Force shut down of process by PID. Sends SIGKILL signal.
 pkill foo # Shut down process by name gracefully. Sends TERM signal.
 pkill -9 foo # force shut down process by name. Sends SIGKILL signal.
 killall foo # Kill all process with the specified name gracefully.
+```
 
 ## Date & Time
 
+```bash
 date # Print the date and time
 date --iso-8601 # Print the ISO8601 date
 date --iso-8601=ns # Print the ISO8601 date and time
 
 time tree # Time how long the tree command takes to execute
+```
 
 ## Scheduled Tasks
 
@@ -393,6 +414,7 @@ at tomorrow # Create a task in Vim to execute tomorrow
 
 ## HTTP Requests
 
+```bash
 curl https://example.com # Return response body
 curl -i|--include https://example.com # Include status code and HTTP headers
 curl -L|--location https://example.com # Follow redirects
@@ -403,9 +425,11 @@ curl -X POST -H --data-urlencode foo="bar" http://example.com # POST URL Form En
 
 wget https://example.com/file.txt . # Download a file to the current directory
 wget -O|--output-document foo.txt https://example.com/file.txt # Output to a file with the specified name
+```
 
 ## Network Troubleshooting
 
+```bash
 ping example.com # Send multiple ping requests using the ICMP protocol
 ping -c 10 -i 5 example.com # Make 10 attempts, 5 seconds apart
 
@@ -424,14 +448,17 @@ nmap 0.0.0.0 # Scan for the 1000 most common open ports on localhost
 nmap 0.0.0.0 -p1-65535 # Scan for open ports on localhost between 1 and 65535
 nmap 192.168.4.3 # Scan for the 1000 most common open ports on a remote IP address
 nmap -sP 192.168.1.1/24 # Discover all machines on the network by ping'ing them
+```
 
 ## DNS
 
+```bash
 host example.com # Show the IPv4 and IPv6 addresses
 
 dig example.com # Show complete DNS information
 
 cat /etc/resolv.conf # resolv.conf lists nameservers
+```
 
 ## Hardware
 
@@ -479,34 +506,45 @@ $ ssh name
 
 ## Secure Copy
 
+
+```bash
 scp foo.txt ubuntu@hostname:/home/ubuntu # Copy foo.txt into the specified remote directory
+```
+
 
 ## Bash Profile
 
 - bash - `.bashrc`
 - zsh - `.zshrc`
 
-# Always run ls after cd
+## Always run ls after cd
 
+```bash
 function cd {
 builtin cd "$@" && ls
 }
+```
 
-# Prompt user before overwriting any files
+## Prompt user before overwriting any files
 
+```bash
 alias cp='cp --interactive'
 alias mv='mv --interactive'
 alias rm='rm --interactive'
+```
 
-# Always show disk usage in a human readable format
+## Always show disk usage in a human readable format
 
+```bash
 alias df='df -h'
 alias du='du -h'
+```
 
 ## Bash Script
 
 ### Variables
 
+```bash
 #!/bin/bash
 
 foo=123 # Initialize variable foo with 123
@@ -518,13 +556,16 @@ echo ${foo:-'default'} # Print variable foo if it exists otherwise print default
 
 export foo # Make foo available to child processes
 unset foo # Make foo unavailable to child processes
+```
 
 ### Environment Variables
 
+```bash
 #!/bin/bash
 
 env # List all environment variables
 echo $PATH # Print PATH environment variable
+```
 
 ### Functions
 
@@ -541,11 +582,13 @@ KaTeX parse error: Expected 'EOF', got '}' at position 8: world" }̲ greet "Hell
 
 ### Exit Codes
 
+```bash
 #!/bin/bash
 
 exit 0 # Exit the script successfully
 exit 1 # Exit the script unsuccessfully
 echo $? # Print the last exit code
+```
 
 ### Conditional Statements
 
@@ -576,6 +619,7 @@ echo $? # Print the last exit code
 
 #### If Statements
 
+```bash
 #!/bin/bash
 
 if \[\[$foo = 'bar']]; then echo 'one' elif [[$foo = 'bar'\]\] || \[\[$foo = 'baz']]; then echo 'two' elif [[$foo = 'ban'\]\] && \[\[$USER = 'bat'\]\]; then
@@ -583,6 +627,7 @@ echo 'three'
 else
 echo 'four'
 fi
+```
 
 #### Inline If Statements
 
