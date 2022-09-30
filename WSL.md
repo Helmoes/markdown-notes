@@ -19,7 +19,7 @@ While WSL can be disposable, it's also a good idea to back up your installations
 
 Backing up is a pretty straightforward process that involves exporting to a .tar file. Our guides on exporting and importing Linux installs in WSL will take you through the process step by step, but the main commands you need are as follows:
 ```powershell
-wsl --export Ubuntu_20_04 C:\WSL2-Distros\backups\Ubuntu_20_04_2022(INSERT DATE!!!).tar
+wsl --export Ubuntu-20-04 C:\WSL2-Distros\backups\Ubuntu_20_04_20220930.tar
 ```
 
 ```powershell

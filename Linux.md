@@ -1,4 +1,4 @@
-## To learn
+# To learn
 - [ ] help 
 
 # Commands
@@ -12,13 +12,14 @@ whereis gcc
 whereis gdb
 ```
 
-## 
-
 ## Packages 
 Use Muon not Synaptic.
 ```bash
 sudo apt update && sudo apt upgrade
 sudo apt install firefox --install-suggests
+sudo apt install ubuntu-restricted-extras
+# number of packages installed:
+apt list --installed | wc -l
 
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
 ```
@@ -114,16 +115,13 @@ Display information of processes:
 ```bash
 ps aux
 pstree -p
+pstree -aps
 ```
 
 # Sessions
 `Session` usually refers to shell sessions. A [shell](http://en.wikipedia.org/wiki/Shell_%28computing%29) is what allows you to interact with the computer. It acts as a bridge between the user and the [kernel](http://en.wikipedia.org/wiki/Kernel_%28computing%29). Whenever you run a command, it is the shell that captures your intent and tells the kernel to do its thing.
 
 In most Linux flavors, the default shell is `bash` and a new `bash` session will be launched every time you open a new terminal.
-
-```bash
-pstree -aps
-```
 
 # WSL setup
 Installing gcc-11 [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
@@ -155,15 +153,8 @@ sudo update-grub
 if there are spaces in path: use "" or escape with \
 
 ```bash
-sudo service ssh restart
-sudo service ssh start
-sudo service ssh status
-
-sudo apt install ubuntu-restricted-extras
-
 ifconfig
-
-apt list --installed | wc -l
+ip a
 
 lsusb
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C programming.md",
+            "file": "WSL.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "WSL.md"
               }
             }
           },
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#def",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,14 +112,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "WSL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -137,9 +137,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "WSL.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -174,20 +174,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.8333435058594,
-    "collapsed": true
+    "width": 294.8333435058594
   },
   "active": "9c34bfaf1f83de4e",
   "lastOpenFiles": [
-    "Linux server stuff.md",
-    "C programming.md",
-    "Python - commands often used.md",
-    "Hotkeys.md",
-    "Cheat Sheet from internet.md",
-    "C Code Style Guidelines.md",
     "Linux.md",
+    "Commands from all notes.md",
+    "C programming.md",
+    "C Code Style Guidelines.md",
     "Git.md",
+    "Linux VM.md",
+    "Cheat Sheet from internet.md",
     "VMware.md",
-    "Linux VM.md"
+    "VS Code.md",
+    "Linux server stuff.md"
   ]
 }

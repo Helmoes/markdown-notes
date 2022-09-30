@@ -435,14 +435,17 @@ cat /etc/resolv.conf # resolv.conf lists nameservers
 
 ## Hardware
 
+```bash
 lsusb # List USB devices
 lspci # List PCI hardware
 lshw # List all hardware
+```
 
 ## Terminal Multiplexers
 
 Start multiple terminal sessions. Active sessions persist reboots. `tmux` is more modern than `screen`.
 
+```bash
 tmux # Start a new session (CTRL-b + d to detach)
 tmux ls # List all sessions
 tmux attach -t 0 # Reattach to a session
@@ -452,23 +455,27 @@ screen -ls # List all sessions
 screen -R 31166 # Reattach to a session
 
 exit # Exit a session
+```
 
 ## Secure Shell Protocol (SSH)
 
+```bash
 ssh hostname # Connect to hostname using your current user name over the default SSH port 22
 ssh -i foo.pem hostname # Connect to hostname using the identity file
 ssh user@hostname # Connect to hostname using the user over the default SSH port 22
 ssh user@hostname -p 8765 # Connect to hostname using the user over a custom port
 ssh ssh://user@hostname:8765 # Connect to hostname using the user over a custom port
+```
 
 Set default user and port in `~/.ssh/config`, so you can just enter the name next time:
-
+```bash
 $ cat ~/.ssh/config
 Host name
 User foo
 Hostname 127.0.0.1
 Port 8765
 $ ssh name
+```
 
 ## Secure Copy
 

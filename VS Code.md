@@ -1,8 +1,8 @@
-## Running, debugging, launch/tasks.json
+# Running, debugging, launch/tasks.json
 If running and debugging is not yet configured, no `launch.json` has been created.
 `tasks.json` stores build configurations.
 
-## Settings precedence[#](https://code.visualstudio.com/docs/getstarted/settings#_settings-precedence)
+# Settings precedence [#](https://code.visualstudio.com/docs/getstarted/settings#_settings-precedence)
 
 Configurations can be overridden at multiple levels by the different setting scopes. In the following list, **later scopes override earlier scopes**:
 
