@@ -28,15 +28,11 @@ git branch -u origin/master master
 git remote set-head origin -a
 
 git config --list -l
-git config user.name
+git config --global user.name "Willem Sanders"
+git config --global user.email johndoe@example.com
 git config <section.keyname>
 git config --global init.defaultBranch main
 
-ssh-keygen 
-    -E <sha256/MD5>
-# Show fingerprint of specified public key file. For RSA and DSA keys ssh-keygen tries to find the matching public key file and prints its fingerprint. If combined with -v, a visual ASCII art representation of the key is supplied with the fingerprint.
-    -l
-    -f <filename> # Specifies the filename of the key file.
 ```
 Ignoring EOL
 ```bash
@@ -80,12 +76,4 @@ ssh -T git@github.com
 ssh -i 
 ```
 
-# SSH
--   ssh is the SSH client component that runs on the user's local system
--   sshd is the SSH server component that must be running on the system being managed remotely
--   ssh-keygen generates, manages and converts authentication keys for SSH
--   ssh-agent stores private keys used for public key authentication
--   ssh-keyscan aids in collecting the public SSH host keys from hosts
--   sftp is the service that provides the Secure File Transfer Protocol, and runs over SSH
--   scp is a file copy utility that runs on SSH
-
+For more SSH see [[Linux#SSH server]]
