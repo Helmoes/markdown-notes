@@ -12,5 +12,7 @@
   "obsidian-style-settings",
   "obsidian-checklist-plugin",
   "obsidian-quiet-outline",
-  "obsidian-text-format"
+  "obsidian-text-format",
+  "remember-cursor-position",
+  "heycalmdown-navigate-cursor-history"
 ]
