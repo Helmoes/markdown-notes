@@ -15,6 +15,19 @@
     "matlab",
     "powershell"
   ],
-  "codeblockTemplates": [],
+  "codeblockTemplates": [
+    {
+      "type": "diff",
+      "template": "$|$\n"
+    },
+    {
+      "type": "bash",
+      "template": "$|$\n"
+    },
+    {
+      "type": "c",
+      "template": "$|$\n"
+    }
+  ],
   "ignoreTypes": []
 }

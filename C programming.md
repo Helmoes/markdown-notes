@@ -38,17 +38,6 @@ Compilation can involve up to four stages: **preprocessing**, **compilation prop
 - Will continue to run until `break` or end of switch statement.
 - Check for correct breaks.
 
-### scanf() p.65
-`%[width]s` matches a sequence of non-whitespace characters (a string).
-If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
-
-scanf needs pointers to char array or variables.
-```c
-int age;
-scanf("%i", &age);
-```
-
-scanf returns number of values it was able to read.
 ### atoi()
 Part of stdlib.h
 Interprets an integer value in a byte string pointed to by `str`.
@@ -138,9 +127,21 @@ Debugging:
 Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
 `char *s = "some string";` this is not modifiable (string literal).
 
+### scanf() p.65
+`%[width]s` matches a sequence of non-whitespace characters (a string).
+If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
+
+scanf needs pointers to char array or variables.
+```c
+int age;
+scanf("%i", &age);
+```
+
 **Return value:** Number of receiving arguments successfully assigned (which may be zero in case a matching failure occurred before the first receiving argument was assigned), or [EOF](https://en.cppreference.com/w/c/io "c/io") if input failure occurs before the first receiving argument was assigned.
 
-## Standard input/output
+
+
+## Standard input/output/error
 Scanf() and printf() use std in and out. The Standard Input and Standard Output are created by the operating system when the program runs.
 The program receives data through the Standard Input, The program outputs data through the Standard Output.
 
@@ -149,9 +150,18 @@ The operating system controls how data gets into and out of the Standard Input a
 The scanf() and printf() functions don’t know, or care, where the data comes from or goes to. They just read and write Standard Input and the Standard Output.
 
 **You can redirect the Standard Input and Standard Output so that they read (<) and write (>) data somewhere else, such as to and from files**.
-
 ```bash
 ./ex_p105 < gpsdata.csv > output.json
+```
+
+Redirect stderr
+```bash
+./ex_p105 >2 output.json
+```
+
+In c code using `fprintf()`:
+```c
+
 ```
 
 See exit status of last command:

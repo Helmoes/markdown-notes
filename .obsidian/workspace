@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9c34bfaf1f83de4e",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Linux.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
         "id": "416a28d2ce620c03",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux VM.md",
+            "file": "C programming.md",
             "mode": "source",
             "source": false
           }
@@ -47,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux VM.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -126,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux VM.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux VM.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -194,15 +180,15 @@
   },
   "active": "416a28d2ce620c03",
   "lastOpenFiles": [
-    "Git.md",
+    "random notes.md",
+    "C programming.md",
     "Linux.md",
+    "Linux VM.md",
+    "Git.md",
     "Hotkeys.md",
     "WSL.md",
-    "Linux VM.md",
     "VS Code.md",
     "VMware.md",
-    "Commands from all notes.md",
-    "random notes.md",
-    "Linux server stuff.md"
+    "Commands from all notes.md"
   ]
 }
