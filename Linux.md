@@ -1,5 +1,11 @@
 # To learn
 - [ ] help 
+- [ ] grep
+- [ ] less
+- [ ] more
+- [ ] cat
+- [ ] nano
+- [ ] 
 
 # Commands
 ## getting help
@@ -65,7 +71,7 @@ Append the new history lines to the history file. These are history lines entere
 history -a
 ```
 
-Added to .bash_history on 23.08 02:09
+Added to .bash_history on 23.08 02:09 
 ```bash
 shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
@@ -79,7 +85,7 @@ Any new commands that have been issued in the active terminal can be appended to
 history -a
 ```
 The only tricky concept to understand is that each terminal has its own bash history **list** (loaded from the `.bash_history` file when you open the terminal)
-If you want to pull any new history that's been written by other terminals during the lifetime of this active terminal, you can append the contents of the `.bash_history` **file** to the active bash history **list**
+If you want to pull any new history that's been written by other terminals during the lifetime of this active terminal, you can append the contents of the `.bash_history` **file** to the active bash history **list** 
 ```bash
 history -c;history -r
 ```
@@ -103,7 +109,7 @@ export PROMPT_COMMAND='history -a;history -c;history -r'
 The main drawback here is that you may need to press enter to re-run the PROMPT_COMMAND in order to get the latest history from the opposite terminal.
 You can see why this more precise option is probably overkill, but it works for that use case.
 
-# Startup
+# Bash startup
 When Bash is invoked as an interactive login shell, or as a non-interactive shell with the --login option, it first reads and executes commands from the file /etc/profile, if that file exists. After reading that file, it looks for ~/.bash_profile, ~/.bash_login, and ~/.profile, in that order, and reads and executes commands from the first one that exists and is readable. The --noprofile option may be used when the shell is started to inhibit this behavior.
 
 When an interactive login shell exits, or a non-interactive login shell executes the `exit` builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists. 
@@ -170,6 +176,20 @@ sudo apt autoremove
 ```
 
 # Kubuntu
+## Drivers
+[Ubuntu Manpage: lspci - list all PCI devices](https://manpages.ubuntu.com/manpages/jammy/en/man8/lspci.8.html)
+`lspci` is a utility for displaying information about PCI buses in the system and devices connected to them.
+By default, it shows a brief list of devices. Use the options described below to request either a more verbose output or output intended for parsing by other programs.
+
+Options:
+```bash
+lspci
+# Show a tree-like diagram containing all buses, bridges, devices and connections between them.
+-t 
+# Show kernel drivers handling each device and also kernel modules capable of handling it. Turned on by default when -v is given in the normal mode of output. (Currently works only on Linux with kernel 2.6 or newer.)
+-k
+```
+
 ## Backing up
 - Timeshift for root
 - Backup for home

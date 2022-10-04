@@ -9,6 +9,11 @@
       "type": "file",
       "title": "Hotkeys",
       "path": "Hotkeys.md"
+    },
+    {
+      "type": "file",
+      "title": "Linux",
+      "path": "Linux.md"
     }
   ]
 }

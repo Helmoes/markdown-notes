@@ -12,9 +12,22 @@
 | Search all                 | Ctrl + shift + f                    |
 | Select line                | Ctrl + L                            |
 | Format broken paragraph    | Alt + shift + F                     |
+| Move line down             | Alt + DownArrow                     |
+| Move line up               | Alt + UpArrow                       |
 |                            |                                     |
 
 # VS Code
+## Default
+| Action            | Hotkey               |
+| ----------------- | -------------------- |
+| Move line down    | Alt + DownArrow      |
+| Move line up      | Alt + UpArrow        |
+| Delete line       | Ctrl + shift + K     |
+| Insert line below | Ctrl + enter         |
+| Insert line above | Ctrl + shift + enter |
+|                   |                      |
+
+## User
 | Action                    | Hotkey           |
 | ------------------------- | ---------------- |
 | Toggle bottom panel       | Ctrl + J         |
@@ -22,9 +35,11 @@
 | Focus Left Editor Group   | Alt + LeftArrow  |
 | Focus Right Editor Group  | Alt + RightArrow |
 | Delete line               | Ctrl + shift + K |
+| Toggle block comment      | Shift + Alt + R  |
+| Align text                | Ctrl + alt + A   |
 |                           |                  |
 
-## Windows Terminal
+# Windows Terminal
 
 | Action            | Hotkey                 |
 | ----------------- | ---------------------- |
