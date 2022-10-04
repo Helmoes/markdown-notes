@@ -159,9 +159,17 @@ Redirect stderr
 ./ex_p105 >2 output.json
 ```
 
+Redirect stdout and stderror:
+```bash
+&>word
+# or
+>word 2>&1
+# Of the two forms, the first is preferred. This is semantically equivalent
+```
+
 In c code using `fprintf()`:
 ```c
-
+fprintf(stderr, "%s\n", word);
 ```
 
 See exit status of last command:
