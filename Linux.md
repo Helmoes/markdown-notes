@@ -41,7 +41,7 @@ ping -v -c 5 192.168.0.14
 
 ssh-keygen -t ed25519
 
-ssh-keygen -t ed25519 -o -a 100
+ssh-keygen -t ed25519 -o -a 100 -C "willemkuvm"
 ssh-keygen -t rsa -b 4096 -o -a 100
 
 ssh-keygen 

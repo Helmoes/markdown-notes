@@ -66,7 +66,7 @@ $ ssh-keygen -t rsa -b 4096 -C "helmoes@git.com"
 The key fingerprint is:
 SHA256:fZBciabR219jUlWta7FpSIdFAqGlcWC0nKU6dA6Oy+4 helmoes@git.com
 
-git config --global user.name "WillemWSL"
+git config --global user.name "willemkuvm"
 git config --global user.email helmoes@git.com
 
 eval "$(ssh-agent -s)" # don't use
