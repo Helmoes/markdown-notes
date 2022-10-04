@@ -1,4 +1,4 @@
-### books
+# books
 [Head first C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Head%20First%20C%20-%20David%20Griffiths,%20Dawn%20Griffiths%20(2012,%20O'Reilly%20Media).pdf)
 [Beginning C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Electronics%20&%20Embedded/C/Beginning%20C%20(674p).pdf): C11, GNU, 2013
 [Programming for engineers](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Programming%20for%20Engineers.pdf): stack, heap, memory
@@ -7,13 +7,13 @@
 [Effective C, An Introduction to Professional C Programming (2020)](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Effective%20C%20An%20Introduction%20to%20Professional%20C%20Programming%20-%20Robert%20C.%20Seacord.pdf)
 
 
-## To learn
+# To learn
 - [x] VS Code tasks to debug and build → launch.json, tasks.json?
 - [ ] -> operator pointer to struct member how to use?
 - [ ] Pre-processor macros
 
-## Head first C
-Current page: 118
+# Head first C
+Current page: 138
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -29,23 +29,23 @@ Return type of main() is `int` → 0 means success.
 
 Compilation can involve up to four stages: **preprocessing**, **compilation proper**, **assembly** and **linking**, always in that order. GCC is capable of preprocessing and compiling several files either into several assembler input files, or into one assembler input file; then each assembler input file produces an object file, and linking combines all the object files (those newly compiled, and those specified as input) into an executable file. [source](https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options)
 
-### main()
+## main()
 - Start of program.
 - Return type: `int` → 0 means success.
 
-### switch()
+## switch()
 - Can replace a sequence of `if` statements.
 - Will continue to run until `break` or end of switch statement.
 - Check for correct breaks.
 
-### atoi()
+## atoi()
 Part of stdlib.h
 Interprets an integer value in a byte string pointed to by `str`.
 Integer value corresponding to the contents of `str` on success.
 If no conversion can be performed, `0` is returned.
 The name stands for "ASCII to integer".
 
-## Declaration & initialization
+# Declaration & initialization
 ```c
 int var=value;
 int var1, var2, var3;
@@ -53,10 +53,10 @@ var1 = var2 = 7;
 ```
 Use 'unsigned'. Default is signed.
 
-## Functions
+# Functions
 A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
 
-## Pointers
+# Pointers
 To get address of variable use `&`.
 
 Create a pointer variable:
@@ -91,7 +91,7 @@ int main()
 }
 ```
 
-### Arrays
+## Arrays
 Array variable is pointer to lowest memory address of array.
 Using & on the array var will result in the array itself.
 
@@ -107,11 +107,11 @@ int main(void)
 }
 ```
 
-### Little endian
+## Little endian
 ![[Pasted image 20220914202910.png|325]]
 ![[Pasted image 20220914202853.png|325]]
 
-## GCC options
+# GCC options
 Put GCC compile command as comment in first line
 ```c
 // gcc -std=c99 -o go go.c neuron.c -lm -Wall -Werror
@@ -123,11 +123,11 @@ Debugging:
 -ggdb
 ```
 
-## Strings
+# Strings
 Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
 `char *s = "some string";` this is not modifiable (string literal).
 
-### scanf() p.65
+## scanf() p.65
 `%[width]s` matches a sequence of non-whitespace characters (a string).
 If `width` specifier is used, matches up to width or until the first whitespace character, whichever appears first. **Always stores a null character in addition to the characters matched (so the argument array must have room for at least width+1 characters**). [scanf, fscanf, sscanf, scanf_s, fscanf_s, sscanf_s - cppreference.com](https://en.cppreference.com/w/c/io/fscanf)
 
@@ -139,9 +139,30 @@ scanf("%i", &age);
 
 **Return value:** Number of receiving arguments successfully assigned (which may be zero in case a matching failure occurred before the first receiving argument was assigned), or [EOF](https://en.cppreference.com/w/c/io "c/io") if input failure occurs before the first receiving argument was assigned.
 
+# Files
+p. 138
 
+We can create our own data streams. Each data stream is represented by a pointer to a file, and you can create a new data stream using the fopen() function:
+```c
+FILE *in_file = fopen("input.txt", "r");
+FILE *out_file = fopen("output.txt", "w");
+```
 
-## Standard input/output/error
+The fopen() function takes two parameters: a filename and a mode. The mode can be **w** to write to a file, **r** to read from a file, or **a** to append data to the end of a file.
+Once you’ve created a data stream, you can print to it using fprintf(). Or read from it with fscanf().
+
+```c
+fprintf(out_file, "Don't wear %s with %s", "red", "green");
+fscanf(in_file, "%79[^\n]\n", sentence);
+```
+
+When finished the data stream needs to be closed.
+```c
+fclose(in_file);
+fclose(out_file);
+```
+
+# Standard input/output/error
 Scanf() and printf() use std in and out. The Standard Input and Standard Output are created by the operating system when the program runs.
 The program receives data through the Standard Input, The program outputs data through the Standard Output.
 
@@ -177,24 +198,24 @@ See exit status of last command:
 echo $?
 ```
 
-### Connecting stdin & stdout with pipes |
+## Connecting stdin & stdout with pipes |
 ```bash
 (./bermuda | ./geo2json) < spooky.csv > output.json
 ```
 
-## Memory
+# Memory
 Regions: static data, stack (automatic), heap (programmer controlled).
-### Static data
+## Static data
 - Lifetime: entire program duration
 - Size: fixed, known at compile time
 - ex: global variables
 
-#### Global or `static` variables
+### Global or `static` variables
 - Global are always `static`
 - Have one copy
 - Declaring variable in function as `static` → won't be destroyed after function returns
 
-### Stack (automatic)
+## Stack (automatic)
 - Lifetime: temporary, stores local variables during function calls
 - Size: grows when calling nested functions
 - Grows high to low address
@@ -204,12 +225,12 @@ Regions: static data, stack (automatic), heap (programmer controlled).
 - Less control
 - LIFO
 
-### Heap (dynamic)
+## Heap (dynamic)
 - Lifetime: discretion of programmer
 - Size: discretion of programmer
 - `malloc()` and `free()`
 
-## Headers, libraries and linking
+# Headers, libraries and linking
 
 For functions in external .c file: header file can be thought of as interface between source code and the programmer.
 
