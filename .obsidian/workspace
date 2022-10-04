@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#stdout",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -181,15 +180,15 @@
   },
   "active": "416a28d2ce620c03",
   "lastOpenFiles": [
-    "Hotkeys.md",
+    "C Code Style Guidelines.md",
     "C programming.md",
+    "Hotkeys.md",
     "random notes.md",
     "Linux.md",
     "Linux VM.md",
     "Git.md",
     "WSL.md",
     "VS Code.md",
-    "VMware.md",
-    "Commands from all notes.md"
+    "VMware.md"
   ]
 }
