@@ -149,7 +149,7 @@ The operating system controls how data gets into and out of the Standard Input a
 
 The scanf() and printf() functions don’t know, or care, where the data comes from or goes to. They just read and write Standard Input and the Standard Output.
 
-**You can redirect the Standard Input and Standard Output so that they read (<) and write (>) data somewhere else, such as to and from files**.
+**You can redirect the Standard Input and Standard Output so that they read (<) and write (>) data somewhere else, such as to and from files. Use >> to append and not overwrite.** [Redirections (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
 ```bash
 ./ex_p105 < gpsdata.csv > output.json
 ```
@@ -161,7 +161,7 @@ Redirect stderr
 
 Redirect stdout and stderror:
 ```bash
-&>word
+&>word # or &>>word
 # or
 >word 2>&1
 # Of the two forms, the first is preferred. This is semantically equivalent
@@ -176,6 +176,9 @@ See exit status of last command:
 ```bash
 echo $?
 ```
+
+### Connecting stdin & stdout with pipes |
+
 
 ## Memory
 Regions: static data, stack (automatic), heap (programmer controlled).

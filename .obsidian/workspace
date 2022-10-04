@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "systemc",
+                "query": "tag:#stdout",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
