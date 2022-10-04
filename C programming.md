@@ -178,7 +178,9 @@ echo $?
 ```
 
 ### Connecting stdin & stdout with pipes |
-
+```bash
+(./bermuda | ./geo2json) < spooky.csv > output.json
+```
 
 ## Memory
 Regions: static data, stack (automatic), heap (programmer controlled).
