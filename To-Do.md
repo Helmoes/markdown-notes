@@ -10,7 +10,7 @@
 
 
 # Obsidian
-- [ ] git sync
+- [x] git sync
 - [x] How to cross link between notes
 - [x] How to embed parts of note in other note
 - [x] how to insert image and resize

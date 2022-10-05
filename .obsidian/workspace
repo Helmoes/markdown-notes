@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux server stuff.md",
+            "file": "Useful programs.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux server stuff.md"
+                "file": "Useful programs.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux server stuff.md",
+                "file": "Useful programs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux server stuff.md",
+                "file": "Useful programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,15 +180,15 @@
   },
   "active": "292acad852df0df7",
   "lastOpenFiles": [
-    "Hotkeys.md",
     "Linux.md",
     "To-Do.md",
+    "Linux server stuff.md",
+    "Hotkeys.md",
     "random notes.md",
     "C programming.md",
     "WSL.md",
     "VS Code.md",
     "Linux VM.md",
-    "Linux server stuff.md",
     "Commands from all notes.md"
   ]
 }
