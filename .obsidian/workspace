@@ -171,14 +171,13 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 294.8333435058594,
-    "collapsed": true
+    "width": 294.8333435058594
   },
-  "active": "416a28d2ce620c03",
+  "active": "85744c232782c83c",
   "lastOpenFiles": [
     "Linux.md",
     "random notes.md",
