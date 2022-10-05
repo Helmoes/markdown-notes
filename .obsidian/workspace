@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "292acad852df0df7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linux.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -33,7 +45,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,17 +187,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.8333435058594
+    "width": 294.8333435058594,
+    "collapsed": true
   },
-  "active": "85744c232782c83c",
+  "active": "292acad852df0df7",
   "lastOpenFiles": [
+    "To-Do.md",
     "Linux.md",
     "random notes.md",
     "C programming.md",
     "WSL.md",
     "VS Code.md",
     "Linux VM.md",
-    "To-Do.md",
     "Linux server stuff.md",
     "Commands from all notes.md",
     "Fonts.md"

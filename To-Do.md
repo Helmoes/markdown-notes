@@ -7,7 +7,7 @@
     - Does nvidia driver/Xorg have commands to disable driver at next boot?
     - [You should also make sure that you don't have an xorg.conf file which is explicitly selecting the nvidia driver since this will fail.](https://askubuntu.com/questions/779155/switch-video-drivers-in-dual-boot-environment)
     - 
-test
+
 
 # Obsidian
 - [ ] git sync
@@ -17,7 +17,7 @@ test
 - [x] add source to text from browser
 
 # Linux
-![[Linux#To learn]]
+test
 
 # C
 ![[C programming#To learn]]

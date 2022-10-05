@@ -195,6 +195,10 @@ lspci
 -k
 ```
 
+`dmesg` 
+
+`lsmod` - Show the status of modules in the Linux Kernel. nicely formats the contents of the /proc/modules, showing what kernel modules are currently loaded.
+
 ## Backing up
 - Timeshift for root
 - Backup for home

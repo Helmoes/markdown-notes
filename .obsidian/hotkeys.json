@@ -5,6 +5,12 @@
         "Mod"
       ],
       "key": "Key226"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
     }
   ],
   "obsidian-focus-mode:toggle-super-focus-mode": [
