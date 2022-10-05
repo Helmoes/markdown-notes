@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "416a28d2ce620c03",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "To-Do.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "292acad852df0df7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "Linux server stuff.md",
             "mode": "source",
             "source": false
           }
@@ -45,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "Linux server stuff.md"
               }
             }
           },
@@ -66,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "25c4014833ea1c05",
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "Linux server stuff.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "Linux server stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,15 +180,15 @@
   },
   "active": "292acad852df0df7",
   "lastOpenFiles": [
-    "To-Do.md",
+    "Hotkeys.md",
     "Linux.md",
+    "To-Do.md",
     "random notes.md",
     "C programming.md",
     "WSL.md",
     "VS Code.md",
     "Linux VM.md",
     "Linux server stuff.md",
-    "Commands from all notes.md",
-    "Fonts.md"
+    "Commands from all notes.md"
   ]
 }
