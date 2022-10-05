@@ -2,13 +2,18 @@
   "items": [
     {
       "type": "file",
-      "title": "C programming",
-      "path": "C programming.md"
+      "title": "To-Do",
+      "path": "To-Do.md"
     },
     {
       "type": "file",
       "title": "Hotkeys",
       "path": "Hotkeys.md"
+    },
+    {
+      "type": "file",
+      "title": "C programming",
+      "path": "C programming.md"
     },
     {
       "type": "file",
