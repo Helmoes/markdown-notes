@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "To-Do.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "To-Do.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,15 +180,15 @@
   },
   "active": "416a28d2ce620c03",
   "lastOpenFiles": [
-    "Hotkeys.md",
     "Linux.md",
-    "templates/datetime.md",
-    "Linux VM.md",
-    "C programming.md",
-    "C Code Style Guidelines.md",
-    "random notes.md",
-    "Git.md",
+    "To-Do.md",
     "WSL.md",
-    "VS Code.md"
+    "Linux server stuff.md",
+    "Commands from all notes.md",
+    "Fonts.md",
+    "C course Udemy.md",
+    "Useful programs.md",
+    "VMware.md",
+    "Windows stuff.md"
   ]
 }

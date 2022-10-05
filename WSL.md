@@ -1,4 +1,4 @@
-## To install
+# To install
 - [ ] check advanced setting (swap, gpu, ...)
 - [ ] neofetch
 - [ ] starship
@@ -7,7 +7,7 @@
 - [ ] `sudo apt install -y bat`
 - [ ] 
 
-In PowerShell:
+# In PowerShell:
 ```powershell
 wsl -l -v
 wsl --shutdown
