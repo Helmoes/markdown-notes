@@ -1,11 +1,16 @@
 # To learn
+- [ ] bash 
+    - [ ] environment
+    - [ ] variables
+    - [ ] echo
+    - [ ] $
 - [ ] help 
 - [ ] grep
 - [ ] less
 - [ ] more
 - [ ] cat
 - [ ] nano
-- [ ] 
+- [ ] awk
 
 # Commands
 ## getting help
