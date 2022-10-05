@@ -130,6 +130,7 @@ So: /etc/profile → ~/.bash profile → ~/.bash login → ~/.profile
 - /home: contains users' directories EXCEPT one special user.
 - /lib: contains system libraries.
 - /opt: contains optional installations.
+- /proc: directory is a virtual directory, allowing direct interaction with the running Linux Kernel.
 - /root: is the home directory of the specialuser called root.
 - /sbin, /usr/sbin: The sbin directories contain programs for system administration, mostly for use by the superuser.
 - /tmp: contains temporary files.
@@ -198,6 +199,8 @@ lspci
 `dmesg` 
 
 `lsmod` - Show the status of modules in the Linux Kernel. nicely formats the contents of the /proc/modules, showing what kernel modules are currently loaded.
+
+Driver modules dir: `/lib/modules/5.15.0-48-generic/`
 
 ## Backing up
 - Timeshift for root
