@@ -180,15 +180,15 @@
   },
   "active": "292acad852df0df7",
   "lastOpenFiles": [
-    "Fonts.md",
-    "Commands from all notes.md",
-    "C programming.md",
     "Linux.md",
-    "To-Do.md",
+    "Git.md",
+    "WSL.md",
+    "VS Code.md",
     "Useful programs.md",
+    "C programming.md",
     "Linux server stuff.md",
-    "Hotkeys.md",
-    "random notes.md",
-    "WSL.md"
+    "README.md",
+    "Commands from all notes.md",
+    "Fonts.md"
   ]
 }

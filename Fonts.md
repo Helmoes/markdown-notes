@@ -8,6 +8,7 @@ There are multiple versions of Cascadia Code available that include ligatures an
 | Cascadia Mono    | No                 | No                        |
 | Cascadia Code PL | Yes                | Yes                       |
 | Cascadia Mono PL | No                 | Yes                       |
+
 ## [Powerline and programming ligatures](https://docs.microsoft.com/en-us/windows/terminal/cascadia-code#powerline-and-programming-ligatures)
 
 Powerline is a common command-line plugin that allows you to display additional information in your prompt. It uses a few additional glyphs to display this information properly.

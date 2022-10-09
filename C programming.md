@@ -41,6 +41,9 @@ int main(int argc, char *argv[])
 }
 ```
 The main function reads the cli arguments as an array of strings(character pointers to strings technically).
+**`argv[0]` is name of program -> first cli argument is `argv[1].`**
+
+![[Pasted image 20221009134924.png|850]]
 
 ## switch()
 - Can replace a sequence of `if` statements.
