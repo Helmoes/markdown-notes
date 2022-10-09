@@ -37,7 +37,15 @@ To use cli arguments and options main is declared like this: (p. 141)
 ```c
 int main(int argc, char *argv[])
 {
-    ...
+    // Check for number of arguments
+    if (argc != 6)
+    {
+        fprintf(stderr, "You need to give 5 arguments\n");
+        return 1;
+    }
+
+    // Use arv[] as strings
+    FILE *file1 = fopen(argv[2], "w");
 }
 ```
 The main function reads the cli arguments as an array of strings(character pointers to strings technically).
@@ -125,9 +133,10 @@ int main(void)
 
 # GCC options
 Put GCC compile command as comment in first line
-```c
+```bash
 // gcc -std=c99 -o go go.c neuron.c -lm -Wall -Werror
 // gcc -g -Wall -o add add.c -lm
+gcc ${fileBasename}.c -fdiagnostics-color=always -ggdb -std=gnu17 -Wall -Wextra -Werror -o ./bin/${fileBasenameNoExtension}
 ```
 Debugging: 
 ```c
@@ -172,6 +181,16 @@ When finished the data stream needs to be closed.
 ```c
 fclose(in_file);
 fclose(out_file);
+```
+
+Error checking on opening file:
+```c
+FILE *in;
+if (!(in = fopen("dont_exist.txt", "r")))
+{
+    fprintf(stderr, "Can't open the file.\n");
+    return 1;
+}
 ```
 
 ## Data streams
