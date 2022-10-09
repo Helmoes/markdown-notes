@@ -44,7 +44,7 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 
 # rest of the script
 ```
-    ## version
+## version
 ```powershell
 $PSVersionTable
 $env:PSModulePath

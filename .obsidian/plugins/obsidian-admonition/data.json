@@ -1,0 +1,37 @@
+{
+  "userAdmonitions": {
+    "code": {
+      "type": "code",
+      "color": "80, 247, 169",
+      "icon": {
+        "name": "code",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Code",
+      "injectColor": true,
+      "noTitle": false
+    }
+  },
+  "syntaxHighlight": true,
+  "copyButton": false,
+  "version": "9.0.5",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.5bca44"
+}
