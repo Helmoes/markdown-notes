@@ -276,6 +276,17 @@ Never put anything other than function prototypes/declarations, variable declara
 
 Use compiler option `-Idir` to link to directory not in current.
 
+# Unit testing
+Options:
+- Unity
+- [cmocka - unit testing framework for C](https://cmocka.org/)
+- [AceUnit](https://aceunit.sourceforge.net/): used by headfirst c
+- [Check | Unit testing framework for C](https://libcheck.github.io/check/)
+- [µnit — C Unit Testing Framework](https://nemequ.github.io/munit/)
+- [CUnit Home](https://cunit.sourceforge.net/)
+- [CuTest: The Cutest C Unit Testing Framework](https://cutest.sourceforge.net/)
+- 
+
 # Images
 
 ![[C-variables.png|600]]
