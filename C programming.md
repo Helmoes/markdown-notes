@@ -29,7 +29,7 @@ Return type of main() is `int` → 0 means success.
 
 Compilation can involve up to four stages: **preprocessing**, **compilation proper**, **assembly** and **linking**, always in that order. GCC is capable of preprocessing and compiling several files either into several assembler input files, or into one assembler input file; then each assembler input file produces an object file, and linking combines all the object files (those newly compiled, and those specified as input) into an executable file. [source](https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options)
 
-## main()
+# main()
 - Start of program.
 - Return type: `int` → 0 means success.
 
@@ -53,19 +53,15 @@ The main function reads the cli arguments as an array of strings(character point
 
 ![[Pasted image 20221009134924.png|850]]
 
-## switch()
-- Can replace a sequence of `if` statements.
-- Will continue to run until `break` or end of switch statement.
-- Check for correct breaks.
+## Using library for cli options
+The “:” means that the e option needs an argument. If an option character is followed by two colons (‘::’), its argument is optional; this is a GNU extension.
+```c
+#include <unistd.h>
 
-## atoi()
-Part of stdlib.h
-Interprets an integer value in a byte string pointed to by `str`.
-Integer value corresponding to the contents of `str` on success.
-If no conversion can be performed, `0` is returned.
-The name stands for "ASCII to integer".
 
-# Declaration & initialization
+```
+
+# Declaration & initialization of variables
 ```c
 int var=value;
 int var1, var2, var3;
@@ -75,6 +71,18 @@ Use 'unsigned'. Default is signed.
 
 # Functions
 A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
+## Specific functions
+### switch()
+- Can replace a sequence of `if` statements.
+- Will continue to run until `break` or end of switch statement.
+- Check for correct breaks.
+
+### atoi()
+Part of stdlib.h
+Interprets an integer value in a byte string pointed to by `str`.
+Integer value corresponding to the contents of `str` on success.
+If no conversion can be performed, `0` is returned.
+The name stands for "ASCII to integer".
 
 # Pointers
 To get address of variable use `&`.
