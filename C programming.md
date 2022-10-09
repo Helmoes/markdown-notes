@@ -13,7 +13,7 @@
 - [ ] Pre-processor macros
 
 # Head first C
-Current page: 155 /b
+Current page: 155 
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
