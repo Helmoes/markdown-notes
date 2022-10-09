@@ -13,7 +13,7 @@
 - [ ] Pre-processor macros
 
 # Head first C
-Current page: 138
+Current page: 155 /b
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -59,59 +59,81 @@ The “:” means that the e option needs an argument. If an option character is
 Key points:
 -   Normally, `getopt` is called in a loop. When `getopt` returns `-1` or `EOF`, indicating no more options are present, the loop terminates.
 -   A `switch` statement is used to dispatch on the return value from `getopt`. In typical use, each case just sets a variable that is used later in the program.
--   A second loop is used to process the remaining non-option arguments.
+-   A second loop is used to process the remaining non-option arguments. 
 
 ```ad-code
-title: example
+```c
+#include <unistd.h>
+
+int engine_count;
+char ch;
+
+while ((ch = getopt(argc, argv, "ae:")) != EOF)
+{
+    switch (ch)
+    {
+    case 'e':
+        engine_count = optarg;
+    }
+}
+
+argc -= optind;
+argv += optind;
+```
+
+```ad-code
+title: [Example of Getopt (The GNU C Library)](https://www.gnu.org/software/libc/manual/html_node/Example-of-Getopt.html)
 ```c
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 
-int
-main (int argc, char **argv)
+int main(int argc, char **argv)
 {
-  int aflag = 0;
-  int bflag = 0;
-  char *cvalue = NULL;
-  int index;
-  int c;
+    int aflag = 0;
+    int bflag = 0;
+    char *cvalue = NULL;
+    int index;
+    int c;
 
-  opterr = 0;
+    opterr = 0;
 
-  while ((c = getopt (argc, argv, "abc:")) != -1)
-    switch (c)
-      {
-      case 'a':
-        aflag = 1;
-        break;
-      case 'b':
-        bflag = 1;
-        break;
-      case 'c':
-        cvalue = optarg;
-        break;
-      case '?':
-        if (optopt == 'c')
-          fprintf (stderr, "Option -%c requires an argument.\n", optopt);
-        else if (isprint (optopt))
-          fprintf (stderr, "Unknown option `-%c'.\n", optopt);
-        else
-          fprintf (stderr,
-                   "Unknown option character `\\x%x'.\n",
-                   optopt);
-        return 1;
-      default:
-        abort ();
-      }
+    while ((c = getopt(argc, argv, "abc:")) != -1)
+        switch (c)
+        {
+        case 'a':
+            aflag = 1;
+            break;
+        case 'b':
+            bflag = 1;
+            break;
+        case 'c':
+            cvalue = optarg;
+            break;
+        case '?':
+            if (optopt == 'c')
+                fprintf(stderr, "Option -%c requires an argument.\n", optopt);
+            else if (isprint(optopt))
+                fprintf(stderr, "Unknown option `-%c'.\n", optopt);
+            else
+                fprintf(stderr,
+                        "Unknown option character `\\x%x'.\n",
+                        optopt);
+            return 1;
+        default:
+            abort();
+        }
 
-  printf ("aflag = %d, bflag = %d, cvalue = %s\n",
-          aflag, bflag, cvalue);
+    printf("aflag = %d, bflag = %d, cvalue = %s\n",
+           aflag, bflag, cvalue);
 
-  for (index = optind; index < argc; index++)
-    printf ("Non-option argument %s\n", argv[index]);
-  return 0;
+    for (index = optind; index < argc; index++)
+        printf("Non-option argument %s\n", argv[index]);
+    return 0;
+    // argv[0] will point to first cli argument that follows options
+    argc -= optind;
+    argv += optind;
 }
 ```
 
@@ -131,6 +153,17 @@ A function declaration tells the compiler about a function's name, return type, 
 - Can replace a sequence of `if` statements.
 - Will continue to run until `break` or end of switch statement.
 - Check for correct breaks.
+```c
+switch (expression)
+{
+case /* constant-expression */:
+    /* code */
+    break;
+
+default:
+    break;
+}
+```
 
 ### atoi()
 Part of stdlib.h
