@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Useful programs.md",
+            "file": "C programming.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Useful programs.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "25c4014833ea1c05",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Useful programs.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Useful programs.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,15 +180,15 @@
   },
   "active": "292acad852df0df7",
   "lastOpenFiles": [
+    "Fonts.md",
+    "Commands from all notes.md",
+    "C programming.md",
     "Linux.md",
     "To-Do.md",
+    "Useful programs.md",
     "Linux server stuff.md",
     "Hotkeys.md",
     "random notes.md",
-    "C programming.md",
-    "WSL.md",
-    "VS Code.md",
-    "Linux VM.md",
-    "Commands from all notes.md"
+    "WSL.md"
   ]
 }

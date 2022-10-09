@@ -33,6 +33,15 @@ Compilation can involve up to four stages: **preprocessing**, **compilation prop
 - Start of program.
 - Return type: `int` → 0 means success.
 
+To use cli arguments and options main is declared like this: (p. 141)
+```c
+int main(int argc, char *argv[])
+{
+    ...
+}
+```
+The main function reads the cli arguments as an array of strings(character pointers to strings technically).
+
 ## switch()
 - Can replace a sequence of `if` statements.
 - Will continue to run until `break` or end of switch statement.
@@ -162,6 +171,10 @@ fclose(in_file);
 fclose(out_file);
 ```
 
+## Data streams
+Amount of data streams we can use depends on OS, but usually up to 256.
+
+
 # Standard input/output/error
 Scanf() and printf() use std in and out. The Standard Input and Standard Output are created by the operating system when the program runs.
 The program receives data through the Standard Input, The program outputs data through the Standard Output.
@@ -202,6 +215,7 @@ echo $?
 ```bash
 (./bermuda | ./geo2json) < spooky.csv > output.json
 ```
+
 
 # Memory
 Regions: static data, stack (automatic), heap (programmer controlled).
