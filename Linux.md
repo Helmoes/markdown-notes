@@ -28,11 +28,26 @@ whereis gdb
 alias ll='ls -alF'
 ```
 
+## wildcards in commands (glob, globbing)
+- `*`: all single characters or any string.
+- `?`: one character
+- `[]`: any character within the brackets
+- `[!chars]`: anything except characters inside brackets
+
 ## `cat`
 The cat command, short for concatenate, not only displays file contents but can combine multiple files and show you the output of them. It’s not great for viewing large files and it’s only meant for short content.
 ```bash
 cat foo.txt
 ```
+
+## Links to man pages
+- [cp](https://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html): `-i`, `-r`
+- [mkdir](https://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
+- [mv](https://tldr.ostera.io/mv)
+- [rm](https://tldr.ostera.io/rm), use with `-r` on directory to delete everything inside too
+- [rmdir](https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html#rmdir-invocation): only for empty directories
+- 
+
 
 # Packages 
 Use Muon not Synaptic.

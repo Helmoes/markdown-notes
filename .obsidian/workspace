@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Hotkeys.md",
+            "file": "Bash - Cheat Sheet from internet.md",
             "mode": "source",
             "source": false
           }
@@ -47,7 +47,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hotkeys.md"
+                "file": "Bash - Cheat Sheet from internet.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hotkeys.md",
+                "file": "Bash - Cheat Sheet from internet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hotkeys.md",
+                "file": "Bash - Cheat Sheet from internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -196,13 +196,13 @@
   "lastOpenFiles": [
     "Linux.md",
     "Bash - Cheat Sheet from internet.md",
-    "Computer networks.md",
+    "Book list.md",
+    "Windows stuff.md",
     "Hotkeys.md",
+    "Computer networks.md",
     "VS Code.md",
     "WSL.md",
     "C programming.md",
-    "Obsidian.md",
-    "PowerShell.md",
-    "Book list.md"
+    "Obsidian.md"
   ]
 }
