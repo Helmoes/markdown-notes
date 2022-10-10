@@ -53,6 +53,8 @@
 | KRunner                          | Alt + space          |
 | Bash go to start of line         | Ctrl + A             |
 | Bash go to end of line           | Ctrl + E             |
+| Go back one word                 | Alt + B              |
+| Go forward one word              | Alt + F                     |
 | Bash delete from start to cursor | Ctrl + U             |
 | Drop down terminal               | F12                  |
 |                                  |                      |

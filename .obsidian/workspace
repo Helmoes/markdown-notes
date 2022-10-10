@@ -6,10 +6,24 @@
       {
         "id": "292acad852df0df7",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bash - Cheat Sheet from internet.md",
+            "file": "Linux.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "5e7ef07dc91f0b26",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Hotkeys.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +47,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md"
+                "file": "Hotkeys.md"
               }
             }
           },
@@ -112,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md",
+                "file": "Hotkeys.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md",
+                "file": "Hotkeys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -171,20 +185,20 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 294.8333435058594,
     "collapsed": true
   },
-  "active": "292acad852df0df7",
+  "active": "5e7ef07dc91f0b26",
   "lastOpenFiles": [
+    "Linux.md",
+    "Bash - Cheat Sheet from internet.md",
     "Computer networks.md",
     "Hotkeys.md",
     "VS Code.md",
-    "Linux.md",
-    "Bash - Cheat Sheet from internet.md",
     "WSL.md",
     "C programming.md",
     "Obsidian.md",

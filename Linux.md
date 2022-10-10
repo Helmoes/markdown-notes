@@ -12,8 +12,7 @@
 - [ ] nano
 - [ ] awk
 
-# Commands
-## getting help
+# getting help
 ```bash
 man command
 command -h
@@ -23,7 +22,19 @@ whereis gcc
 whereis gdb
 ```
 
-## Packages 
+# Useful commands
+## Aliases
+```bash
+alias ll='ls -alF'
+```
+
+## `cat`
+The cat command, short for concatenate, not only displays file contents but can combine multiple files and show you the output of them. It’s not great for viewing large files and it’s only meant for short content.
+```bash
+cat foo.txt
+```
+
+# Packages 
 Use Muon not Synaptic.
 ```bash
 sudo apt update && sudo apt upgrade
@@ -35,7 +46,7 @@ apt list --installed | wc -l
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
 ```
 
-## SSH server
+# SSH server
 TODO: link to WSL key 
 
 ```bash
@@ -70,7 +81,7 @@ ssh-keygen
 - sftp is the service that provides the Secure File Transfer Protocol, and runs over SSH
 - scp is a file copy utility that runs on SSH
 
-## Save shell history
+# Save shell history
 Append the new history lines to the history file. These are history lines entered since the beginning of the current Bash session, but not already appended to the history file.
 ```bash
 history -a
@@ -82,7 +93,7 @@ shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 ```
 
-### ubuntu - bash save history without exit - Super User 
+## ubuntu - bash save history without exit - Super User 
 [source](https://superuser.com/questions/555310/bash-save-history-without-exit)
 **Bash History**
 Any new commands that have been issued in the active terminal can be appended to the `.bash_history` file with the following command:
