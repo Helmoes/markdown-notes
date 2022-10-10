@@ -36,7 +36,7 @@
 | Focus Right Editor Group  | Alt + RightArrow |
 | Delete line               | Ctrl + shift + K |
 | Toggle block comment      | Shift + Alt + R  |
-| Align text                | Ctrl + alt + A   |
+| Align to first char       | Alt + =          |
 |                           |                  |
 
 # Windows Terminal

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "Bash - Cheat Sheet from internet.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "Bash - Cheat Sheet from internet.md"
               }
             }
           },
@@ -42,14 +42,6 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "44da690d0964c77f",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
               "state": {}
             }
           }
@@ -66,6 +58,14 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "44da690d0964c77f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
               "state": {}
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "Bash - Cheat Sheet from internet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "Bash - Cheat Sheet from internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,15 +180,15 @@
   },
   "active": "292acad852df0df7",
   "lastOpenFiles": [
+    "Computer networks.md",
+    "Hotkeys.md",
+    "VS Code.md",
+    "Linux.md",
+    "Bash - Cheat Sheet from internet.md",
+    "WSL.md",
     "C programming.md",
     "Obsidian.md",
     "PowerShell.md",
-    "Book list.md",
-    "random notes.md",
-    "Linux.md",
-    "Git.md",
-    "WSL.md",
-    "VS Code.md",
-    "Useful programs.md"
+    "Book list.md"
   ]
 }
