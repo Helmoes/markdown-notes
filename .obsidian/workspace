@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "292acad852df0df7",
+        "id": "6dbee7b624240860",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "Windows stuff.md",
             "mode": "source",
             "source": false
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -35,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "Windows stuff.md"
               }
             }
           },
@@ -114,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "Windows stuff.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "Windows stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,14 +178,14 @@
     "width": 294.8333435058594,
     "collapsed": true
   },
-  "active": "292acad852df0df7",
+  "active": "6dbee7b624240860",
   "lastOpenFiles": [
-    "Book list.md",
     "Linux.md",
+    "Windows stuff.md",
+    "Book list.md",
     "Bash - Cheat Sheet from internet.md",
     "Computer networks.md",
     "C programming.md",
-    "Windows stuff.md",
     "Hotkeys.md",
     "VS Code.md",
     "WSL.md",
