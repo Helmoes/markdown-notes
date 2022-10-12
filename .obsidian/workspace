@@ -47,7 +47,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,10 +192,10 @@
     "width": 294.8333435058594,
     "collapsed": true
   },
-  "active": "5e7ef07dc91f0b26",
+  "active": "292acad852df0df7",
   "lastOpenFiles": [
-    "Linux.md",
     "Bash - Cheat Sheet from internet.md",
+    "Linux.md",
     "Book list.md",
     "Windows stuff.md",
     "Hotkeys.md",

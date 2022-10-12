@@ -16,6 +16,9 @@
 ```bash
 man command
 command -h
+help command
+whatis command # very short description
+
 which program # Executed against a program name, it will show the full path for the program.
 
 whereis gcc
@@ -47,7 +50,7 @@ cat foo.txt
 - [rm](https://tldr.ostera.io/rm), use with `-r` on directory to delete everything inside too
 - [rmdir](https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html#rmdir-invocation): only for empty directories
 - 
-
+# What is a shell?
 
 # Packages 
 Use Muon not Synaptic.
@@ -108,7 +111,7 @@ shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 ```
 
-## ubuntu - bash save history without exit - Super User 
+## bash save history without exit
 [source](https://superuser.com/questions/555310/bash-save-history-without-exit)
 **Bash History**
 Any new commands that have been issued in the active terminal can be appended to the `.bash_history` file with the following command:
@@ -141,6 +144,8 @@ The main drawback here is that you may need to press enter to re-run the PROMPT_
 You can see why this more precise option is probably overkill, but it works for that use case.
 
 # Bash startup
+Shells may be used interactively or non-interactively. In interactive mode, they accept input typed from the keyboard. When executing non-interactively, shells execute commands read from a file.
+
 When Bash is invoked as an interactive login shell, or as a non-interactive shell with the --login option, it first reads and executes commands from the file /etc/profile, if that file exists. After reading that file, it looks for ~/.bash_profile, ~/.bash_login, and ~/.profile, in that order, and reads and executes commands from the first one that exists and is readable. The --noprofile option may be used when the shell is started to inhibit this behavior.
 
 When an interactive login shell exits, or a non-interactive login shell executes the `exit` builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists. 
