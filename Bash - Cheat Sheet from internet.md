@@ -7,6 +7,7 @@
 
 touch foo.sh
 chmod +x !$   # !$ is the last argument of the last command i.e. foo.sh
+echo $?       # Exit status of last command
 ```
 
 # Navigating Directories

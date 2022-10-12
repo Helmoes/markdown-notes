@@ -16,18 +16,6 @@
           },
           "pinned": true
         }
-      },
-      {
-        "id": "5e7ef07dc91f0b26",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Bash - Cheat Sheet from internet.md",
-            "mode": "source",
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -194,15 +182,15 @@
   },
   "active": "292acad852df0df7",
   "lastOpenFiles": [
-    "Bash - Cheat Sheet from internet.md",
-    "Linux.md",
     "Book list.md",
+    "Linux.md",
+    "Bash - Cheat Sheet from internet.md",
+    "Computer networks.md",
+    "C programming.md",
     "Windows stuff.md",
     "Hotkeys.md",
-    "Computer networks.md",
     "VS Code.md",
     "WSL.md",
-    "C programming.md",
     "Obsidian.md"
   ]
 }

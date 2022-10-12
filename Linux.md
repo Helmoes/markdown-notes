@@ -4,11 +4,11 @@
     - [ ] variables
     - [ ] echo
     - [ ] $
-- [ ] help 
+- [x] help 
 - [ ] grep
 - [ ] less
 - [ ] more
-- [ ] cat
+- [x] cat
 - [ ] nano
 - [ ] awk
 
