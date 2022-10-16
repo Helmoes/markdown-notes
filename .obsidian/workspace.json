@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "1e6dd2417c60765b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c0536c6ee89ad4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dbee7b624240860",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e76cd3f50ddbd066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash - Cheat Sheet from internet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "047b4c285d079635",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To-Do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89a814a3602981b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42abd987ae8af6d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac338aec31158b23",
+        "type": "tabs",
+        "dimension": 52.74949083503056,
+        "children": [
+          {
+            "id": "d3b22c795535ebfd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C programming.md"
+              }
+            }
+          },
+          {
+            "id": "d517a68fa97b3e3d",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "44da690d0964c77f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "25c4014833ea1c05",
+        "type": "tabs",
+        "dimension": 47.25050916496945,
+        "children": [
+          {
+            "id": "cf1a35b7a5a3c01c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "1b0c46d54db6d796",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "9735d2ce3469781a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c5bd22ca01ec837",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de27eb7e86c81cb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C programming.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "facb87f9323687dd",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "2871a290fe782e3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "9d5f605769b66cd9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "53f2293163e7663d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "85744c232782c83c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf6595ad3b988fcd",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 404.5,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "6dbee7b624240860",
+  "lastOpenFiles": [
+    "Linux.md",
+    "Bash - Cheat Sheet from internet.md",
+    "C programming.md",
+    "C course Udemy.md",
+    "VS Code.md",
+    "WSL.md",
+    "To-Do.md",
+    "Windows stuff.md",
+    "Book list.md",
+    "Computer networks.md"
+  ]
+}

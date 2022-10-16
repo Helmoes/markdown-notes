@@ -146,6 +146,26 @@ var1 = var2 = 7;
 ```
 Use 'unsigned'. Default is signed.
 
+## Casting
+```c
+int x = 7;
+int y = 2;
+float z = (float)x / (float)y;
+// same:
+float z = (float)x / y;
+```
+
+## Limits of int & float
+```c
+#include <limits.h>
+INT_MAX
+INT_MIN
+
+#include <float.h>
+FLT_MAX
+FLT_MIN
+```
+
 # Functions
 A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
 ## Specific functions
@@ -171,6 +191,10 @@ Interprets an integer value in a byte string pointed to by `str`.
 Integer value corresponding to the contents of `str` on success.
 If no conversion can be performed, `0` is returned.
 The name stands for "ASCII to integer".
+
+## Function declaration
+-> at beginning of source file or in separate header file.
+
 
 # Pointers
 To get address of variable use `&`.
