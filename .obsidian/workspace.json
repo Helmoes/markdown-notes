@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C programming.md",
+                "file": "Book list.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -75,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -148,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -173,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -225,17 +226,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6dbee7b624240860",
+  "active": "89a814a3602981b7",
   "lastOpenFiles": [
+    "Book list.md",
+    "Git.md",
+    "Linux.md",
+    "Linux VM.md",
+    "C programming.md",
     "Linux server stuff.md",
     "README.md",
     "Commands from all notes.md",
     "C Code Style Guidelines.md",
-    "VMware.md",
-    "Python - commands often used.md",
-    "Linux VM.md",
-    "Git.md",
-    "random notes.md",
-    "Useful programs.md"
+    "VMware.md"
   ]
 }
