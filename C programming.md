@@ -13,7 +13,7 @@
 - [ ] Pre-processor macros
 
 # Head first C
-Current page: 155 
+Current page: 217 
 
 ```bash
 gcc hello_world.c -o hello_world -std=gnu11
@@ -389,12 +389,11 @@ Regions: static data, stack (automatic), heap (programmer controlled).
 # Headers, libraries and linking
 
 For functions in external .c file: header file can be thought of as interface between source code and the programmer.
-
 .h file contains function declarations or definitions to be used in main program. A .c file can contain the rest of the function definitions of only declarations are given in .h
-
 Never put anything other than function prototypes/declarations, variable declarations, includes and macros inside a header file.
-
 Use compiler option `-Idir` to link to directory not in current.
+
+1. Compile source into object files using `-c` option
 
 # Unit testing
 Options:

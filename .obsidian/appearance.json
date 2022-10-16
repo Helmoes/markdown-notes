@@ -4,7 +4,8 @@
   "monospaceFontFamily": "JetBrains Mono",
   "enabledCssSnippets": [
     "nested-list",
-    "heading-colors"
+    "heading-colors",
+    "inline-code"
   ],
   "textFontFamily": "Inter",
   "accentColor": ""

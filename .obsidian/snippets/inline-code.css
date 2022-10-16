@@ -1,0 +1,10 @@
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) /* for editing view */
+{
+    color: #c33232;
+}
+
+/* <span class="cm-formatting cm-formatting-code cm-inline-code" spellcheck="false">`</span> */
+.cm-s-obsidian span.cm-formatting-code /* for editing view */
+{
+    color: #c33232;
+}

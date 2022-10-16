@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Linux server stuff.md",
                 "mode": "source",
                 "source": false
               }
@@ -227,15 +227,15 @@
   },
   "active": "6dbee7b624240860",
   "lastOpenFiles": [
-    "Linux.md",
-    "Bash - Cheat Sheet from internet.md",
-    "C programming.md",
-    "C course Udemy.md",
-    "VS Code.md",
-    "WSL.md",
-    "To-Do.md",
-    "Windows stuff.md",
-    "Book list.md",
-    "Computer networks.md"
+    "Linux server stuff.md",
+    "README.md",
+    "Commands from all notes.md",
+    "C Code Style Guidelines.md",
+    "VMware.md",
+    "Python - commands often used.md",
+    "Linux VM.md",
+    "Git.md",
+    "random notes.md",
+    "Useful programs.md"
   ]
 }
