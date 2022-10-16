@@ -6,8 +6,8 @@
     - [ ] $
 - [x] help 
 - [ ] grep
-- [ ] less
-- [ ] more
+- [x] less
+- [x] more
 - [x] cat
 - [ ] nano
 - [ ] awk
@@ -42,6 +42,13 @@ The cat command, short for concatenate, not only displays file contents but can 
 ```bash
 cat foo.txt
 ```
+## `less`, `more`
+Use `less,` not `more`. 
+Type `h` for keybindings.
+- `d`: half page down
+- `u`: half page up
+- `g`: to beginning of file
+- `G`: to end of file
 
 ## Links to man pages
 - [cp](https://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html): `-i`, `-r`
@@ -152,6 +159,8 @@ When an interactive login shell exits, or a non-interactive login shell executes
 
 So: /etc/profile → ~/.bash profile → ~/.bash login → ~/.profile
 >source https://devdocs.io/bash/bash-startup-files
+
+To add directories to your PATH or define additional environment variables, place those changes in `.bash_profile` (Ubuntu uses `.profile).` For everything else, place the changes in `.bashrc`.
 
 # File system
 - /bin, /usr/bin: contains basic programs (binaries) like cat, ls, awk, etc. These two directories contain most of the programs for the system. The /bin directory has the essential programs that the system requires to operate, while /usr/bin contains applications for the system's users.

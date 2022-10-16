@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux server stuff.md",
+                "file": "C programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -226,14 +226,14 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "89a814a3602981b7",
+  "active": "047b4c285d079635",
   "lastOpenFiles": [
+    "Linux server stuff.md",
     "Book list.md",
-    "Git.md",
     "Linux.md",
+    "Git.md",
     "Linux VM.md",
     "C programming.md",
-    "Linux server stuff.md",
     "README.md",
     "Commands from all notes.md",
     "C Code Style Guidelines.md",
