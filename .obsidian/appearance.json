@@ -7,5 +7,6 @@
     "heading-colors",
     "bullet-point-types"
   ],
-  "textFontFamily": "Inter"
+  "textFontFamily": "Inter",
+  "accentColor": ""
 }
