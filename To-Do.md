@@ -1,11 +1,12 @@
 # Now
-- [x] open vault shortcut
-    - [x] URI
-    - Can linux use NTFS soft/hard links or URI?
-- schematic motor & current sensor
+- [ ] Can linux use NTFS soft/hard links or URI?
+- [ ] schematic motor & current sensor
 - [x] linux/unix file naming
-- [ ] install bat on kuvm
+- [x] install bat on kuvm
 - [ ] tmux
+    - [ ] install on wsl
+    - [ ] hotkeys & commands
+- [ ] ll output meaning
 - [ ] 
 
 # Next work moment
