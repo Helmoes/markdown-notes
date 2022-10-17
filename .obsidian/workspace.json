@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book list.md",
+                "file": "Linux VM.md",
                 "mode": "source",
                 "source": true
               }
@@ -133,8 +133,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -233,15 +232,15 @@
   },
   "active": "89a814a3602981b7",
   "lastOpenFiles": [
+    "Linux VM.md",
     "To-Do.md",
+    "Linux.md",
+    "C programming.md",
     "Book list.md",
     "Hotkeys.md",
     "PowerShell.md",
     "Obsidian.md",
-    "Linux.md",
-    "C programming.md",
     "Linux server stuff.md",
-    "Git.md",
-    "Linux VM.md"
+    "Git.md"
   ]
 }

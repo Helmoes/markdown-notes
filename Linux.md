@@ -50,6 +50,11 @@ Type `h` for keybindings.
 - `g`: to beginning of file
 - `G`: to end of file
 
+## Downloading from internet with `wget`
+```bash
+wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat_0.22.1_amd64.deb
+```
+
 ## Links to man pages
 - [cp](https://manpages.ubuntu.com/manpages/jammy/en/man1/cp.1.html): `-i`, `-r`
 - [mkdir](https://manpages.ubuntu.com/manpages/jammy/en/man1/mkdir.1.html)
@@ -69,6 +74,9 @@ sudo apt install ubuntu-restricted-extras
 apt list --installed | wc -l
 
 sudo tail --lines 100 /var/log/dpkg.log | grep installed
+
+# install .deb package
+sudo dpkg -i <filename.deb>
 ```
 
 # SSH server
@@ -299,4 +307,9 @@ export MESA_GL_VERSION_OVERRIDE=4.1
 glmark2
 
 ign gazebo shapes.sdf
+```
+
+# VM
+```bash
+sudo systemctl stop sddm.service
 ```
