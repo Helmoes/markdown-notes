@@ -37,11 +37,18 @@ alias ll='ls -alF'
 - `[]`: any character within the brackets
 - `[!chars]`: anything except characters inside brackets
 
-## `cat`
+## `cat` & `bat`
 The cat command, short for concatenate, not only displays file contents but can combine multiple files and show you the output of them. It’s not great for viewing large files and it’s only meant for short content.
 ```bash
 cat foo.txt
 ```
+### `bat` installation
+```bash
+wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat_0.22.1_amd64.deb
+sudo dpkg -i bat_0.22.1_amd64.deb
+bat --generate-config-file
+```
+
 ## `less`, `more`
 Use `less,` not `more`. 
 Type `h` for keybindings.

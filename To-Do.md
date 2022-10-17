@@ -4,6 +4,9 @@
     - Can linux use NTFS soft/hard links or URI?
 - schematic motor & current sensor
 - [x] linux/unix file naming
+- [ ] install bat on kuvm
+- [ ] tmux
+- [ ] 
 
 # Next work moment
 - [ ] [[Linux#Drivers]] -> tab group 'VMware'
