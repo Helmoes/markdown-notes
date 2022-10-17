@@ -1,4 +1,6 @@
 # Now
+- [ ] KiCAD plugins
+
 - [ ] Can linux use NTFS soft/hard links or URI?
 - [ ] schematic motor & current sensor
 - [x] linux/unix file naming
@@ -6,7 +8,7 @@
 - [ ] tmux
     - [ ] install on wsl
     - [ ] hotkeys & commands
-- [ ] ll output meaning
+- [ ] `ll` output meaning
 - [ ] 
 
 # Next work moment
