@@ -204,6 +204,7 @@ Display information of processes:
 ps aux
 pstree -p
 pstree -aps
+htop
 ```
 
 # Sessions
