@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "89a814a3602981b7",
+            "id": "c77efdb304fcebbb",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -36,19 +36,19 @@
             }
           },
           {
-            "id": "c77efdb304fcebbb",
+            "id": "c475385909c668ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux VM.md",
+                "file": "Bash - Cheat Sheet from internet.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "e68f0ac75bb6a1d4",
+            "id": "a55fee4823b14ca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -230,17 +230,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e68f0ac75bb6a1d4",
+  "active": "c77efdb304fcebbb",
   "lastOpenFiles": [
-    "Linux.md",
+    "Bash - Cheat Sheet from internet.md",
     "To-Do.md",
-    "Linux VM.md",
+    "Linux.md",
     "C programming.md",
+    "Linux VM.md",
     "Book list.md",
     "Hotkeys.md",
     "PowerShell.md",
     "Obsidian.md",
-    "Linux server stuff.md",
-    "Git.md"
+    "Linux server stuff.md"
   ]
 }

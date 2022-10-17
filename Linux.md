@@ -235,6 +235,13 @@ tmux
 tmux new -s my_session
 # attach to running session
 tmux attach-session -t my_session
+tmux kill-server && tmux
+```
+
+```bash
+# .tmux.conf
+set -g default-terminal "screen-256color"
+set -g mouse on
 ```
 
 # WSL setup
