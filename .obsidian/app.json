@@ -13,5 +13,6 @@
   "showFrontmatter": true,
   "autoPairMarkdown": false,
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "showInlineTitle": false
 }
