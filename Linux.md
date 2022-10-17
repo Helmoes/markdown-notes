@@ -227,6 +227,16 @@ htop
 
 In most Linux flavors, the default shell is `bash` and a new `bash` session will be launched every time you open a new terminal.
 
+## tmux
+```bash
+# start tmux
+tmux
+# start tmux and name session
+tmux new -s my_session
+# attach to running session
+tmux attach-session -t my_session
+```
+
 # WSL setup
 Installing gcc-11 [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
 ```bash
