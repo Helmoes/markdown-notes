@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux VM.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Linux VM.md"
               }
             }
           },
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 319.50152587890625
   },
   "right": {
     "id": "9735d2ce3469781a",
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux VM.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Linux VM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,17 +218,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1400a3ac9c987a26",
+  "active": "cf1a35b7a5a3c01c",
   "lastOpenFiles": [
     "Linux.md",
-    "images/Pasted image 20220914202853.png",
+    "Linux VM.md",
     "README.md",
+    "images/Pasted image 20220914202853.png",
     "images/Pasted image 20221018215015.png",
     "images/Pasted.md",
     "Git.md",
     "C programming.md",
     "WSL.md",
-    "To-Do.md",
-    "images/Pasted image 20220914202910.png"
+    "To-Do.md"
   ]
 }

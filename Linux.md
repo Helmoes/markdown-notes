@@ -338,7 +338,7 @@ ign gazebo shapes.sdf
 sudo systemctl stop sddm.service
 ```
 
-# Ideas
+# server ideas
 - [ ] CI/CD for embedded
 - [ ] Git server
 - [ ] Nextcloud
@@ -346,5 +346,3 @@ sudo systemctl stop sddm.service
 - [ ] General linux ssh/dev environment
 
 
-
-# Reddit post
