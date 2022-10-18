@@ -16,6 +16,6 @@
   "strictLineBreaks": true,
   "showInlineTitle": false,
   "showUnsupportedFiles": true,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "newLinkFormat": "relative"
 }

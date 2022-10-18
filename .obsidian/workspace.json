@@ -43,7 +43,7 @@
               "state": {
                 "file": "README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -63,9 +63,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Git.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -233,22 +233,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 271.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
   "active": "047b4c285d079635",
   "lastOpenFiles": [
+    "Linux.md",
+    "C programming.md",
+    "README.md",
+    "Git.md",
+    "WSL.md",
+    "To-Do.md",
     "images/Pasted image 20220914202853.png",
     "images/Pasted image 20220914202910.png",
     "images/Pasted image 20221009134924.png",
-    "C programming.md",
-    "Linux.md",
-    "Book list.md",
-    "README.md",
-    "Linux server stuff.md",
-    "Windows stuff.md",
-    "To-Do.md"
+    "Book list.md"
   ]
 }

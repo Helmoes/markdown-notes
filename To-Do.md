@@ -28,9 +28,6 @@
 - [x] how to insert image and resize
 - [x] add source to text from browser
 
-# Linux
-test
-
 # C
 ![[C programming#To learn]]
 
