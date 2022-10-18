@@ -6,6 +6,7 @@
 - [ ] Difference `roaming` and `local`
 
 # Hard/soft links
+[NTFS Hard Links, Junctions and Symbolic Links](https://www.2brightsparks.com/resources/articles/ntfs-hard-links-junctions-and-symbolic-links.html)
 NTFS supports both hard links and soft links, also known as symbolic links. Hard links are supported only for files, while symbolic links can be used with files or directories.
 
 A hard link allows multiple paths to refer to the same file on a single volume. For example, if you create a hard link named C:\Docs\Spec.docx that refers to the existing file C:\Users\Abby\Documents\ Specifications.docx, the two paths link to the same on-disk content and you can make changes to either path. NTFS implements hard links by keeping a reference count on the file data on disk. Each time a hard link is created, NTFS adds a file-name reference to the data. Because the file data is not deleted until the reference count is zero, you can delete the original file (C:\Users\Abby\Documents\ Specifications.docx in our example) and continue to use other hard links (C:\Docs\Spec.docx). The file data shared by hard links includes not only the file’s content and alternate stream data, but also the file’s security descriptor, time stamps, and attributes such as whether the file is read-only, system, hidden, encrypted, or compressed.
