@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book list.md"
+                "file": "Windows stuff.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book list.md",
+                "file": "Windows stuff.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book list.md",
+                "file": "Windows stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -242,15 +242,15 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "77e549a22ab35ab7",
+  "active": "c475385909c668ad",
   "lastOpenFiles": [
+    "Book list.md",
     "Windows stuff.md",
     "To-Do.md",
     "Linux.md",
     "Bash - Cheat Sheet from internet.md",
     "C programming.md",
     "Linux VM.md",
-    "Book list.md",
     "Hotkeys.md",
     "PowerShell.md",
     "Obsidian.md"
