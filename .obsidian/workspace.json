@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows stuff.md"
+                "file": "README.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -244,15 +244,15 @@
   },
   "active": "c475385909c668ad",
   "lastOpenFiles": [
-    "Book list.md",
-    "Windows stuff.md",
-    "To-Do.md",
     "Linux.md",
+    "Linux server stuff.md",
+    "Windows stuff.md",
+    "Book list.md",
+    "To-Do.md",
     "Bash - Cheat Sheet from internet.md",
     "C programming.md",
     "Linux VM.md",
     "Hotkeys.md",
-    "PowerShell.md",
-    "Obsidian.md"
+    "PowerShell.md"
   ]
 }

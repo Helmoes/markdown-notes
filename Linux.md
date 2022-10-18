@@ -69,7 +69,6 @@ wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat_0.22.1_amd64.d
 - [rm](https://tldr.ostera.io/rm), use with `-r` on directory to delete everything inside too
 - [rmdir](https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html#rmdir-invocation): only for empty directories
 - 
-# What is a shell?
 
 # Packages 
 Use Muon not Synaptic.
@@ -207,8 +206,7 @@ From <https://www.kernel.org/doc/man-pages/>
 
 # Environment variables
 Two types: shell and environment.
-
-Show all 
+TODO
 
 # Processes
 Display information of processes:
@@ -227,22 +225,24 @@ htop
 
 In most Linux flavors, the default shell is `bash` and a new `bash` session will be launched every time you open a new terminal.
 
-## tmux
+## `tmux` - terminal multiplexer
 ```bash
 # start tmux
 tmux
 # start tmux and name session
 tmux new -s my_session
 # attach to running session
-tmux attach-session -t my_session
+tmux attach -t my_session
 tmux kill-server && tmux
 ```
 
 ```bash
-# .tmux.conf
+# ~/.tmux.conf
 set -g default-terminal "screen-256color"
 set -g mouse on
 ```
+TODO: more commands & add key bindings.
+
 
 # WSL setup
 Installing gcc-11 [source](https://www.cyberciti.biz/faq/debian-ubuntu-linux-find-package-installed-updated-date/)
@@ -337,3 +337,14 @@ ign gazebo shapes.sdf
 ```bash
 sudo systemctl stop sddm.service
 ```
+
+# Ideas
+- [ ] CI/CD for embedded
+- [ ] Git server
+- [ ] Nextcloud
+- [ ] Backups
+- [ ] General linux ssh/dev environment
+
+
+
+# Reddit post
