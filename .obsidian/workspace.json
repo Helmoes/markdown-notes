@@ -51,11 +51,9 @@
             "id": "77e549a22ab35ab7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Book list.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20220914202853.png"
               }
             }
           },
@@ -71,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -165,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -190,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -241,17 +238,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c475385909c668ad",
+  "active": "047b4c285d079635",
   "lastOpenFiles": [
+    "images/Pasted image 20220914202853.png",
+    "images/Pasted image 20220914202910.png",
+    "images/Pasted image 20221009134924.png",
+    "C programming.md",
     "Linux.md",
+    "Book list.md",
+    "README.md",
     "Linux server stuff.md",
     "Windows stuff.md",
-    "Book list.md",
-    "To-Do.md",
-    "Bash - Cheat Sheet from internet.md",
-    "C programming.md",
-    "Linux VM.md",
-    "Hotkeys.md",
-    "PowerShell.md"
+    "To-Do.md"
   ]
 }

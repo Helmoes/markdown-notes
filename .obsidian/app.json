@@ -14,5 +14,8 @@
   "autoPairMarkdown": false,
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }
