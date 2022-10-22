@@ -59,6 +59,11 @@ foo.txt
 # Ignore objects and archives.
 *.[oa]
 ```
+```git
+git rm -r --cached .
+git add .
+git commit -m "Removes all .gitignore files and folders"
+```
 
 # Windows key
 ```bash
