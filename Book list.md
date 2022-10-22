@@ -11,6 +11,9 @@
 [How Linux Works What Every Superuser Should Know - Brian Ward](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/Linux,%20bash%20&%20shell/How%20Linux%20Works%20What%20Every%20Superuser%20Should%20Know%20-%20Brian%20Ward.pdf)  
 [tmux Taster](C:\Users\Willem\OneDrive\Documents\Textbooks & User Manuals\Programming non-embedded & networking\Linux, bash & shell\tmux Taster.pdf)  
 
+## C
+![[C programming#books]]
+
 []()
 []()
 []()

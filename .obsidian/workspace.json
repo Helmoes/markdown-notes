@@ -34,21 +34,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1400a3ac9c987a26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux VM.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux VM.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -141,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux VM.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -166,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux VM.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,17 +205,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "cf1a35b7a5a3c01c",
+  "active": "047b4c285d079635",
   "lastOpenFiles": [
     "Linux.md",
-    "Linux VM.md",
-    "README.md",
-    "images/Pasted image 20220914202853.png",
-    "images/Pasted image 20221018215015.png",
-    "images/Pasted.md",
-    "Git.md",
     "C programming.md",
-    "WSL.md",
-    "To-Do.md"
+    "Commands from all notes.md",
+    "C Code Style Guidelines.md",
+    "C course Udemy.md",
+    "VMware.md",
+    "Python - commands often used.md",
+    "Git.md",
+    "random notes.md",
+    "VS Code.md"
   ]
 }

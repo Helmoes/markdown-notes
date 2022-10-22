@@ -1,7 +1,7 @@
 # Now
 - [ ] KiCAD plugins
 
-- [ ] Can linux use NTFS soft/hard links or URI?
+- [x] Can linux use NTFS soft/hard links or URI?
 - [ ] schematic motor & current sensor
 - [x] linux/unix file naming
 - [x] install bat on kuvm

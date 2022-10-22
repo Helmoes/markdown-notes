@@ -1,11 +1,11 @@
 # books
-[Head first C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Head%20First%20C%20-%20David%20Griffiths,%20Dawn%20Griffiths%20(2012,%20O'Reilly%20Media).pdf)
-[Beginning C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Electronics%20&%20Embedded/C/Beginning%20C%20(674p).pdf): C11, GNU, 2013
-[Programming for engineers](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Programming%20for%20Engineers.pdf): stack, heap, memory
-[Programming Embedded Systems With C and GNU Development Tools](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Programming%20Embedded%20Systems%20With%20C%20and%20GNU%20Development%20Tools,%202nd%20Edition%20-%20Michael%20Barr,%20Anthony%20Massa.pdf)
-[Modern C, 2nd edition (2019)](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Modern%20C%202nd%20edition.pdf)
-[Effective C, An Introduction to Professional C Programming (2020)](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Effective%20C%20An%20Introduction%20to%20Professional%20C%20Programming%20-%20Robert%20C.%20Seacord.pdf)
-[Bare metal C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Bare%20metal%20C%20-%20Embedded%20Programming%20for%20the%20Real%20world%20-%20Stephen%20Oualline.pdf)
+[Head first C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Head%20First%20C%20-%20David%20Griffiths,%20Dawn%20Griffiths%20(2012,%20O'Reilly%20Media).pdf)  
+[Beginning C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Electronics%20&%20Embedded/C/Beginning%20C%20(674p).pdf): C11, GNU, 2013  
+[Programming for engineers](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Springer/Programming%20for%20Engineers.pdf): stack, heap, memory  
+[Programming Embedded Systems With C and GNU Development Tools](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Programming%20Embedded%20Systems%20With%20C%20and%20GNU%20Development%20Tools,%202nd%20Edition%20-%20Michael%20Barr,%20Anthony%20Massa.pdf)  
+[Modern C, 2nd edition (2019)](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Modern%20C%202nd%20edition.pdf)  
+[Effective C, An Introduction to Professional C Programming (2020)](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Programming%20non-embedded%20&%20networking/C/Effective%20C%20An%20Introduction%20to%20Professional%20C%20Programming%20-%20Robert%20C.%20Seacord.pdf)  
+[Bare metal C](file:///C:/Users/Willem/OneDrive/Documents/Textbooks%20&%20User%20Manuals/Electrical%20&%20Computer/Bare%20metal%20C%20-%20Embedded%20Programming%20for%20the%20Real%20world%20-%20Stephen%20Oualline.pdf)  
 
 
 # To learn
@@ -251,6 +251,10 @@ int main(void)
 ## Little endian
 ![[Pasted image 20220914202910.png|325]]
 ![[Pasted image 20220914202853.png|325]]
+## restrict
+- Type qualifier used in pointer declarations.
+- Hints to the compiler that for the lifetime of the pointer, no other pointer will be used to access the object to which it points.
+- a way for programmer to inform about an optimization that compiler can make.
 
 # GCC options
 Put GCC compile command as comment in first line
@@ -395,6 +399,21 @@ Never put anything other than function prototypes/declarations, variable declara
 Use compiler option `-Idir` to link to directory not in current.
 
 1. Compile source into object files using `-c` option
+
+# The C Preprocessor
+- Use `#define` for constants.
+- When using more complex constants that need to be evaluated: use `const` instead.
+```c
+const unsigned int SIDE = 10 + 2;
+```
+- Use \\ to extend macro over several lines.
+## Parameterized Macros
+- Parameterized macros allow us to give arguments to macros.
+- Use inline functions instead of parameterized macros whenever possible. Because inline functions are part of the C language, the compiler can make sure they’re being used correctly.
+```c
+#define DOUBLE(x) (2 * (x))
+```
+
 
 # Unit testing
 Options:
