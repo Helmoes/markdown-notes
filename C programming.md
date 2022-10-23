@@ -442,6 +442,19 @@ int main()
         debug("After process file \n");
 ```
 
+# Makefiles
+Running `make` without argument starts the target `all` in the `makefile`. 
+A makefile consists of a set of rules. A rule consists of 3 parts: 
+- a target
+- a list of pre-requisites
+- and a command
+```makefile
+target: pre-req-1 pre-req-2 ...
+	command
+```
+- Makefiles use TABs, NOT spaces!
+- The _target_ and _pre-requisites_ are separated by a colon (`:`).
+
 # Unit testing
 Options:
 - Unity

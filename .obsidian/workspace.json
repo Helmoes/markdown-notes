@@ -49,8 +49,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +69,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book list.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book list.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book list.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -220,13 +219,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ae952277e8a6b58d",
+  "active": "047b4c285d079635",
   "lastOpenFiles": [
+    "Book list.md",
     "Useful programs.md",
     "C programming.md",
     "Linux.md",
     "C Code Style Guidelines.md",
-    "Book list.md",
     "Git.md",
     "random notes.md",
     "Commands from all notes.md",
