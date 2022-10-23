@@ -44,7 +44,7 @@
               "state": {
                 "file": "Book list.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "pinned": true
             }
