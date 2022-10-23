@@ -353,6 +353,9 @@ glxinfo | grep OpenGL
 /usr/bin/vmhgfs-fuse .host:/SharedFolder /home/willem-kubuntu/SharedFolder -o subtype=vmhgfs-fuse,allow_other
 /usr/bin/vmhgfs-fuse .host:/SharedFolder /home/willem/SharedFolder -o subtype=vmhgfs-fuse,allow_other
 umount /home/willem-kubuntu/SharedFolder -v
+
+sudo ubuntu-drivers autoinstall
+sudo apt-get install xserver-xorg-video-vmware
 ```
 
 # server ideas

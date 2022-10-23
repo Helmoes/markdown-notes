@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "f2001be7503af0ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c77efdb304fcebbb",
             "type": "leaf",
             "pinned": true,
@@ -48,17 +36,15 @@
             }
           },
           {
-            "id": "ae952277e8a6b58d",
+            "id": "cc4262f30115eb45",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book list.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -82,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -155,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -180,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -226,23 +212,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f2001be7503af0ea",
+  "active": "c77efdb304fcebbb",
   "lastOpenFiles": [
+    "To-Do.md",
+    "Linux.md",
     "C programming.md",
     "Book list.md",
+    "Docker.md",
     "Useful programs.md",
-    "Linux.md",
     "C Code Style Guidelines.md",
     "Git.md",
     "random notes.md",
-    "Commands from all notes.md",
-    "C course Udemy.md",
-    "VMware.md"
+    "Commands from all notes.md"
   ]
 }

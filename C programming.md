@@ -204,7 +204,7 @@ Read address contents:
 int value_stored = *p_address_of_x;
 ```
 
-`*` operator is said to dereference a pointer. **It reads and be used to set the contents of a memory address**.
+`*` operator is said to dereference a pointer. **It reads and can be used to set the contents of a memory address**.
 
 Change contents of address:
 ```c
@@ -251,8 +251,10 @@ int main(void)
 - a way for programmer to inform about an optimization that compiler can make.
 
 # Structures
-Custom data type made up of other data types.
+Custom data type made up of other data types. Kind of like a template of how we want the new data type to look.
 - fixed length
+- when you’re assigning struct variables, you are telling the computer to copy data.
+- structs are nestable
 ```c
 struct new_struct
 {
@@ -260,10 +262,39 @@ struct new_struct
     char nickname[20]; // will store the whole string/char array in the struct.
     int height;
     int age;
+};
+// declare struct:
+struct new_struct new_struct_instance = {"George", 180, 20};
+// access struct with dot operator:
+new_struct_instance.name;
+new_struct_instance.height = ...;
+other_struct.new_struct.height: ...; // with nested structs multiple dot access operators
+```
+
+## typedef structs
+- To not always have to include the `struct` keyword
+```c
+typedef struct new_struct // we can actually skip the struct name, 'new_struct'. This is called an anonymous struct.
+{
+    ...
+}new_struct_alias;
+```
+## structs in functions with pointers
+- To pass a struct to a function we need to use pointers
+```c
+typedef struct
+{
+    ...
+}new_struct_alias;
+
+void function_name(new_struct_alias *s)
+{
+    (*s).height = ...; // (*s) is needed. Wrong: *s.height or *(s.height)
 }
 
-struct new_struct new_struct_instance = {"George", 180, 20};
+function_name(&struct_var);
 ```
+To avoid `(*s)` we can use the `->` notation. `(*s).height` is the same as `s->height`.
 
 # GCC options
 Put GCC compile command as comment in first line
@@ -272,11 +303,12 @@ Put GCC compile command as comment in first line
 // gcc -g -Wall -o add add.c -lm
 gcc ${fileBasename}.c -fdiagnostics-color=always -ggdb -std=gnu17 -Wall -Wextra -Werror -o ./bin/${fileBasenameNoExtension}
 ```
-Debugging: 
-```c
--g 
--ggdb
-```
+
+Options:
+- `-g` or `-ggdb`: provide debugging info in executable
+- `-c`: Compile or assemble, but don't link. Output is object file `.o`
+- `-o file`: Place the primary output in file file. This applies to whatever sort of output is being produced, whether it be an executable file, an object file, an assembler file or preprocessed C code.
+- 
 
 # Strings
 Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
@@ -443,6 +475,7 @@ int main()
 ```
 
 # Makefiles
+[GNU make](https://www.gnu.org/software/make/manual/make.html)
 Running `make` without argument starts the target `all` in the `makefile`. 
 A makefile consists of a set of rules. A rule consists of 3 parts: 
 - a target
