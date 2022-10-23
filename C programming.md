@@ -454,6 +454,42 @@ target: pre-req-1 pre-req-2 ...
 ```
 - Makefiles use TABs, NOT spaces!
 - The _target_ and _pre-requisites_ are separated by a colon (`:`).
+- The rules are usually organized in such as way the more general rules come first. 
+- The overall rule is often name "`all`", which is the default target for `make`.
+- A target that does not represent a file is called a phony target.
+- Phony target is always out-of-date and its command will be run. The standard phony targets are: `all`, `clean`, `install`.
+- A variable begins with a `$` and is enclosed within parentheses `(...)` or braces `{...}`.
+
+Automatic variables are set by make after a rule is matched:
+- `$@`: the target filename.
+- `$*`: the target filename without the file extension.
+- `$<`: the first prerequisite filename.
+- `$^`: the filenames of all the prerequisites, separated by spaces, discard duplicates.
+- `$+`: similar to `$^`, but includes duplicates.
+- `$?`: the names of all prerequisites that are newer than the target, separated by spaces.
+
+You can use `VPATH` (uppercase) to specify the directory to search for dependencies and target files. For example,
+```makefile
+# Search for dependencies and targets from "src" and "include" directories
+# The directories are separated by space
+VPATH = src include
+```
+You can also use `vpath` (lowercase) to be more precise about the file type and its search directory. For example,
+```makefile
+# Search for .c files in "src" directory; .h files in "include" directory
+# The pattern matching character '%' matches filename without the extension
+vpath %.c src
+vpath %.h include
+```
+
+A pattern rule, which uses pattern matching character `'%'` as the filename, can be applied to create a target, if there is no explicit rule.
+```makefile
+%.o: %.c
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+%: %.o
+$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+```
 
 # Unit testing
 Options:
