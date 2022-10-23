@@ -250,6 +250,21 @@ int main(void)
 - Hints to the compiler that for the lifetime of the pointer, no other pointer will be used to access the object to which it points.
 - a way for programmer to inform about an optimization that compiler can make.
 
+# Structures
+Custom data type made up of other data types.
+- fixed length
+```c
+struct new_struct
+{
+    const char *name;  // will store a pointer to the string literal.
+    char nickname[20]; // will store the whole string/char array in the struct.
+    int height;
+    int age;
+}
+
+struct new_struct new_struct_instance = {"George", 180, 20};
+```
+
 # GCC options
 Put GCC compile command as comment in first line
 ```bash

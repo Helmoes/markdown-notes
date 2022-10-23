@@ -34,18 +34,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "cbb5ac8f6b26456b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book list.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -219,13 +207,13 @@
   },
   "active": "047b4c285d079635",
   "lastOpenFiles": [
-    "Book list.md",
+    "Linux.md",
+    "C Code Style Guidelines.md",
     "C programming.md",
+    "Book list.md",
     "Git.md",
     "random notes.md",
-    "Linux.md",
     "Commands from all notes.md",
-    "C Code Style Guidelines.md",
     "C course Udemy.md",
     "VMware.md",
     "Python - commands often used.md"
