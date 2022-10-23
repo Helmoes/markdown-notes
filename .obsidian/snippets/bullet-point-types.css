@@ -1,8 +1,13 @@
-.mod-cm6 span.cm-list-1 span.list-bullet::after {
+/* .mod-cm6 span.cm-list-1 span.list-bullet {
     content: "•"; 
-}
+} */
 
-.mod-cm6 span.cm-list-2 span.list-bullet::after {
+/* .mod-cm6 span.cm-list-2 span.list-bullet {
+    content: "◦"; 
+} */
+
+.markdown-source-view.mod-cm6 .cm-formatting-list-ul, .markdown-source-view.mod-cm6 .cm-formatting-list-ol {
+    white-space: pre;
     content: "◦";
 }
 

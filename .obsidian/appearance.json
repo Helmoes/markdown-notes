@@ -3,7 +3,6 @@
   "translucency": false,
   "monospaceFontFamily": "JetBrains Mono",
   "enabledCssSnippets": [
-    "nested-list",
     "heading-colors",
     "inline-code"
   ],
