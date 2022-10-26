@@ -41,13 +41,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Git.md"
               }
             }
           },
@@ -140,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -157,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -214,12 +215,12 @@
     "width": 278.5,
     "collapsed": true
   },
-  "active": "85744c232782c83c",
+  "active": "cc4262f30115eb45",
   "lastOpenFiles": [
-    "Linux.md",
-    "To-Do.md",
-    "Hotkeys.md",
+    "nosync/To-Do.md",
     "C programming.md",
+    "Linux.md",
+    "Hotkeys.md",
     "Book list.md",
     "Docker.md",
     "Useful programs.md",
