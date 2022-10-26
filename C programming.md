@@ -296,6 +296,8 @@ function_name(&struct_var);
 ```
 To avoid `(*s)` we can use the `->` notation. `(*s).height` is the same as `s->height`.
 
+
+
 # GCC options
 Put GCC compile command as comment in first line
 ```bash

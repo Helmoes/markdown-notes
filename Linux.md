@@ -345,7 +345,7 @@ systemctl status open-vm-tools.service
 
 sudo apt-get remove open-vm-tools
 sudo apt-get purge open-vm-tools
-
+bat --generate-config-file
 glxinfo | grep direct
 glxgears
 glxinfo | grep OpenGL

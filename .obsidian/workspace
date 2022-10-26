@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows stuff.md",
+            "file": "Linux.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows stuff.md"
+                "file": "Linux.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "Linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows stuff.md",
+                "file": "Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,13 +180,13 @@
   },
   "active": "6dbee7b624240860",
   "lastOpenFiles": [
+    "Hotkeys.md",
     "Linux.md",
     "Windows stuff.md",
     "Book list.md",
     "Bash - Cheat Sheet from internet.md",
     "Computer networks.md",
     "C programming.md",
-    "Hotkeys.md",
     "VS Code.md",
     "WSL.md",
     "Obsidian.md"

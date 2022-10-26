@@ -47,8 +47,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -141,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -153,20 +152,12 @@
             }
           },
           {
-            "id": "facb87f9323687dd",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          },
-          {
             "id": "2871a290fe782e3a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -206,9 +197,17 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "524f484115eb415a",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -217,17 +216,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c77efdb304fcebbb",
+  "active": "85744c232782c83c",
   "lastOpenFiles": [
-    "To-Do.md",
     "Linux.md",
+    "To-Do.md",
+    "Hotkeys.md",
     "C programming.md",
     "Book list.md",
     "Docker.md",
     "Useful programs.md",
     "C Code Style Guidelines.md",
     "Git.md",
-    "random notes.md",
-    "Commands from all notes.md"
+    "random notes.md"
   ]
 }

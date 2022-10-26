@@ -47,14 +47,16 @@
 |                   |                        |
 
 # Linux (terminal)
-| Action                           | Hotkey               |
-| -------------------------------- | -------------------- |
-| Scroll faster                    | Shift + mouse scroll |
-| KRunner                          | Alt + space          |
-| Bash go to start of line         | Ctrl + A             |
-| Bash go to end of line           | Ctrl + E             |
-| Go back one word                 | Alt + B              |
+| Action                           | Hotkey                      |
+| -------------------------------- | --------------------------- |
+| Scroll faster                    | Shift + mouse scroll        |
+| KRunner                          | Alt + space                 |
+| Bash go to start of line         | Ctrl + A                    |
+| Bash go to end of line           | Ctrl + E                    |
+| Go back one word                 | Alt + B                     |
 | Go forward one word              | Alt + F                     |
-| Bash delete from start to cursor | Ctrl + U             |
-| Drop down terminal               | F12                  |
-|                                  |                      |
+| Bash delete from start to cursor | Ctrl + U                    |
+| Drop down terminal               | F12                         |
+| Delete word to the left          | Ctrl + W  (Alt + backspace) |
+| Delete word to the right         | Alt       + D               |
+|                                  |                             |
