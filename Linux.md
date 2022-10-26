@@ -264,15 +264,17 @@ Options:
 ```bash
 lspci
 # Show a tree-like diagram containing all buses, bridges, devices and connections between them.
--t 
+lspci -t 
 # Show kernel drivers handling each device and also kernel modules capable of handling it. Turned on by default when -v is given in the normal mode of output. (Currently works only on Linux with kernel 2.6 or newer.)
--k
+lspci -k
 ```
 
-`dmesg` 
-
-`lsmod` - Show the status of modules in the Linux Kernel. nicely formats the contents of the /proc/modules, showing what kernel modules are currently loaded.
-
+```bash
+dmesg
+# Show the status of modules in the Linux Kernel. nicely formats the contents of the /proc/modules, showing what kernel modules are currently loaded.
+lsmod | bat 
+bat /var/log/gpu-manager.log
+```
 Driver modules dir: `/lib/modules/5.15.0-48-generic/`
 
 ## Backing up

@@ -1,4 +1,4 @@
-# Now
+GRUB_DISABLE_OS_PROBER=false# Now
 - [ ] KiCAD plugins
 
 - [x] Can linux use NTFS soft/hard links or URI?
