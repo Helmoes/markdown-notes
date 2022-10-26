@@ -265,6 +265,8 @@ struct new_struct
 };
 // declare struct:
 struct new_struct new_struct_instance = {"George", 180, 20};
+// or
+struct new_struct new_struct_instance = {.height=180, .age=20};
 // access struct with dot operator:
 new_struct_instance.name;
 new_struct_instance.height = ...;
@@ -296,7 +298,37 @@ function_name(&struct_var);
 ```
 To avoid `(*s)` we can use the `->` notation. `(*s).height` is the same as `s->height`.
 
+# Unions
+- To use one memory space to store different variables. 
+- Only use one at a time.
+- Size will be the size of the largest field.
+- Can be used to create new data type. (useful to combine with structs)
+```c
+typedef union
+{
+    char c;  // 1 byte
+    short s; // 2 bytes
+    int i;   // 4 bytes
+} mix;
+// declaration and setting field on seperate lines
+mix m;
+m.i = 462;
+// or
+mix m = {.s=5};
+```
 
+# Enums
+User-defined type consisting of a fixed list of named constants.
+- Any variable that is defined with a type of enum can then only be set to one of the keywords in the list.
+- Under the hood the keywords are assigned int numbers starting from 0 (if not otherwise set by programmer).
+```c
+enum color
+{
+    RED,   // 0
+    GREEN, // 1
+    BLUE   // 2
+};
+```
 
 # GCC options
 Put GCC compile command as comment in first line
