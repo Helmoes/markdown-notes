@@ -1,0 +1,17 @@
+# Steps
+- [x] Read encoder with oscilloscope
+    - [x] Both A&B
+    - [x] Direction
+- [ ] Read current with module
+    - [ ] With multimeter
+    - [ ] With µc
+- [ ] Make Simulink model of control system
+    - [ ] Figure out motor parameters
+        - [ ] Curve fitting?
+        - [ ] From spec sheet?
+    - [ ] Choose control system
+        - [ ] PID
+        - [ ] LQR?
+- [ ] Generate C code from model.
+- [ ] Get it to work with STM
+- [ ] Deploy

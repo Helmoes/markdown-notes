@@ -24,6 +24,11 @@
       "type": "file",
       "title": "Bash - Cheat Sheet from internet",
       "path": "Bash - Cheat Sheet from internet.md"
+    },
+    {
+      "type": "file",
+      "title": "Book list",
+      "path": "nosync/Book list.md"
     }
   ]
 }

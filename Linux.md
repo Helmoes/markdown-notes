@@ -1,16 +1,4 @@
-# To learn
-- [ ] bash 
-    - [ ] environment
-    - [ ] variables
-    - [ ] echo
-    - [ ] $
-- [x] help 
-- [ ] grep
-- [x] less
-- [x] more
-- [x] cat
-- [ ] nano
-- [ ] awk
+![[nosync/To-Do#To learn]]
 
 # getting help
 ```bash

@@ -1,7 +1,4 @@
-# To learn
-- [x] VS Code tasks to debug and build → launch.json, tasks.json?
-- [ ] -> operator pointer to struct member how to use?
-- [ ] Pre-processor macros
+![[nosync/To-Do#C#To learn]]
 
 # Head first C
 Current page: 217 

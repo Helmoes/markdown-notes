@@ -37,6 +37,8 @@
 | Delete line               | Ctrl + shift + K |
 | Toggle block comment      | Shift + Alt + R  |
 | Align to first char       | Alt + =          |
+| Format document           | Alt + shift + F  |
+| Toggle right sidebar      | Alt + shift + J  |
 |                           |                  |
 
 # Windows Terminal

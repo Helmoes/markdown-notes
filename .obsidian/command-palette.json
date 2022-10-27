@@ -1,6 +1,7 @@
 {
   "pinned": [
     "obsidian-git:push",
-    "obsidian-git:push2"
+    "obsidian-git:push2",
+    "obsidian-sort-and-permute-lines:sort-alphabetically-with-checkboxes"
   ]
 }

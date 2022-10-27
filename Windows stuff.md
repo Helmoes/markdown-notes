@@ -1,9 +1,6 @@
 [[PowerShell]]
 
-# To learn
-- [ ] `%APPDATA%\Mozilla\Firefox\Profiles\` links to `roaming` ?
-- [ ] How to use `%variables%`
-- [ ] Difference `roaming` and `local`
+![[nosync/To-Do#Windows]]
 
 # Hard/soft links
 [NTFS Hard Links, Junctions and Symbolic Links](https://www.2brightsparks.com/resources/articles/ntfs-hard-links-junctions-and-symbolic-links.html)
