@@ -230,6 +230,13 @@ set -g default-terminal "screen-256color"
 set -g mouse on
 ```
 TODO: more commands & add key bindings.
+### key bindings
+**The key bindings are always pressed after 'Ctrl + B'.**
+| Action              | Hotkey |
+| ------------------- | ------ |
+| List key bindings   | ?      |
+| Kill current window | &      |
+|                     |        |
 
 
 # WSL setup
@@ -327,6 +334,9 @@ ign gazebo shapes.sdf
 ```bash
 # To stop the x server and use VM headless:
 sudo systemctl stop sddm.service
+
+# set the tty to proper resolution
+fbset -g 2560 1600 2560 1600 32
 ```
 ## Commands
 ```bash

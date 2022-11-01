@@ -325,7 +325,24 @@ enum color
     GREEN, // 1
     BLUE   // 2
 };
+
+typedef enum {
+COUNT, POUNDS, PINTS
+} unit_of_measure;
 ```
+
+# Bitfields
+- Lets you store how many bits an individual field will store.
+```c
+typedef struct {
+unsigned int low_pass_vcf:1;
+unsigned int filter_coupler:1;
+unsigned int reverb:1;
+unsigned int sequential:1;
+...
+} synth;
+```
+
 
 # GCC options
 Put GCC compile command as comment in first line

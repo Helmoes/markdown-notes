@@ -12,10 +12,14 @@
     color: #327dc3;
 }
 
-/* .cm-s-obsidian span.cm-formatting-header.cm-header-1 {
-    color: blue;
+.markdown-rendered h1 {
+    color: #b2d0eb;
 }
 
-.cm-s-obsidian span.cm-formatting-header.cm-header-2 {
-    color: red;
-} */
+.markdown-rendered h2 {
+    color: #69a4d8;
+}
+
+.markdown-rendered h3 {
+    color: #327dc3;
+}

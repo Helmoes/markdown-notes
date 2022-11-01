@@ -2,6 +2,10 @@
 
 ![[nosync/To-Do#Windows]]
 
+# Sysinternals
+## Process Monitor (Procmon)
+Process Explorer is a great tool for observing the processes on a system: how much CPU and memory they are consuming, what DLLs they have loaded, what system objects they are using, the security context each is running under, and so forth. Procmon shows you a different view of system activity. Where Procexp is essentially a moving snapshot of the system, Procmon is an advanced logging tool that captures detailed information about registry, file, process/thread, and network activity.
+
 # Hard/soft links
 [NTFS Hard Links, Junctions and Symbolic Links](https://www.2brightsparks.com/resources/articles/ntfs-hard-links-junctions-and-symbolic-links.html)
 NTFS supports both hard links and soft links, also known as symbolic links. Hard links are supported only for files, while symbolic links can be used with files or directories.
