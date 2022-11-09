@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python - commands often used.md",
+                "file": "nosync/random notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python - commands often used.md"
+                "file": "nosync/random notes.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python - commands often used.md",
+                "file": "nosync/random notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python - commands often used.md",
+                "file": "nosync/random notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -231,15 +231,15 @@
   },
   "active": "176c57c51ae187db",
   "lastOpenFiles": [
+    "nosync/To-Do.md",
+    "Python - commands often used.md",
     "nosync/Simulation software.md",
     "nosync/Book list.md",
     "Hotkeys.md",
-    "nosync/To-Do.md",
     "Windows stuff.md",
     "C programming.md",
     "Linux.md",
     "nosync/Servo.md",
-    "nosync/STM32.md",
-    "nosync/random notes.md"
+    "nosync/STM32.md"
   ]
 }
