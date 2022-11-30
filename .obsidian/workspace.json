@@ -55,14 +55,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nosync/random notes.md",
+                "file": "Hotkeys.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nosync/random notes.md"
+                "file": "C programming.md"
               }
             }
           },
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nosync/random notes.md",
+                "file": "C programming.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nosync/random notes.md",
+                "file": "C programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -229,17 +228,17 @@
     "width": 416.5,
     "collapsed": true
   },
-  "active": "176c57c51ae187db",
+  "active": "047b4c285d079635",
   "lastOpenFiles": [
+    "Hotkeys.md",
+    "C programming.md",
+    "Linux.md",
+    "nosync/Book list.md",
+    "nosync/random notes.md",
     "nosync/To-Do.md",
     "Python - commands often used.md",
     "nosync/Simulation software.md",
-    "nosync/Book list.md",
-    "Hotkeys.md",
     "Windows stuff.md",
-    "C programming.md",
-    "Linux.md",
-    "nosync/Servo.md",
-    "nosync/STM32.md"
+    "nosync/Servo.md"
   ]
 }

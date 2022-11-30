@@ -77,6 +77,9 @@ sudo dpkg -i <filename.deb>
 TODO: link to WSL key 
 
 ```bash
+ifconfig
+ip a
+
 sudo apt update && sudo apt install openssh-server
 
 sudo systemctl status sshd
@@ -291,9 +294,6 @@ sudo update-grub
 if there are spaces in path: use "" or escape with \
 
 ```bash
-ifconfig
-ip a
-
 lsusb
 
 glmark2

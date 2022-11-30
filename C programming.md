@@ -295,6 +295,32 @@ function_name(&struct_var);
 ```
 To avoid `(*s)` we can use the `->` notation. `(*s).height` is the same as `s->height`.
 
+# Linked lists 
+To store a flexible amount of data, you need something more extensible than an array. You need a linked list.
+- Type of abstract data type -> can be used to store different kinds of data.
+- Stores a piece of data, and a **link** to another piece of data.
+- Flexible: easy to insert data in the middle or at the end.
+- For variable amount of data.
+
+## Create a recursive struct
+Each one of the structs in the list will need to connect to the one next to it. A struct that contains a link to another struct of the same type is called a recursive structure.
+Recursive structures contain pointers to other structures of the same type.
+```c
+typedef struct island {
+char *name;
+char *opens;
+char *closes;
+struct island *next;
+} island;
+
+// Use NULL pointer to initialize:
+island amity = {"Amity", "09:00", "17:00", NULL};
+amity.next = &craggy;
+```
+Recursive structures need names. If you use the typedef command, you can normally skip giving the struct a proper name. But in a recursive structure, you need to include a pointer to the same type. C syntax won’t let you use the typedef alias, so you need to give the struct a proper name. That’s why the struct here is called struct island.
+
+In C, NULL actually has the value 0, but it’s set aside specially to set pointers to 0.
+
 # Unions
 - To use one memory space to store different variables. 
 - Only use one at a time.
@@ -333,6 +359,7 @@ COUNT, POUNDS, PINTS
 
 # Bitfields
 - Lets you store how many bits an individual field will store.
+- Bitfields should be declared as unsigned int.
 ```c
 typedef struct {
 unsigned int low_pass_vcf:1;
@@ -342,7 +369,7 @@ unsigned int sequential:1;
 ...
 } synth;
 ```
-
+Bitfields can save space if they are collected together in a struct. But if the compiler finds a single bitfield on its own, it might still have to pad it out to the size of a word. That’s why bitfields are usually grouped together.
 
 # GCC options
 Put GCC compile command as comment in first line
