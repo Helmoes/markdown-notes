@@ -50,18 +50,21 @@
             }
           },
           {
-            "id": "176c57c51ae187db",
+            "id": "864392e657ed35af",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Hotkeys.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C programming.md"
+                "file": "Hotkeys.md"
               }
             }
           },
@@ -154,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C programming.md",
+                "file": "Hotkeys.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -171,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C programming.md",
+                "file": "Hotkeys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -228,17 +231,30 @@
     "width": 416.5,
     "collapsed": true
   },
-  "active": "047b4c285d079635",
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "cf1a35b7a5a3c01c",
   "lastOpenFiles": [
+    "nosync/To-Do.md",
+    "images/moving_cli.png",
     "Hotkeys.md",
-    "C programming.md",
     "Linux.md",
+    "C programming.md",
     "nosync/Book list.md",
     "nosync/random notes.md",
-    "nosync/To-Do.md",
     "Python - commands often used.md",
     "nosync/Simulation software.md",
-    "Windows stuff.md",
-    "nosync/Servo.md"
+    "Windows stuff.md"
   ]
 }

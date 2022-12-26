@@ -62,3 +62,5 @@
 | Delete word to the left          | Ctrl + W  (Alt + backspace) |
 | Delete word to the right         | Alt       + D               |
 |                                  |                             |
+
+![[images/moving_cli.png|850]]
