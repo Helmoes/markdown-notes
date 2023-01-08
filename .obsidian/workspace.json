@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash - Cheat Sheet from internet.md",
+                "file": "nosync/Klad.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,15 +278,15 @@
   },
   "active": "c77efdb304fcebbb",
   "lastOpenFiles": [
-    "Bash - Cheat Sheet from internet.md",
-    "Linux.md",
-    "nosync/RPi.md",
-    "nosync/Book list.md",
     "nosync/STM32.md",
     "nosync/Klad.md",
     "C programming.md",
+    "Bash - Cheat Sheet from internet.md",
+    "nosync/ANSI Escape Sequences.md",
+    "Linux.md",
+    "nosync/RPi.md",
+    "nosync/Book list.md",
     "Commands from all notes.md",
-    "nosync/To-Do.md",
-    "Hotkeys.md"
+    "nosync/To-Do.md"
   ]
 }

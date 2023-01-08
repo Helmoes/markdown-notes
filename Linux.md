@@ -320,6 +320,12 @@ xrandr --output DP-4 --brightness
 ## Keyboard mapping
 Change file at `/usr/share/X11/xkb/symbols/pc` for shift lock to enter key.
 
+## dark theme for sudo gtk apps
+```bash
+cp -r /home/willemkuvm/.config/gtk-4.0/ /root/.config/
+cp -r /home/willemkuvm/.config/gtk-3.0/ /root/.config/
+```
+
 # Gazebo
 ```bash
 glxinfo -B
