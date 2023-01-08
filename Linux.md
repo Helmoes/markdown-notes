@@ -32,8 +32,8 @@ cat foo.txt
 ```
 ### `bat` installation
 ```bash
-wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat_0.22.1_amd64.deb
-sudo dpkg -i bat_0.22.1_amd64.deb
+wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat_0.22.1_arm64.deb
+sudo dpkg -i bat_0.22.1_arm64.deb
 bat --generate-config-file
 ```
 
@@ -162,7 +162,7 @@ When Bash is invoked as an interactive login shell, or as a non-interactive shel
 
 When an interactive login shell exits, or a non-interactive login shell executes the `exit` builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists. 
 
-So: /etc/profile → ~/.bash profile → ~/.bash login → ~/.profile
+So: /etc/profile → ~/.bash_profile → ~/.bash_login → ~/.profile
 >source https://devdocs.io/bash/bash-startup-files
 
 To add directories to your PATH or define additional environment variables, place those changes in `.bash_profile` (Ubuntu uses `.profile).` For everything else, place the changes in `.bashrc`.

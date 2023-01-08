@@ -14,6 +14,7 @@
 | Format broken paragraph    | Alt + shift + F                     |
 | Move line down             | Alt + DownArrow                     |
 | Move line up               | Alt + UpArrow                       |
+| Toggle developer view      | Ctrl + shift + I                    |
 |                            |                                     |
 
 # VS Code

@@ -289,6 +289,7 @@ typedef struct
 void function_name(new_struct_alias *s)
 {
     (*s).height = ...; // (*s) is needed. Wrong: *s.height or *(s.height)
+    s->height = ...;
 }
 
 function_name(&struct_var);
@@ -338,6 +339,7 @@ mix m;
 m.i = 462;
 // or
 mix m = {.s=5};
+#define fezf
 ```
 
 # Enums
@@ -371,6 +373,23 @@ unsigned int sequential:1;
 ```
 Bitfields can save space if they are collected together in a struct. But if the compiler finds a single bitfield on its own, it might still have to pad it out to the size of a word. That’s why bitfields are usually grouped together.
 
+# Bit operations
+```c
+// Set a bit
+BYTE |= (1 << i);
+// Set bit 2 and 4
+BYTE |= (1 << 2) | (1 << 4);
+
+// Clear a bit
+BYTE &= ~(1 << i);
+// Clear bit 2 and 4
+BYTE &= ~((1 << 2) | (1 << 4));
+
+// Toggle a bit
+BYTE ^= (1 << i);
+
+```
+
 # GCC options
 Put GCC compile command as comment in first line
 ```bash
@@ -387,7 +406,7 @@ Options:
 
 # Strings
 Strings are arrays of chars. The array variable is a pointer to the first element in the array, not the contents of the array/string itself!
-`char *s = "some string";` this is not modifiable (string literal).
+`char *s = "some string";` this is not modifiable **(string literal)**.
 
 ## scanf() p.65
 `%[width]s` matches a sequence of non-whitespace characters (a string).
@@ -400,6 +419,14 @@ scanf("%i", &age);
 ```
 
 **Return value:** Number of receiving arguments successfully assigned (which may be zero in case a matching failure occurred before the first receiving argument was assigned), or [EOF](https://en.cppreference.com/w/c/io "c/io") if input failure occurs before the first receiving argument was assigned.
+
+## `strdup()` p.285
+`strdup` will copy string to heap.
+-> Must **ALWAYS** be freed!
+```c
+char *s = "MONA LISA";
+char *copy = strdup(s);
+```
 
 # Files
 p. 138
@@ -503,9 +530,30 @@ Regions: static data, stack (automatic), heap (programmer controlled).
 - LIFO
 
 ## Heap (dynamic)
+For memory storing at runtime.
+
 - Lifetime: discretion of programmer
 - Size: discretion of programmer
 - `malloc()` and `free()`
+- Not automatically cleared away!
+
+Once you’ve asked for space on the heap, it will never be available for anything else until you tell the C Standard Library that you’re finished with it. There’s only so much heap memory available, so if your code keeps asking for more and more heap space, your program will quickly start to develop **memory leaks**.
+
+### `malloc` & `free`
+Allocates given amount of bytes of uninitialized storage.
+On success, returns the pointer to the beginning of newly allocated memory. To avoid a memory leak, the returned pointer must be deallocated with [free()](https://en.cppreference.com/w/c/memory/free "c/memory/free") or [realloc()](https://en.cppreference.com/w/c/memory/realloc "c/memory/realloc").
+On failure, returns a null pointer.
+```c
+#include <stdlib.h>
+void *malloc( size_t size );
+int *p1 = malloc(4*sizeof(int));
+free(p1);
+```
+
+### Memory leaks/valgrind
+```bash
+valgrind --leak-check=full ./program
+```
 
 # Headers, libraries and linking
 
